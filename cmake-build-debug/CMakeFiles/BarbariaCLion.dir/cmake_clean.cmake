@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BarbariaCLion.dir/api/java/java.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/api/lua/lua.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/api/python/python.cpp.o"
+  "CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.o"
+  "CMakeFiles/BarbariaCLion.dir/engine/model.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/main.cpp.o"
 )
 

@@ -100,6 +100,18 @@
 		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/python/python.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/buffers.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/buffers.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/model.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/model.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
 		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/main.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>

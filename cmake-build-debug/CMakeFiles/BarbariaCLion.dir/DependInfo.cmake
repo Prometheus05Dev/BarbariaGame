@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/Dokumente/Programmieren/Barbaria/api/java/java.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/api/java/java.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/api/lua/lua.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/api/lua/lua.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/api/python/python.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/api/python/python.cpp.o"
+  "/home/janek/Dokumente/Programmieren/Barbaria/engine/buffers.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.o"
+  "/home/janek/Dokumente/Programmieren/Barbaria/engine/model.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/model.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/main.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

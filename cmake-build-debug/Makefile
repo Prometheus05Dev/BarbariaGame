@@ -204,6 +204,60 @@ api/python/python.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/api/python/python.cpp.s
 .PHONY : api/python/python.cpp.s
 
+engine/buffers.o: engine/buffers.cpp.o
+
+.PHONY : engine/buffers.o
+
+# target to build an object file
+engine/buffers.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.o
+.PHONY : engine/buffers.cpp.o
+
+engine/buffers.i: engine/buffers.cpp.i
+
+.PHONY : engine/buffers.i
+
+# target to preprocess a source file
+engine/buffers.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.i
+.PHONY : engine/buffers.cpp.i
+
+engine/buffers.s: engine/buffers.cpp.s
+
+.PHONY : engine/buffers.s
+
+# target to generate assembly for a file
+engine/buffers.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.s
+.PHONY : engine/buffers.cpp.s
+
+engine/model.o: engine/model.cpp.o
+
+.PHONY : engine/model.o
+
+# target to build an object file
+engine/model.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/model.cpp.o
+.PHONY : engine/model.cpp.o
+
+engine/model.i: engine/model.cpp.i
+
+.PHONY : engine/model.i
+
+# target to preprocess a source file
+engine/model.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/model.cpp.i
+.PHONY : engine/model.cpp.i
+
+engine/model.s: engine/model.cpp.s
+
+.PHONY : engine/model.s
+
+# target to generate assembly for a file
+engine/model.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/model.cpp.s
+.PHONY : engine/model.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +303,12 @@ help:
 	@echo "... api/python/python.o"
 	@echo "... api/python/python.i"
 	@echo "... api/python/python.s"
+	@echo "... engine/buffers.o"
+	@echo "... engine/buffers.i"
+	@echo "... engine/buffers.s"
+	@echo "... engine/model.o"
+	@echo "... engine/model.i"
+	@echo "... engine/model.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
