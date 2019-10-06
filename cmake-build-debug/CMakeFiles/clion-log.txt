@@ -1,0 +1,4 @@
+/home/janek/Downloads/MedievalMods/clion-2019.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/janek/Dokumente/Programmieren/Barbaria
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug

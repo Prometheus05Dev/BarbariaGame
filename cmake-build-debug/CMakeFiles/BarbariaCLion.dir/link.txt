@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/BarbariaCLion.dir/main.cpp.o CMakeFiles/BarbariaCLion.dir/api/python/python.cpp.o CMakeFiles/BarbariaCLion.dir/api/java/java.cpp.o CMakeFiles/BarbariaCLion.dir/api/lua/lua.cpp.o  -o BarbariaCLion -lGL -lGLEW -lglfw -ldl 

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BarbariaCLion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BarbariaCLion">
+				<Option output="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/BarbariaCLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 BarbariaCLion"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BarbariaCLion/fast">
+				<Option output="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/BarbariaCLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 BarbariaCLion/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/java/java.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/java/java.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/lua/lua.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/lua/lua.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/python/python.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/python/python.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/main.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
