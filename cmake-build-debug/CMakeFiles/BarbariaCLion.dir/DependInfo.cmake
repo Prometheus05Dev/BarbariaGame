@@ -25,6 +25,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/Dokumente/Programmieren/Barbaria/game/loading/loop.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/loading/loop.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/loading/post.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/loading/post.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/loading/pre.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o"
+  "/home/janek/Dokumente/Programmieren/Barbaria/game/utils/controls.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o"
+  "/home/janek/Dokumente/Programmieren/Barbaria/game/utils/declarations.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/utils/declarations.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/world/block.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/world/chunk.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/world/world.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o"

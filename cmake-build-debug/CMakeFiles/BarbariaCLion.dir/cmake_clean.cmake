@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BarbariaCLion.dir/game/loading/loop.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/game/loading/post.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o"
+  "CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o"
+  "CMakeFiles/BarbariaCLion.dir/game/utils/declarations.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o"
