@@ -150,6 +150,33 @@ api/java/java.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/api/java/java.cpp.s
 .PHONY : api/java/java.cpp.s
 
+api/loader.o: api/loader.cpp.o
+
+.PHONY : api/loader.o
+
+# target to build an object file
+api/loader.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/api/loader.cpp.o
+.PHONY : api/loader.cpp.o
+
+api/loader.i: api/loader.cpp.i
+
+.PHONY : api/loader.i
+
+# target to preprocess a source file
+api/loader.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/api/loader.cpp.i
+.PHONY : api/loader.cpp.i
+
+api/loader.s: api/loader.cpp.s
+
+.PHONY : api/loader.s
+
+# target to generate assembly for a file
+api/loader.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/api/loader.cpp.s
+.PHONY : api/loader.cpp.s
+
 api/lua/lua.o: api/lua/lua.cpp.o
 
 .PHONY : api/lua/lua.o
@@ -204,59 +231,545 @@ api/python/python.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/api/python/python.cpp.s
 .PHONY : api/python/python.cpp.s
 
-engine/buffers.o: engine/buffers.cpp.o
+engine/core/buffers.o: engine/core/buffers.cpp.o
 
-.PHONY : engine/buffers.o
-
-# target to build an object file
-engine/buffers.cpp.o:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.o
-.PHONY : engine/buffers.cpp.o
-
-engine/buffers.i: engine/buffers.cpp.i
-
-.PHONY : engine/buffers.i
-
-# target to preprocess a source file
-engine/buffers.cpp.i:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.i
-.PHONY : engine/buffers.cpp.i
-
-engine/buffers.s: engine/buffers.cpp.s
-
-.PHONY : engine/buffers.s
-
-# target to generate assembly for a file
-engine/buffers.cpp.s:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.s
-.PHONY : engine/buffers.cpp.s
-
-engine/model.o: engine/model.cpp.o
-
-.PHONY : engine/model.o
+.PHONY : engine/core/buffers.o
 
 # target to build an object file
-engine/model.cpp.o:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/model.cpp.o
-.PHONY : engine/model.cpp.o
+engine/core/buffers.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o
+.PHONY : engine/core/buffers.cpp.o
 
-engine/model.i: engine/model.cpp.i
+engine/core/buffers.i: engine/core/buffers.cpp.i
 
-.PHONY : engine/model.i
+.PHONY : engine/core/buffers.i
 
 # target to preprocess a source file
-engine/model.cpp.i:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/model.cpp.i
-.PHONY : engine/model.cpp.i
+engine/core/buffers.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.i
+.PHONY : engine/core/buffers.cpp.i
 
-engine/model.s: engine/model.cpp.s
+engine/core/buffers.s: engine/core/buffers.cpp.s
 
-.PHONY : engine/model.s
+.PHONY : engine/core/buffers.s
 
 # target to generate assembly for a file
-engine/model.cpp.s:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/model.cpp.s
-.PHONY : engine/model.cpp.s
+engine/core/buffers.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.s
+.PHONY : engine/core/buffers.cpp.s
+
+engine/core/camera.o: engine/core/camera.cpp.o
+
+.PHONY : engine/core/camera.o
+
+# target to build an object file
+engine/core/camera.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.o
+.PHONY : engine/core/camera.cpp.o
+
+engine/core/camera.i: engine/core/camera.cpp.i
+
+.PHONY : engine/core/camera.i
+
+# target to preprocess a source file
+engine/core/camera.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.i
+.PHONY : engine/core/camera.cpp.i
+
+engine/core/camera.s: engine/core/camera.cpp.s
+
+.PHONY : engine/core/camera.s
+
+# target to generate assembly for a file
+engine/core/camera.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.s
+.PHONY : engine/core/camera.cpp.s
+
+engine/core/shader.o: engine/core/shader.cpp.o
+
+.PHONY : engine/core/shader.o
+
+# target to build an object file
+engine/core/shader.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/shader.cpp.o
+.PHONY : engine/core/shader.cpp.o
+
+engine/core/shader.i: engine/core/shader.cpp.i
+
+.PHONY : engine/core/shader.i
+
+# target to preprocess a source file
+engine/core/shader.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/shader.cpp.i
+.PHONY : engine/core/shader.cpp.i
+
+engine/core/shader.s: engine/core/shader.cpp.s
+
+.PHONY : engine/core/shader.s
+
+# target to generate assembly for a file
+engine/core/shader.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/shader.cpp.s
+.PHONY : engine/core/shader.cpp.s
+
+engine/graphics/model.o: engine/graphics/model.cpp.o
+
+.PHONY : engine/graphics/model.o
+
+# target to build an object file
+engine/graphics/model.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o
+.PHONY : engine/graphics/model.cpp.o
+
+engine/graphics/model.i: engine/graphics/model.cpp.i
+
+.PHONY : engine/graphics/model.i
+
+# target to preprocess a source file
+engine/graphics/model.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.i
+.PHONY : engine/graphics/model.cpp.i
+
+engine/graphics/model.s: engine/graphics/model.cpp.s
+
+.PHONY : engine/graphics/model.s
+
+# target to generate assembly for a file
+engine/graphics/model.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.s
+.PHONY : engine/graphics/model.cpp.s
+
+engine/lightning/ambient.o: engine/lightning/ambient.cpp.o
+
+.PHONY : engine/lightning/ambient.o
+
+# target to build an object file
+engine/lightning/ambient.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/ambient.cpp.o
+.PHONY : engine/lightning/ambient.cpp.o
+
+engine/lightning/ambient.i: engine/lightning/ambient.cpp.i
+
+.PHONY : engine/lightning/ambient.i
+
+# target to preprocess a source file
+engine/lightning/ambient.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/ambient.cpp.i
+.PHONY : engine/lightning/ambient.cpp.i
+
+engine/lightning/ambient.s: engine/lightning/ambient.cpp.s
+
+.PHONY : engine/lightning/ambient.s
+
+# target to generate assembly for a file
+engine/lightning/ambient.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/ambient.cpp.s
+.PHONY : engine/lightning/ambient.cpp.s
+
+engine/lightning/diffuse.o: engine/lightning/diffuse.cpp.o
+
+.PHONY : engine/lightning/diffuse.o
+
+# target to build an object file
+engine/lightning/diffuse.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/diffuse.cpp.o
+.PHONY : engine/lightning/diffuse.cpp.o
+
+engine/lightning/diffuse.i: engine/lightning/diffuse.cpp.i
+
+.PHONY : engine/lightning/diffuse.i
+
+# target to preprocess a source file
+engine/lightning/diffuse.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/diffuse.cpp.i
+.PHONY : engine/lightning/diffuse.cpp.i
+
+engine/lightning/diffuse.s: engine/lightning/diffuse.cpp.s
+
+.PHONY : engine/lightning/diffuse.s
+
+# target to generate assembly for a file
+engine/lightning/diffuse.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/diffuse.cpp.s
+.PHONY : engine/lightning/diffuse.cpp.s
+
+engine/lightning/source.o: engine/lightning/source.cpp.o
+
+.PHONY : engine/lightning/source.o
+
+# target to build an object file
+engine/lightning/source.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/source.cpp.o
+.PHONY : engine/lightning/source.cpp.o
+
+engine/lightning/source.i: engine/lightning/source.cpp.i
+
+.PHONY : engine/lightning/source.i
+
+# target to preprocess a source file
+engine/lightning/source.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/source.cpp.i
+.PHONY : engine/lightning/source.cpp.i
+
+engine/lightning/source.s: engine/lightning/source.cpp.s
+
+.PHONY : engine/lightning/source.s
+
+# target to generate assembly for a file
+engine/lightning/source.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/source.cpp.s
+.PHONY : engine/lightning/source.cpp.s
+
+engine/lightning/specular.o: engine/lightning/specular.cpp.o
+
+.PHONY : engine/lightning/specular.o
+
+# target to build an object file
+engine/lightning/specular.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/specular.cpp.o
+.PHONY : engine/lightning/specular.cpp.o
+
+engine/lightning/specular.i: engine/lightning/specular.cpp.i
+
+.PHONY : engine/lightning/specular.i
+
+# target to preprocess a source file
+engine/lightning/specular.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/specular.cpp.i
+.PHONY : engine/lightning/specular.cpp.i
+
+engine/lightning/specular.s: engine/lightning/specular.cpp.s
+
+.PHONY : engine/lightning/specular.s
+
+# target to generate assembly for a file
+engine/lightning/specular.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/lightning/specular.cpp.s
+.PHONY : engine/lightning/specular.cpp.s
+
+engine/networking/client.o: engine/networking/client.cpp.o
+
+.PHONY : engine/networking/client.o
+
+# target to build an object file
+engine/networking/client.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/networking/client.cpp.o
+.PHONY : engine/networking/client.cpp.o
+
+engine/networking/client.i: engine/networking/client.cpp.i
+
+.PHONY : engine/networking/client.i
+
+# target to preprocess a source file
+engine/networking/client.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/networking/client.cpp.i
+.PHONY : engine/networking/client.cpp.i
+
+engine/networking/client.s: engine/networking/client.cpp.s
+
+.PHONY : engine/networking/client.s
+
+# target to generate assembly for a file
+engine/networking/client.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/networking/client.cpp.s
+.PHONY : engine/networking/client.cpp.s
+
+engine/networking/server.o: engine/networking/server.cpp.o
+
+.PHONY : engine/networking/server.o
+
+# target to build an object file
+engine/networking/server.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.o
+.PHONY : engine/networking/server.cpp.o
+
+engine/networking/server.i: engine/networking/server.cpp.i
+
+.PHONY : engine/networking/server.i
+
+# target to preprocess a source file
+engine/networking/server.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.i
+.PHONY : engine/networking/server.cpp.i
+
+engine/networking/server.s: engine/networking/server.cpp.s
+
+.PHONY : engine/networking/server.s
+
+# target to generate assembly for a file
+engine/networking/server.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.s
+.PHONY : engine/networking/server.cpp.s
+
+game/entity/mob.o: game/entity/mob.cpp.o
+
+.PHONY : game/entity/mob.o
+
+# target to build an object file
+game/entity/mob.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.o
+.PHONY : game/entity/mob.cpp.o
+
+game/entity/mob.i: game/entity/mob.cpp.i
+
+.PHONY : game/entity/mob.i
+
+# target to preprocess a source file
+game/entity/mob.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.i
+.PHONY : game/entity/mob.cpp.i
+
+game/entity/mob.s: game/entity/mob.cpp.s
+
+.PHONY : game/entity/mob.s
+
+# target to generate assembly for a file
+game/entity/mob.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.s
+.PHONY : game/entity/mob.cpp.s
+
+game/entity/player.o: game/entity/player.cpp.o
+
+.PHONY : game/entity/player.o
+
+# target to build an object file
+game/entity/player.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o
+.PHONY : game/entity/player.cpp.o
+
+game/entity/player.i: game/entity/player.cpp.i
+
+.PHONY : game/entity/player.i
+
+# target to preprocess a source file
+game/entity/player.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.i
+.PHONY : game/entity/player.cpp.i
+
+game/entity/player.s: game/entity/player.cpp.s
+
+.PHONY : game/entity/player.s
+
+# target to generate assembly for a file
+game/entity/player.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.s
+.PHONY : game/entity/player.cpp.s
+
+game/gui/inventory.o: game/gui/inventory.cpp.o
+
+.PHONY : game/gui/inventory.o
+
+# target to build an object file
+game/gui/inventory.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/gui/inventory.cpp.o
+.PHONY : game/gui/inventory.cpp.o
+
+game/gui/inventory.i: game/gui/inventory.cpp.i
+
+.PHONY : game/gui/inventory.i
+
+# target to preprocess a source file
+game/gui/inventory.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/gui/inventory.cpp.i
+.PHONY : game/gui/inventory.cpp.i
+
+game/gui/inventory.s: game/gui/inventory.cpp.s
+
+.PHONY : game/gui/inventory.s
+
+# target to generate assembly for a file
+game/gui/inventory.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/gui/inventory.cpp.s
+.PHONY : game/gui/inventory.cpp.s
+
+game/gui/mainscreen.o: game/gui/mainscreen.cpp.o
+
+.PHONY : game/gui/mainscreen.o
+
+# target to build an object file
+game/gui/mainscreen.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/gui/mainscreen.cpp.o
+.PHONY : game/gui/mainscreen.cpp.o
+
+game/gui/mainscreen.i: game/gui/mainscreen.cpp.i
+
+.PHONY : game/gui/mainscreen.i
+
+# target to preprocess a source file
+game/gui/mainscreen.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/gui/mainscreen.cpp.i
+.PHONY : game/gui/mainscreen.cpp.i
+
+game/gui/mainscreen.s: game/gui/mainscreen.cpp.s
+
+.PHONY : game/gui/mainscreen.s
+
+# target to generate assembly for a file
+game/gui/mainscreen.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/gui/mainscreen.cpp.s
+.PHONY : game/gui/mainscreen.cpp.s
+
+game/loading/loop.o: game/loading/loop.cpp.o
+
+.PHONY : game/loading/loop.o
+
+# target to build an object file
+game/loading/loop.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/loop.cpp.o
+.PHONY : game/loading/loop.cpp.o
+
+game/loading/loop.i: game/loading/loop.cpp.i
+
+.PHONY : game/loading/loop.i
+
+# target to preprocess a source file
+game/loading/loop.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/loop.cpp.i
+.PHONY : game/loading/loop.cpp.i
+
+game/loading/loop.s: game/loading/loop.cpp.s
+
+.PHONY : game/loading/loop.s
+
+# target to generate assembly for a file
+game/loading/loop.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/loop.cpp.s
+.PHONY : game/loading/loop.cpp.s
+
+game/loading/post.o: game/loading/post.cpp.o
+
+.PHONY : game/loading/post.o
+
+# target to build an object file
+game/loading/post.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/post.cpp.o
+.PHONY : game/loading/post.cpp.o
+
+game/loading/post.i: game/loading/post.cpp.i
+
+.PHONY : game/loading/post.i
+
+# target to preprocess a source file
+game/loading/post.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/post.cpp.i
+.PHONY : game/loading/post.cpp.i
+
+game/loading/post.s: game/loading/post.cpp.s
+
+.PHONY : game/loading/post.s
+
+# target to generate assembly for a file
+game/loading/post.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/post.cpp.s
+.PHONY : game/loading/post.cpp.s
+
+game/loading/pre.o: game/loading/pre.cpp.o
+
+.PHONY : game/loading/pre.o
+
+# target to build an object file
+game/loading/pre.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o
+.PHONY : game/loading/pre.cpp.o
+
+game/loading/pre.i: game/loading/pre.cpp.i
+
+.PHONY : game/loading/pre.i
+
+# target to preprocess a source file
+game/loading/pre.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.i
+.PHONY : game/loading/pre.cpp.i
+
+game/loading/pre.s: game/loading/pre.cpp.s
+
+.PHONY : game/loading/pre.s
+
+# target to generate assembly for a file
+game/loading/pre.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.s
+.PHONY : game/loading/pre.cpp.s
+
+game/world/block.o: game/world/block.cpp.o
+
+.PHONY : game/world/block.o
+
+# target to build an object file
+game/world/block.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o
+.PHONY : game/world/block.cpp.o
+
+game/world/block.i: game/world/block.cpp.i
+
+.PHONY : game/world/block.i
+
+# target to preprocess a source file
+game/world/block.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.i
+.PHONY : game/world/block.cpp.i
+
+game/world/block.s: game/world/block.cpp.s
+
+.PHONY : game/world/block.s
+
+# target to generate assembly for a file
+game/world/block.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.s
+.PHONY : game/world/block.cpp.s
+
+game/world/chunk.o: game/world/chunk.cpp.o
+
+.PHONY : game/world/chunk.o
+
+# target to build an object file
+game/world/chunk.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o
+.PHONY : game/world/chunk.cpp.o
+
+game/world/chunk.i: game/world/chunk.cpp.i
+
+.PHONY : game/world/chunk.i
+
+# target to preprocess a source file
+game/world/chunk.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.i
+.PHONY : game/world/chunk.cpp.i
+
+game/world/chunk.s: game/world/chunk.cpp.s
+
+.PHONY : game/world/chunk.s
+
+# target to generate assembly for a file
+game/world/chunk.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.s
+.PHONY : game/world/chunk.cpp.s
+
+game/world/world.o: game/world/world.cpp.o
+
+.PHONY : game/world/world.o
+
+# target to build an object file
+game/world/world.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o
+.PHONY : game/world/world.cpp.o
+
+game/world/world.i: game/world/world.cpp.i
+
+.PHONY : game/world/world.i
+
+# target to preprocess a source file
+game/world/world.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.i
+.PHONY : game/world/world.cpp.i
+
+game/world/world.s: game/world/world.cpp.s
+
+.PHONY : game/world/world.s
+
+# target to generate assembly for a file
+game/world/world.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.s
+.PHONY : game/world/world.cpp.s
 
 main.o: main.cpp.o
 
@@ -297,18 +810,75 @@ help:
 	@echo "... api/java/java.o"
 	@echo "... api/java/java.i"
 	@echo "... api/java/java.s"
+	@echo "... api/loader.o"
+	@echo "... api/loader.i"
+	@echo "... api/loader.s"
 	@echo "... api/lua/lua.o"
 	@echo "... api/lua/lua.i"
 	@echo "... api/lua/lua.s"
 	@echo "... api/python/python.o"
 	@echo "... api/python/python.i"
 	@echo "... api/python/python.s"
-	@echo "... engine/buffers.o"
-	@echo "... engine/buffers.i"
-	@echo "... engine/buffers.s"
-	@echo "... engine/model.o"
-	@echo "... engine/model.i"
-	@echo "... engine/model.s"
+	@echo "... engine/core/buffers.o"
+	@echo "... engine/core/buffers.i"
+	@echo "... engine/core/buffers.s"
+	@echo "... engine/core/camera.o"
+	@echo "... engine/core/camera.i"
+	@echo "... engine/core/camera.s"
+	@echo "... engine/core/shader.o"
+	@echo "... engine/core/shader.i"
+	@echo "... engine/core/shader.s"
+	@echo "... engine/graphics/model.o"
+	@echo "... engine/graphics/model.i"
+	@echo "... engine/graphics/model.s"
+	@echo "... engine/lightning/ambient.o"
+	@echo "... engine/lightning/ambient.i"
+	@echo "... engine/lightning/ambient.s"
+	@echo "... engine/lightning/diffuse.o"
+	@echo "... engine/lightning/diffuse.i"
+	@echo "... engine/lightning/diffuse.s"
+	@echo "... engine/lightning/source.o"
+	@echo "... engine/lightning/source.i"
+	@echo "... engine/lightning/source.s"
+	@echo "... engine/lightning/specular.o"
+	@echo "... engine/lightning/specular.i"
+	@echo "... engine/lightning/specular.s"
+	@echo "... engine/networking/client.o"
+	@echo "... engine/networking/client.i"
+	@echo "... engine/networking/client.s"
+	@echo "... engine/networking/server.o"
+	@echo "... engine/networking/server.i"
+	@echo "... engine/networking/server.s"
+	@echo "... game/entity/mob.o"
+	@echo "... game/entity/mob.i"
+	@echo "... game/entity/mob.s"
+	@echo "... game/entity/player.o"
+	@echo "... game/entity/player.i"
+	@echo "... game/entity/player.s"
+	@echo "... game/gui/inventory.o"
+	@echo "... game/gui/inventory.i"
+	@echo "... game/gui/inventory.s"
+	@echo "... game/gui/mainscreen.o"
+	@echo "... game/gui/mainscreen.i"
+	@echo "... game/gui/mainscreen.s"
+	@echo "... game/loading/loop.o"
+	@echo "... game/loading/loop.i"
+	@echo "... game/loading/loop.s"
+	@echo "... game/loading/post.o"
+	@echo "... game/loading/post.i"
+	@echo "... game/loading/post.s"
+	@echo "... game/loading/pre.o"
+	@echo "... game/loading/pre.i"
+	@echo "... game/loading/pre.s"
+	@echo "... game/world/block.o"
+	@echo "... game/world/block.i"
+	@echo "... game/world/block.s"
+	@echo "... game/world/chunk.o"
+	@echo "... game/world/chunk.i"
+	@echo "... game/world/chunk.s"
+	@echo "... game/world/world.o"
+	@echo "... game/world/world.i"
+	@echo "... game/world/world.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -88,6 +88,12 @@
 		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/java/java.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/loader.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/loader.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
 		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/lua/lua.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
@@ -100,16 +106,124 @@
 		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/python/python.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/buffers.cpp">
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/buffers.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/buffers.h">
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/buffers.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/model.cpp">
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/camera.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/model.h">
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/camera.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/shader.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/shader.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/graphics/model.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/graphics/model.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/ambient.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/ambient.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/diffuse.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/diffuse.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/source.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/source.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/specular.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/specular.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/client.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/client.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/server.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/server.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/mob.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/mob.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/player.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/player.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/inventory.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/inventory.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/mainscreen.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/mainscreen.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/loop.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/loop.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/post.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/post.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/pre.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/pre.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/block.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/block.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/chunk.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/chunk.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/world.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/world.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
 		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/main.cpp">
