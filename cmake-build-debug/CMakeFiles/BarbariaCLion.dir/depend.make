@@ -65,6 +65,7 @@ CMakeFiles/BarbariaCLion.dir/game/loading/loop.cpp.o: ../game/loading/loop.h
 CMakeFiles/BarbariaCLion.dir/game/loading/post.cpp.o: ../game/loading/post.cpp
 CMakeFiles/BarbariaCLion.dir/game/loading/post.cpp.o: ../game/loading/post.h
 
+CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../game/utils/declarations.h
 CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../game/loading/pre.cpp
 CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../game/loading/pre.h
 
@@ -84,6 +85,8 @@ CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/world/chunk.h
 CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o: ../game/world/world.cpp
 CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o: ../game/world/world.h
 
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/loading/pre.h
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/declarations.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/game.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/controls.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/declarations.h
