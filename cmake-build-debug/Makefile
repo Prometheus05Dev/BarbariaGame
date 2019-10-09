@@ -555,6 +555,33 @@ game/entity/player.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.s
 .PHONY : game/entity/player.cpp.s
 
+game/game.o: game/game.cpp.o
+
+.PHONY : game/game.o
+
+# target to build an object file
+game/game.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/game.cpp.o
+.PHONY : game/game.cpp.o
+
+game/game.i: game/game.cpp.i
+
+.PHONY : game/game.i
+
+# target to preprocess a source file
+game/game.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/game.cpp.i
+.PHONY : game/game.cpp.i
+
+game/game.s: game/game.cpp.s
+
+.PHONY : game/game.s
+
+# target to generate assembly for a file
+game/game.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/game.cpp.s
+.PHONY : game/game.cpp.s
+
 game/gui/inventory.o: game/gui/inventory.cpp.o
 
 .PHONY : game/gui/inventory.o
@@ -909,6 +936,9 @@ help:
 	@echo "... game/entity/player.o"
 	@echo "... game/entity/player.i"
 	@echo "... game/entity/player.s"
+	@echo "... game/game.o"
+	@echo "... game/game.i"
+	@echo "... game/game.s"
 	@echo "... game/gui/inventory.o"
 	@echo "... game/gui/inventory.i"
 	@echo "... game/gui/inventory.s"

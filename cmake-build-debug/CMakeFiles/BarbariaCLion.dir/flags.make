@@ -6,5 +6,5 @@ CXX_FLAGS = -g   "-lGL -lGLEW -lglfw -ldl" -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/janek/Dokumente/Programmieren/Barbaria/game -I/home/janek/Dokumente/Programmieren/Barbaria/engine 
 

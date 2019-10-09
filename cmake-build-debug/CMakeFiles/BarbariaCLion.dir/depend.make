@@ -13,6 +13,7 @@ CMakeFiles/BarbariaCLion.dir/api/lua/lua.cpp.o: ../api/lua/lua.h
 CMakeFiles/BarbariaCLion.dir/api/python/python.cpp.o: ../api/python/python.cpp
 CMakeFiles/BarbariaCLion.dir/api/python/python.cpp.o: ../api/python/python.h
 
+CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../game/utils/declarations.h
 CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../engine/core/buffers.cpp
 CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../engine/core/buffers.h
 
@@ -49,6 +50,9 @@ CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.o: ../game/entity/mob.h
 CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o: ../game/entity/player.cpp
 CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o: ../game/entity/player.h
 
+CMakeFiles/BarbariaCLion.dir/game/game.cpp.o: ../game/game.cpp
+CMakeFiles/BarbariaCLion.dir/game/game.cpp.o: ../game/game.h
+
 CMakeFiles/BarbariaCLion.dir/game/gui/inventory.cpp.o: ../game/gui/inventory.cpp
 CMakeFiles/BarbariaCLion.dir/game/gui/inventory.cpp.o: ../game/gui/inventory.h
 
@@ -80,6 +84,7 @@ CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/world/chunk.h
 CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o: ../game/world/world.cpp
 CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o: ../game/world/world.h
 
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/game.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/controls.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/declarations.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../main.cpp

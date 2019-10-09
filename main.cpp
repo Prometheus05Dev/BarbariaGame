@@ -4,6 +4,7 @@
 #include <GLFW/glfw3.h>
 #include "game/utils/controls.h"
 #include "game/utils/declarations.h"
+#include "game/game.h"
 
 // VARIABLES + FUNCTIONS
 
@@ -45,7 +46,7 @@ int main(){
     while(!gameShallClose){
 
         // Clear screen -> background e.g.: sky
-        glClearColor(0.0f, 153.0f, 153.0f, 0.0f);
+        glClearColor(skyColorR, skyColorG, skyColorB, skyColorAlpha);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         //Process Inputs and signals and every thing what has to be processed

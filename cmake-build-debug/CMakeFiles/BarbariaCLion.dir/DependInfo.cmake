@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/server.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/entity/mob.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/entity/player.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o"
+  "/home/janek/Dokumente/Programmieren/Barbaria/game/game.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/game.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/gui/inventory.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/gui/inventory.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/gui/mainscreen.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/gui/mainscreen.cpp.o"
   "/home/janek/Dokumente/Programmieren/Barbaria/game/loading/loop.cpp" "/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/loading/loop.cpp.o"
@@ -36,6 +37,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../game"
+  "../engine"
   )
 
 # Targets to which this target links.

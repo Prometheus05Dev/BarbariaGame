@@ -34,6 +34,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/janek/Dokumente/Programmieren/Barbaria/game"/>
+					<Add directory="/home/janek/Dokumente/Programmieren/Barbaria/engine"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
@@ -56,6 +58,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/janek/Dokumente/Programmieren/Barbaria/game"/>
+					<Add directory="/home/janek/Dokumente/Programmieren/Barbaria/engine"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
@@ -176,6 +180,12 @@
 			<Option target="BarbariaCLion"/>
 		</Unit>
 		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/player.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/game.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/game.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
 		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/inventory.cpp">
