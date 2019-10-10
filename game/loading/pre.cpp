@@ -2,17 +2,52 @@
 
 preLoad::preLoad() {
     //Initialize mods from mods.info
-    std::ifstream modFile("~/Barbaria/mods.info");
+    std::string filePath = "../resources/mods.info";
+    std::ifstream modFile(filePath.c_str(), std::ios::in);
     std::string str;
-    if(modFile.fail()){
-        std::cout << "[ERROR] File mods.info not existing, this is critical!" << std::endl;
+    if(!modFile){
+        std::cerr << "[ERROR] File mods.info couldn't be opened, this is critical!" << std::endl;
+        std::cerr << "[ERROR] " << std::strerror(errno) << std::endl;
         gameShallClose = true;
     }
     while(std::getline(modFile, str)){
+        modCount = modCount + 1;
         modNames.push_back(str);
     }
 }
 
-void preLoad::loadTextures() {
+std::vector<std::string> preLoad::getModNames() {
+    return modNames;
+}
 
+int preLoad::getModCount() {
+    return modCount;
+}
+
+void preLoad::printMods() {
+    for(std::string i : modNames){
+        std::cout << "[INFO] Mod registered: " << i << std::endl;
+    }
+}
+
+void preLoad::loadTextures() {
+    std::string j;
+    namespace fileSystem = std::filesystem;
+    for(int counter = 0; counter <= 1; counter++){
+        for(std::string i : modNames){
+            if(counter == 1){
+                j = "entities";
+                std::cout << "[INFO] Loading entity textures" << std::endl;
+            }
+            else{
+                j = "blocks";
+                std::cout << "[INFO] Loading block textures" << std::endl;
+            }
+            std::string filePath = "../resources/textures/" + i + "/" + j + "/";
+            for(const auto & file : fileSystem::directory_iterator(filePath)){
+                std::cout << "[INFO] Texture file of mod " << i << " has been registered " << file.path() << std::endl;
+                TextureBuffer bufferForVertexData(file.path().c_str(), 1);
+            }
+        }
+    }
 }

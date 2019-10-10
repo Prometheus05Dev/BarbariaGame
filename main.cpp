@@ -6,6 +6,8 @@
 #include "game/utils/controls.h"
 #include "game/utils/declarations.h"
 #include "game/game.h"
+#define STB_IMAGE_IMPLEMENTATION
+#include <stb_image.h>
 
 // VARIABLES + FUNCTIONS
 preLoad preLoad;
@@ -30,18 +32,20 @@ int main(){
     std::cout << "[INFO] You are a wizard, Harry!" << std::endl;
 
     std::cout << "[INFO] This are you're hardware and driver information, which are relevant to OpenGl:" << std::endl;
-    std::cout << glGetString(GL_VERSION) << std::endl;
+    std::cout <<  "[INFO] " << glGetString(GL_VERSION) << std::endl;
 
     GLenum initError;
     if((initError = glewInit()) != GLEW_OK){
-        std::cout << "[ERROR] A fatal occured while initializing OpenGL(GLEW). Please report this crash-report to Prometheus05!" << std::endl;
-        std::cout << "[ERROR] " << glewGetErrorString(initError) << std::endl;
-        std::cout << "[ERROR] This wasn't supposed to happen!" << std::endl;
+        std::cerr << "[ERROR] A fatal occured while initializing OpenGL(GLEW). Please report this crash-report to Prometheus05!" << std::endl;
+        std::cerr << "[ERROR] " << glewGetErrorString(initError) << std::endl;
+        std::cerr << "[ERROR] This wasn't supposed to happen!" << std::endl;
     }
 
     glViewport(0, 0, 1920, 1080);
     glEnable(GL_DEPTH_TEST);
 
+    preLoad.printMods();
+    preLoad.loadTextures();
 
     // GAME MAIN LOOP
     while(!gameShallClose){

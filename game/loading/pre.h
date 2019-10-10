@@ -4,16 +4,22 @@
 #include <vector>
 #include <fstream>
 #include <iostream>
+#include <cstring>
+#include <filesystem>
 #include <utils/declarations.h>
-#include "pre.h"
+#include <core/buffers.h>
 
 class preLoad{
 public:
     preLoad();
+    std::vector<std::string> getModNames();
+    int getModCount();
+    void printMods();
     void loadTextures();
 protected:
     std::vector<std::vector<int>> textures; //Two-Dimensional Array, Lines: Reference to Texture Instance Rows: String(configured name)
     std::vector<std::string> modNames;
+    int modCount = 0;
 private:
 };
 
