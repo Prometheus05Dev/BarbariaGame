@@ -8,250 +8,250 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option working_dir="/home/janek/CLionProjects/Barbaria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option working_dir="/home/janek/CLionProjects/Barbaria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BarbariaCLion">
-				<Option output="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/BarbariaCLion" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option output="/home/janek/CLionProjects/Barbaria/cmake-build-debug/BarbariaCLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/janek/CLionProjects/Barbaria/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/janek/Dokumente/Programmieren/Barbaria/game"/>
-					<Add directory="/home/janek/Dokumente/Programmieren/Barbaria/engine"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/home/janek/CLionProjects/Barbaria/game"/>
+					<Add directory="/home/janek/CLionProjects/Barbaria/engine"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 BarbariaCLion"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 BarbariaCLion"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BarbariaCLion/fast">
-				<Option output="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/BarbariaCLion" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option output="/home/janek/CLionProjects/Barbaria/cmake-build-debug/BarbariaCLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/janek/CLionProjects/Barbaria/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/janek/Dokumente/Programmieren/Barbaria/game"/>
-					<Add directory="/home/janek/Dokumente/Programmieren/Barbaria/engine"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/home/janek/CLionProjects/Barbaria/game"/>
+					<Add directory="/home/janek/CLionProjects/Barbaria/engine"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 BarbariaCLion/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 BarbariaCLion/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug"/>
+				<Option working_dir="/home/janek/CLionProjects/Barbaria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/Dokumente/Programmieren/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/janek/CLionProjects/Barbaria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/java/java.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/api/java/java.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/java/java.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/api/java/java.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/loader.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/api/loader.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/loader.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/api/loader.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/lua/lua.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/api/lua/lua.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/lua/lua.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/api/lua/lua.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/python/python.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/api/python/python.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/api/python/python.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/api/python/python.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/buffers.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/core/buffers.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/buffers.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/core/buffers.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/camera.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/core/camera.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/camera.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/core/camera.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/shader.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/core/shader.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/core/shader.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/core/shader.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/graphics/model.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/model.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/graphics/model.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/model.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/ambient.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/lightning/ambient.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/ambient.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/lightning/ambient.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/diffuse.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/lightning/diffuse.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/diffuse.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/lightning/diffuse.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/source.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/lightning/source.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/source.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/lightning/source.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/specular.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/lightning/specular.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/lightning/specular.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/lightning/specular.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/client.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/networking/client.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/client.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/networking/client.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/server.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/networking/server.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/engine/networking/server.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/networking/server.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/mob.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/entity/mob.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/mob.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/entity/mob.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/player.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/entity/player.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/entity/player.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/entity/player.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/game.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/game.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/game.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/game.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/inventory.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/gui/inventory.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/inventory.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/gui/inventory.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/mainscreen.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/gui/mainscreen.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/gui/mainscreen.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/gui/mainscreen.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/loop.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/loading/loop.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/loop.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/loading/loop.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/post.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/loading/post.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/post.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/loading/post.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/pre.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/loading/pre.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/loading/pre.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/loading/pre.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/utils/controls.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/utils/controls.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/utils/controls.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/utils/controls.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/utils/declarations.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/utils/declarations.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/utils/declarations.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/utils/declarations.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/block.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/world/block.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/block.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/world/block.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/chunk.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/world/chunk.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/chunk.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/world/chunk.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/world.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/world/world.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/game/world/world.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/world/world.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/main.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/main.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/Dokumente/Programmieren/Barbaria/CMakeLists.txt">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
