@@ -89,6 +89,7 @@ CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/core/buffers.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/loading/pre.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/declarations.h
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../api/python/python.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/game.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/controls.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/declarations.h

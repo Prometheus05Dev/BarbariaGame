@@ -15,19 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/python/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/python/python.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/api/python/python.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/python/python.h" beforeDir="false" afterPath="$PROJECT_DIR$/api/python/python.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +121,7 @@
       <workItem from="1572377490354" duration="508000" />
       <workItem from="1572378385219" duration="2236000" />
       <workItem from="1572423206239" duration="2601000" />
-      <workItem from="1572426302426" duration="1295000" />
+      <workItem from="1572426302426" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="First Structure">
       <created>1570368613453</created>
@@ -189,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570645758331</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started to integrate the basic Python API!">
+      <created>1572427673197</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572427673197</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +214,8 @@
     <MESSAGE value="First window created with GLFW, should work on every PC" />
     <MESSAGE value="Added Buffers, which transfer data from the CPU to the GPU. Currently supported: VertexBuffer, IndexBuffer, TextureBuffer!" />
     <MESSAGE value="Starting to load the game textures, edit relative path! Maybe Game Installation folder?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting to load the game textures, edit relative path! Maybe Game Installation folder?" />
+    <MESSAGE value="Started to integrate the basic Python API!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started to integrate the basic Python API!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

@@ -8,6 +8,7 @@ void load(){
     Py_DECREF(pName);
     if(pModule != NULL){
         pFunc = PyObject_GetAttrString(pModule, "init");
+        pValue = PyObject_CallObject(pFunc, pArgs);
     } else {
         if(PyErr_Occurred())
             PyErr_Print();
