@@ -6,6 +6,7 @@
 #include "game/utils/controls.h"
 #include "game/utils/declarations.h"
 #include "game/game.h"
+#include "api/python/python.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
 
@@ -46,6 +47,8 @@ int main(){
 
     preLoad.printMods();
     preLoad.loadTextures();
+
+    load();
 
     // GAME MAIN LOOP
     while(!gameShallClose){

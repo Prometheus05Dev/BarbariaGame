@@ -415,3 +415,18 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
+Change Dir: /home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_20d1a/fast && /usr/bin/make -f CMakeFiles/cmTC_20d1a.dir/build.make CMakeFiles/cmTC_20d1a.dir/build
+make[1]: Entering directory '/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20d1a.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FLTO   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_20d1a.dir/src.cxx.o -c /home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_20d1a
+/home/janek/Downloads/Minecraft/Mods/1.12.2/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20d1a.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_FLTO    -rdynamic CMakeFiles/cmTC_20d1a.dir/src.cxx.o  -o cmTC_20d1a -flto 
+make[1]: Leaving directory '/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
