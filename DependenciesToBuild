@@ -2,3 +2,4 @@
 2. GLEW
 3. stb -> clone from GitHub paste to /usr/include
 4. boost
+5. barbaria.py has to be pasted into the include folder!

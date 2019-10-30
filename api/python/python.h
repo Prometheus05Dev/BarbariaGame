@@ -5,6 +5,12 @@
 
 #include <python3.7m/Python.h>
 #include <iostream>
-extern void load();
+
+class PythonScript{
+public:
+    void preInit();
+    void loop();
+    void postInit();
+};
 
 #endif

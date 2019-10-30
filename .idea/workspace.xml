@@ -14,10 +14,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
+    <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="First successful run of python function! May the embedding start!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependenciesToBuild" beforeDir="false" afterPath="$PROJECT_DIR$/DependenciesToBuild" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/python/python.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/api/python/python.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/python/python.h" beforeDir="false" afterPath="$PROJECT_DIR$/api/python/python.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/python/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/barbaria.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +123,7 @@
       <workItem from="1572377490354" duration="508000" />
       <workItem from="1572378385219" duration="2236000" />
       <workItem from="1572423206239" duration="2601000" />
-      <workItem from="1572426302426" duration="1472000" />
+      <workItem from="1572426302426" duration="2869000" />
     </task>
     <task id="LOCAL-00001" summary="First Structure">
       <created>1570368613453</created>
@@ -186,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572427673197</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="First successful run of python function! May the embedding start!">
+      <created>1572427846717</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572427846717</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +224,8 @@
     <MESSAGE value="Added Buffers, which transfer data from the CPU to the GPU. Currently supported: VertexBuffer, IndexBuffer, TextureBuffer!" />
     <MESSAGE value="Starting to load the game textures, edit relative path! Maybe Game Installation folder?" />
     <MESSAGE value="Started to integrate the basic Python API!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started to integrate the basic Python API!" />
+    <MESSAGE value="First successful run of python function! May the embedding start!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First successful run of python function! May the embedding start!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
