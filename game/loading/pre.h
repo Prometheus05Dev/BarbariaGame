@@ -6,8 +6,9 @@
 #include <iostream>
 #include <cstring>
 #include <filesystem>
-#include <utils/declarations.h>
+#include <ext_decl.h>
 #include <core/buffers.h>
+#include <loader.h>
 
 class preLoad{
 public:
@@ -16,6 +17,7 @@ public:
     int getModCount();
     void printMods();
     void loadTextures();
+    void loadScripts(std::string modPath);
 protected:
     std::vector<std::vector<int>> textures; //Two-Dimensional Array, Lines: Reference to Texture Instance Rows: String(configured name)
     std::vector<std::string> modNames;

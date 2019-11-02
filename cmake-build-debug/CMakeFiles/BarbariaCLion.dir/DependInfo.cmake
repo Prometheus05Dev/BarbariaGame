@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/CLionProjects/Barbaria/engine/core/buffers.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o"
   "/home/janek/CLionProjects/Barbaria/engine/core/camera.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.o"
   "/home/janek/CLionProjects/Barbaria/engine/core/shader.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/core/shader.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/engine/ext_decl.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.o"
   "/home/janek/CLionProjects/Barbaria/engine/graphics/model.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o"
   "/home/janek/CLionProjects/Barbaria/engine/lightning/ambient.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/lightning/ambient.cpp.o"
   "/home/janek/CLionProjects/Barbaria/engine/lightning/diffuse.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/lightning/diffuse.cpp.o"
@@ -27,7 +28,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/CLionProjects/Barbaria/game/loading/post.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/loading/post.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/loading/pre.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/utils/controls.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o"
-  "/home/janek/CLionProjects/Barbaria/game/utils/declarations.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/utils/declarations.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/world/block.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/world/chunk.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/world/world.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/world/world.cpp.o"
@@ -39,6 +39,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../game"
   "../engine"
+  "../api"
   )
 
 # Targets to which this target links.

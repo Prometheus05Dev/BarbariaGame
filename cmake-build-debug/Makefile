@@ -312,6 +312,33 @@ engine/core/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/core/shader.cpp.s
 .PHONY : engine/core/shader.cpp.s
 
+engine/ext_decl.o: engine/ext_decl.cpp.o
+
+.PHONY : engine/ext_decl.o
+
+# target to build an object file
+engine/ext_decl.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.o
+.PHONY : engine/ext_decl.cpp.o
+
+engine/ext_decl.i: engine/ext_decl.cpp.i
+
+.PHONY : engine/ext_decl.i
+
+# target to preprocess a source file
+engine/ext_decl.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.i
+.PHONY : engine/ext_decl.cpp.i
+
+engine/ext_decl.s: engine/ext_decl.cpp.s
+
+.PHONY : engine/ext_decl.s
+
+# target to generate assembly for a file
+engine/ext_decl.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.s
+.PHONY : engine/ext_decl.cpp.s
+
 engine/graphics/model.o: engine/graphics/model.cpp.o
 
 .PHONY : engine/graphics/model.o
@@ -744,33 +771,6 @@ game/utils/controls.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.s
 .PHONY : game/utils/controls.cpp.s
 
-game/utils/declarations.o: game/utils/declarations.cpp.o
-
-.PHONY : game/utils/declarations.o
-
-# target to build an object file
-game/utils/declarations.cpp.o:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/declarations.cpp.o
-.PHONY : game/utils/declarations.cpp.o
-
-game/utils/declarations.i: game/utils/declarations.cpp.i
-
-.PHONY : game/utils/declarations.i
-
-# target to preprocess a source file
-game/utils/declarations.cpp.i:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/declarations.cpp.i
-.PHONY : game/utils/declarations.cpp.i
-
-game/utils/declarations.s: game/utils/declarations.cpp.s
-
-.PHONY : game/utils/declarations.s
-
-# target to generate assembly for a file
-game/utils/declarations.cpp.s:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/declarations.cpp.s
-.PHONY : game/utils/declarations.cpp.s
-
 game/world/block.o: game/world/block.cpp.o
 
 .PHONY : game/world/block.o
@@ -909,6 +909,9 @@ help:
 	@echo "... engine/core/shader.o"
 	@echo "... engine/core/shader.i"
 	@echo "... engine/core/shader.s"
+	@echo "... engine/ext_decl.o"
+	@echo "... engine/ext_decl.i"
+	@echo "... engine/ext_decl.s"
 	@echo "... engine/graphics/model.o"
 	@echo "... engine/graphics/model.i"
 	@echo "... engine/graphics/model.s"
@@ -957,9 +960,6 @@ help:
 	@echo "... game/utils/controls.o"
 	@echo "... game/utils/controls.i"
 	@echo "... game/utils/controls.s"
-	@echo "... game/utils/declarations.o"
-	@echo "... game/utils/declarations.i"
-	@echo "... game/utils/declarations.s"
 	@echo "... game/world/block.o"
 	@echo "... game/world/block.i"
 	@echo "... game/world/block.s"

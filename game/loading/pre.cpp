@@ -14,6 +14,7 @@ preLoad::preLoad() {
         modCount = modCount + 1;
         modNames.push_back(str);
     }
+    loadScripts("../resources/scripts");
 }
 
 std::vector<std::string> preLoad::getModNames() {
@@ -30,9 +31,20 @@ void preLoad::printMods() {
     }
 }
 
-void preLoad::loadTextures() {
-    std::string j;
+
+void preLoad::loadScripts(std::string modPath){
     namespace fileSystem = std::filesystem;
+    fileSystem::path relativeModPath = modPath;
+    fileSystem::path absoluteModPath = fileSystem::absolute(relativeModPath);
+    std::string absoluteModPathString = absoluteModPath.u8string();
+    for(std::string i : modNames){
+        preInitScript(i, modPath);
+    }
+}
+
+void preLoad::loadTextures() {
+    namespace fileSystem = std::filesystem;
+    std::string j;
     for(int counter = 0; counter <= 1; counter++){
         for(std::string i : modNames){
             if(counter == 1){
@@ -51,3 +63,4 @@ void preLoad::loadTextures() {
         }
     }
 }
+

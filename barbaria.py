@@ -1,1 +1,13 @@
-# HAS to be pasted into the default python 3.7m lib folder1
+import time
+import sys
+import barbariapy
+
+
+def pre():
+    barbariapy.helloWorld()
+
+
+def post():
+    print("Unloading all the Python Scripts!")
+
+

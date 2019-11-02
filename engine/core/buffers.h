@@ -5,7 +5,7 @@
 #ifndef BARBARIACLION_BUFFERS_H
 #define BARBARIACLION_BUFFERS_H
 
-#include "utils/declarations.h"
+#include <ext_decl.h>
 #include <GL/glew.h>
 #include <iostream>
 #include <stb_image.h>

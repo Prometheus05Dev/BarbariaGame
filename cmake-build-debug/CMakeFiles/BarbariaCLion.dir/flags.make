@@ -6,5 +6,5 @@ CXX_FLAGS = -g   "-lGL -lGLEW -lglfw -ldl -lpython3.7m" -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/janek/CLionProjects/Barbaria/game -I/home/janek/CLionProjects/Barbaria/engine 
+CXX_INCLUDES = -I/home/janek/CLionProjects/Barbaria/game -I/home/janek/CLionProjects/Barbaria/engine -I/home/janek/CLionProjects/Barbaria/api 
 

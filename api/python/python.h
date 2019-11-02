@@ -8,7 +8,7 @@
 
 class PythonScript{
 public:
-    void preInit();
+    void preInit(std::string scriptName, std::string scriptPath);
     void loop();
     void postInit();
 };

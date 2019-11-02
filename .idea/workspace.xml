@@ -15,11 +15,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="First successful run of python function! May the embedding start!">
+      <change afterPath="$PROJECT_DIR$/engine/ext_decl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/ext_decl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DependenciesToBuild" beforeDir="false" afterPath="$PROJECT_DIR$/DependenciesToBuild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/loader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/api/loader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/loader.h" beforeDir="false" afterPath="$PROJECT_DIR$/api/loader.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/python/python.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/api/python/python.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/python/python.h" beforeDir="false" afterPath="$PROJECT_DIR$/api/python/python.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/python/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/barbaria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barbaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/barbaria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/core/buffers.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/buffers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/graphics/model.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/graphics/model.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/loading/pre.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/loading/pre.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/loading/pre.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/loading/pre.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/controls.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/utils/controls.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/controls.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/utils/controls.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/declarations.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/declarations.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/block.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/block.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/block.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/block.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mods.info" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mods.info" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,15 +100,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
       <recent name="$PROJECT_DIR$/game/utils" />
       <recent name="$PROJECT_DIR$/engine/graphics" />
       <recent name="$PROJECT_DIR$/engine/core" />
       <recent name="$PROJECT_DIR$/api/python" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,6 +151,9 @@
       <workItem from="1572378385219" duration="2236000" />
       <workItem from="1572423206239" duration="2601000" />
       <workItem from="1572426302426" duration="2869000" />
+      <workItem from="1572623470347" duration="38000" />
+      <workItem from="1572623535938" duration="15128000" />
+      <workItem from="1572682896562" duration="5997000" />
     </task>
     <task id="LOCAL-00001" summary="First Structure">
       <created>1570368613453</created>

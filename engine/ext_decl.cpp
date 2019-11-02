@@ -1,2 +1,3 @@
-#include "declarations.h"
+#include "ext_decl.h"
+
 bool gameShallClose = false;

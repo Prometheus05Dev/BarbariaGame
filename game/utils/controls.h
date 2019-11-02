@@ -3,6 +3,7 @@
 
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include <ext_decl.h>
 
 extern void processInput(GLFWwindow* window);
 

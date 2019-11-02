@@ -4,7 +4,7 @@
 #include <GLFW/glfw3.h>
 #include <loading/pre.h>
 #include "game/utils/controls.h"
-#include "game/utils/declarations.h"
+#include "engine/ext_decl.h"
 #include "game/game.h"
 #include "api/python/python.h"
 #define STB_IMAGE_IMPLEMENTATION
@@ -47,8 +47,6 @@ int main(){
 
     preLoad.printMods();
     preLoad.loadTextures();
-
-    load();
 
     // GAME MAIN LOOP
     while(!gameShallClose){
