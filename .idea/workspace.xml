@@ -16,13 +16,14 @@
   <component name="ChangeListManager">
     <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/core/buffers.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/buffers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/core/shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/core/shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/shader.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/ext_decl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/ext_decl.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/graphics/model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/graphics/model.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/graphics/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/graphics/model.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/loading/pre.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/loading/pre.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/controls.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/utils/controls.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/block.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/block.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +131,8 @@
       <workItem from="1572623470347" duration="38000" />
       <workItem from="1572623535938" duration="15128000" />
       <workItem from="1572682896562" duration="6270000" />
-      <workItem from="1572708894294" duration="2832000" />
+      <workItem from="1572708894294" duration="2944000" />
+      <workItem from="1572712247913" duration="2257000" />
     </task>
     <task id="LOCAL-00001" summary="First Structure">
       <created>1570368613453</created>
@@ -209,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572689168414</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Prepared the Model class a little bit more.">
+      <created>1572711820120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1572711820120</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +249,8 @@
     <MESSAGE value="Started to integrate the basic Python API!" />
     <MESSAGE value="First successful run of python function! May the embedding start!" />
     <MESSAGE value="Started to implement the Model and Block Class. Nothing hardware-near &#10;implemented yet. Nothing dangerous at all, every graphics card, driver&#10;and compiler should be able to accept it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started to implement the Model and Block Class. Nothing hardware-near &#10;implemented yet. Nothing dangerous at all, every graphics card, driver&#10;and compiler should be able to accept it." />
+    <MESSAGE value="Prepared the Model class a little bit more." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepared the Model class a little bit more." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

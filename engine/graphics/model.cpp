@@ -36,8 +36,11 @@ void Model::transform(float x, float y, float z) {
 }
 
 void Model::update() {
+    positionMatrix = projectionMatrix * cameraView * modelMatrix;
     this->vBind();
     this->iBind();
+    modelMatrixShaderLocation = glGetUniformLocation(barbariaObjectShader.getShaderID(), "modelMatrix");
+    glUniformMatrix4fv(modelMatrixShaderLocation, 1, GL_FALSE, glm::value_ptr(modelMatrix));
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
     this->vUnbind();
     this->iUnbind();

@@ -39,3 +39,29 @@ void Block::rotate(float degrees, float x, float y, float z) {
     bottomPlane.rotate(degrees, x, y, z);
     topPlane.rotate(degrees, x, y, z);
 }
+
+void Block::update() {
+    topTexture.tBind();
+    topPlane.update();
+    topTexture.tUnbind();
+
+    frontTexture.tBind();
+    frontPlane.update();
+    frontTexture.tUnbind();
+
+    bottomTexture.tBind();
+    bottomPlane.update();
+    bottomTexture.tUnbind();
+
+    backTexture.tBind();
+    backPlane.update();
+    backTexture.tUnbind();
+
+    leftTexture.tBind();
+    leftPlane.update();
+    leftTexture.tUnbind();
+
+    rightTexture.tBind();
+    rightPlane.update();
+    rightTexture.tUnbind();
+}

@@ -2,6 +2,7 @@
 #define BARBARIACLION_MODEL_H
 
 #include <core/buffers.h>
+#include <core/shader.h>
 #include <vector>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -24,9 +25,11 @@ protected:
     static std::vector<float> spawnZ;
     static int modelCounter;
     glm::mat4 modelMatrix = glm::mat4(1.0f);
+    glm::mat4 positionMatrix = glm::mat4(1.0f);
     float screenAspect = (float)screenWidth / (float)screenHeight;
     glm::mat4 projectionMatrix = glm::perspective(glm::radians(45.0f), screenAspect, 0.1f, 100.0f);
     int myNumber = 0;
+    unsigned int modelMatrixShaderLocation;
 };
 
 #endif //BARBARIACLION_MODEL_H
