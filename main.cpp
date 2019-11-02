@@ -28,9 +28,7 @@ int main(){
     glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
     std::cout << "[INFO] All the window hints and contexts configured, now make ready for the magic moment of the (hopefully) appearing window!" << std::endl;
 
-    GLFWwindow* mainWindow = glfwCreateWindow(1920, 1080, "Barbaria", NULL, NULL);
-    glfwMakeContextCurrent(mainWindow);
-    std::cout << "[INFO] You are a wizard, Harry!" << std::endl;
+    createWindow();
 
     std::cout << "[INFO] This are you're hardware and driver information, which are relevant to OpenGl:" << std::endl;
     std::cout <<  "[INFO] " << glGetString(GL_VERSION) << std::endl;
@@ -47,6 +45,8 @@ int main(){
 
     preLoad.printMods();
     preLoad.loadTextures();
+
+    getAttributes();
 
     // GAME MAIN LOOP
     while(!gameShallClose){
