@@ -29,6 +29,9 @@ int main(){
     std::cout << "[INFO] All the window hints and contexts configured, now make ready for the magic moment of the (hopefully) appearing window!" << std::endl;
 
     createWindow();
+    getAttributes();
+    glViewport(0, 0, screenWidth, screenHeight);
+    glfwSetFramebufferSizeCallback(mainWindow, framebuffer_size_callback);
 
     std::cout << "[INFO] This are you're hardware and driver information, which are relevant to OpenGl:" << std::endl;
     std::cout <<  "[INFO] " << glGetString(GL_VERSION) << std::endl;
@@ -40,7 +43,6 @@ int main(){
         std::cerr << "[ERROR] This wasn't supposed to happen!" << std::endl;
     }
 
-    glViewport(0, 0, 1920, 1080);
     glEnable(GL_DEPTH_TEST);
 
     preLoad.printMods();

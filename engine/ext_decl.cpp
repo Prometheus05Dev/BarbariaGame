@@ -1,15 +1,26 @@
 #include "ext_decl.h"
 
+float deltaTime = 0.0f;
+float cameraSpeed = 0.0f;
+
 bool gameShallClose = false;
 
 int screenWidth = 0;
 int screenHeight = 0;
+
 GLFWwindow* mainWindow = 0;
+
 glm::mat4 cameraView = glm::mat4(1.0f);
+
 Shader barbariaObjectShader = Shader();
 
+glm::vec3 cameraFront(0.0f, 0.0f, 0.0f);
+glm::vec3 cameraPosition(0.0f, 0.0f, 0.0f);
+glm::vec3 cameraUp(0.0f, 0.0f, 0.0f);
+
 void createWindow(){
-    mainWindow= glfwCreateWindow(1920, 1080, "Barbaria", NULL, NULL);
+    const GLFWvidmode *monitorSize = glfwGetVideoMode(glfwGetPrimaryMonitor());
+    mainWindow= glfwCreateWindow(monitorSize->width, monitorSize->height, "Barbaria", NULL, NULL);
     glfwMakeContextCurrent(mainWindow);
     std::cout << "[INFO] You are a wizard, Harry!" << std::endl;
 }
@@ -29,4 +40,8 @@ void createBarbariaObjectShader(){
     const char* vertexShaderPath = vertexShaderPathString.c_str();
     const char* fragmentShaderPath = fragmentShaderPathString.c_str();
     barbariaObjectShader = Shader(vertexShaderPath, fragmentShaderPath);
+}
+
+void framebuffer_size_callback(GLFWwindow* window, int width, int height){
+    glViewport(0, 0, width, height);
 }

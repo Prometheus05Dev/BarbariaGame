@@ -7,16 +7,30 @@
 #include <GLFW/glfw3.h>
 #include <filesystem>
 
+extern glm::vec3 cameraPosition;
+extern glm::vec3 cameraFront;
+extern glm::vec3 cameraUp;
+
+extern float deltaTime;
+extern float cameraSpeed;
+
 extern GLFWwindow* mainWindow;
+
 extern glm::mat4 cameraView;
+
 extern bool gameShallClose;
+
 extern int screenWidth;
 extern int screenHeight;
+
 extern Shader barbariaObjectShader;
+
 
 extern void getAttributes();
 extern void createWindow();
 extern void createShader(Shader *shader);
+extern void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+
 
 struct Vertex{
     float x;
