@@ -17,15 +17,9 @@
     <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/core/camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/camera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/core/camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/camera.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/ext_decl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/ext_decl.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/utils/controls.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/utils/controls.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/mods.info" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mods.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/shaders/objects_default/FragmentShader.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/resources/shaders/objects_default/FragmentShader.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/shaders/objects_default/VertexShader.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/resources/shaders/objects_default/VertexShader.glsl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +130,7 @@
       <workItem from="1572708894294" duration="2944000" />
       <workItem from="1572712247913" duration="2526000" />
       <workItem from="1572782481923" duration="83000" />
-      <workItem from="1572782581160" duration="2562000" />
+      <workItem from="1572782581160" duration="3130000" />
     </task>
     <task id="LOCAL-00001" summary="First Structure">
       <created>1570368613453</created>
@@ -229,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572714582218</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues.">
+      <created>1572785296805</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1572785296805</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +263,8 @@
     <MESSAGE value="Started to implement the Model and Block Class. Nothing hardware-near &#10;implemented yet. Nothing dangerous at all, every graphics card, driver&#10;and compiler should be able to accept it." />
     <MESSAGE value="Prepared the Model class a little bit more." />
     <MESSAGE value="Added few hardware-near things but nothing called yet. But - it compiles!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added few hardware-near things but nothing called yet. But - it compiles!" />
+    <MESSAGE value="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

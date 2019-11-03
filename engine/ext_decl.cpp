@@ -2,6 +2,7 @@
 
 float deltaTime = 0.0f;
 float cameraSpeed = 0.0f;
+float lastTick = 0.0f;
 
 bool gameShallClose = false;
 
@@ -44,4 +45,10 @@ void createBarbariaObjectShader(){
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height){
     glViewport(0, 0, width, height);
+}
+
+void calculateTickDuration(){
+    float currentTick = glfwGetTime();
+    deltaTime = currentTick - lastTick;
+    lastTick = currentTick;
 }

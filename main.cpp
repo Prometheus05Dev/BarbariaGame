@@ -9,6 +9,7 @@
 #include "api/python/python.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
+#include <core/camera.h>
 
 // VARIABLES + FUNCTIONS
 preLoad preLoad;
@@ -45,6 +46,8 @@ int main(){
 
     glEnable(GL_DEPTH_TEST);
 
+    Camera defaultBarbariaCamera;
+
     preLoad.printMods();
     preLoad.loadTextures();
 
@@ -59,6 +62,12 @@ int main(){
 
         //Process Inputs and signals and every thing what has to be processed
         processInput(mainWindow);
+
+        //Update CameraView to calcute the Model Matrices
+        defaultBarbariaCamera.updateCamera(cameraPosition, cameraFront, cameraUp);
+
+        //Calculate Tick duration for same speed on every PC
+        calculateTickDuration();
 
         // Gather everything to draw
         // Bind, Unbind, Draw!

@@ -12,6 +12,7 @@ extern glm::vec3 cameraFront;
 extern glm::vec3 cameraUp;
 
 extern float deltaTime;
+extern float lastTick;
 extern float cameraSpeed;
 
 extern GLFWwindow* mainWindow;
@@ -30,6 +31,7 @@ extern void getAttributes();
 extern void createWindow();
 extern void createShader(Shader *shader);
 extern void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+extern void calculateTickDuration();
 
 
 struct Vertex{
