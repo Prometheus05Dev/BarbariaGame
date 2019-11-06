@@ -7,5 +7,6 @@ extern float skyColorG;
 extern float skyColorB;
 extern float skyColorAlpha;
 extern void setSkyColor(float R, float G, float B, float alpha);
+extern void gameLoop();
 
 #endif //BARBARIACLION_GAME_H

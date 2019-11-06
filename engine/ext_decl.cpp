@@ -3,11 +3,15 @@
 float deltaTime = 0.0f;
 float cameraSpeed = 0.0f;
 float lastTick = 0.0f;
+float previousFPS = 0.0f;
 
 bool gameShallClose = false;
 
+World enteredWorld = World();
+
 int screenWidth = 0;
 int screenHeight = 0;
+int FPS = 0;
 
 GLFWwindow* mainWindow = 0;
 
@@ -51,4 +55,16 @@ void calculateTickDuration(){
     float currentTick = glfwGetTime();
     deltaTime = currentTick - lastTick;
     lastTick = currentTick;
+}
+
+void FPSUpdate(){
+   float currentTime = glfwGetTime();
+   FPS = FPS + 1;
+   if(currentTime - previousFPS >= 1.0){
+       std::cout << "FPS: " << FPS << std::endl;
+       previousFPS = currentTime;
+       //First check if world is entered
+       gameLoop();
+       FPS = 0;
+   }
 }

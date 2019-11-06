@@ -15,10 +15,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/game/entity/entity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/entity/entity.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/ext_decl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/ext_decl.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/entity/mob.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/entity/mob.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/entity/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/entity/player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/block.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/block.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/chunk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/chunk.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/chunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/world.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,6 +64,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testing" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -130,7 +155,9 @@
       <workItem from="1572708894294" duration="2944000" />
       <workItem from="1572712247913" duration="2526000" />
       <workItem from="1572782481923" duration="83000" />
-      <workItem from="1572782581160" duration="3130000" />
+      <workItem from="1572782581160" duration="4256000" />
+      <workItem from="1573063721966" duration="1017000" />
+      <workItem from="1573064757000" duration="3466000" />
     </task>
     <task id="LOCAL-00001" summary="First Structure">
       <created>1570368613453</created>
@@ -230,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572785296805</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues">
+      <created>1572785801050</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1572785801050</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +298,8 @@
     <MESSAGE value="Prepared the Model class a little bit more." />
     <MESSAGE value="Added few hardware-near things but nothing called yet. But - it compiles!" />
     <MESSAGE value="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues." />
+    <MESSAGE value="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
