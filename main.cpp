@@ -68,6 +68,7 @@ int main(){
 
         //Calculate Tick duration for same speed on every PC
         calculateTickDuration();
+        FPSUpdate();
 
         // Gather everything to draw
         // Bind, Unbind, Draw!

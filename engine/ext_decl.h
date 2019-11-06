@@ -6,6 +6,8 @@
 #include <iostream>
 #include <GLFW/glfw3.h>
 #include <filesystem>
+#include <game.h>
+#include <world/world.h>
 
 extern glm::vec3 cameraPosition;
 extern glm::vec3 cameraFront;
@@ -23,6 +25,11 @@ extern bool gameShallClose;
 
 extern int screenWidth;
 extern int screenHeight;
+extern int FPS;
+
+extern float previousFPS;
+
+extern World enteredWorld;
 
 extern Shader barbariaObjectShader;
 
@@ -32,6 +39,7 @@ extern void createWindow();
 extern void createShader(Shader *shader);
 extern void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 extern void calculateTickDuration();
+extern void FPSUpdate();
 
 
 struct Vertex{

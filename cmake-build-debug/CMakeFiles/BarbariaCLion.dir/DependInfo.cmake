@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/CLionProjects/Barbaria/engine/lightning/specular.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/lightning/specular.cpp.o"
   "/home/janek/CLionProjects/Barbaria/engine/networking/client.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/networking/client.cpp.o"
   "/home/janek/CLionProjects/Barbaria/engine/networking/server.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/game/entity/entity.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/entity/entity.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/entity/mob.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/entity/player.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/game.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/game/game.cpp.o"

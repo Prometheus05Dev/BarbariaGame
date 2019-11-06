@@ -528,6 +528,33 @@ engine/networking/server.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.s
 .PHONY : engine/networking/server.cpp.s
 
+game/entity/entity.o: game/entity/entity.cpp.o
+
+.PHONY : game/entity/entity.o
+
+# target to build an object file
+game/entity/entity.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/entity.cpp.o
+.PHONY : game/entity/entity.cpp.o
+
+game/entity/entity.i: game/entity/entity.cpp.i
+
+.PHONY : game/entity/entity.i
+
+# target to preprocess a source file
+game/entity/entity.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/entity.cpp.i
+.PHONY : game/entity/entity.cpp.i
+
+game/entity/entity.s: game/entity/entity.cpp.s
+
+.PHONY : game/entity/entity.s
+
+# target to generate assembly for a file
+game/entity/entity.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/entity/entity.cpp.s
+.PHONY : game/entity/entity.cpp.s
+
 game/entity/mob.o: game/entity/mob.cpp.o
 
 .PHONY : game/entity/mob.o
@@ -933,6 +960,9 @@ help:
 	@echo "... engine/networking/server.o"
 	@echo "... engine/networking/server.i"
 	@echo "... engine/networking/server.s"
+	@echo "... game/entity/entity.o"
+	@echo "... game/entity/entity.i"
+	@echo "... game/entity/entity.s"
 	@echo "... game/entity/mob.o"
 	@echo "... game/entity/mob.i"
 	@echo "... game/entity/mob.s"

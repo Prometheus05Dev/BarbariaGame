@@ -16,6 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BarbariaCLion.dir/engine/lightning/specular.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/engine/networking/client.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.o"
+  "CMakeFiles/BarbariaCLion.dir/game/entity/entity.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o"
   "CMakeFiles/BarbariaCLion.dir/game/game.cpp.o"

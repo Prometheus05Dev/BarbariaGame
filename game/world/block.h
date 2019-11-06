@@ -102,4 +102,13 @@ protected:
 
 };
 
+class GrowingBlock : public Block {
+public:
+    int stage = 0;
+};
+
+class ActionBlock : public Block {
+    int state = 0;
+};
+
 #endif //BARBARIACLION_BLOCK_H

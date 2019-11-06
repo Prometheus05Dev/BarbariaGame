@@ -16,11 +16,15 @@ CMakeFiles/BarbariaCLion.dir/api/python/python.cpp.o: ../api/python/python.h
 
 CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../engine/core/shader.h
 CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../engine/ext_decl.h
+CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../game/game.h
+CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../engine/core/buffers.cpp
 CMakeFiles/BarbariaCLion.dir/engine/core/buffers.cpp.o: ../engine/core/buffers.h
 
 CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.o: ../engine/core/shader.h
 CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.o: ../engine/ext_decl.h
+CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.o: ../game/game.h
+CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.o: ../engine/core/camera.cpp
 CMakeFiles/BarbariaCLion.dir/engine/core/camera.cpp.o: ../engine/core/camera.h
 
@@ -28,12 +32,16 @@ CMakeFiles/BarbariaCLion.dir/engine/core/shader.cpp.o: ../engine/core/shader.cpp
 CMakeFiles/BarbariaCLion.dir/engine/core/shader.cpp.o: ../engine/core/shader.h
 
 CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.o: ../engine/core/shader.h
+CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.o: ../game/game.h
+CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.o: ../engine/ext_decl.cpp
 CMakeFiles/BarbariaCLion.dir/engine/ext_decl.cpp.o: ../engine/ext_decl.h
 
 CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o: ../engine/core/buffers.h
 CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o: ../engine/core/shader.h
 CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o: ../engine/ext_decl.h
+CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o: ../game/game.h
+CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o: ../engine/graphics/model.cpp
 CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o: ../engine/graphics/model.h
 
@@ -55,9 +63,14 @@ CMakeFiles/BarbariaCLion.dir/engine/networking/client.cpp.o: ../engine/networkin
 CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.o: ../engine/networking/server.cpp
 CMakeFiles/BarbariaCLion.dir/engine/networking/server.cpp.o: ../engine/networking/server.h
 
+CMakeFiles/BarbariaCLion.dir/game/entity/entity.cpp.o: ../game/entity/entity.cpp
+CMakeFiles/BarbariaCLion.dir/game/entity/entity.cpp.o: ../game/entity/entity.h
+
+CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.o: ../game/entity/entity.h
 CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.o: ../game/entity/mob.cpp
 CMakeFiles/BarbariaCLion.dir/game/entity/mob.cpp.o: ../game/entity/mob.h
 
+CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o: ../game/entity/entity.h
 CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o: ../game/entity/player.cpp
 CMakeFiles/BarbariaCLion.dir/game/entity/player.cpp.o: ../game/entity/player.h
 
@@ -81,11 +94,15 @@ CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../api/python/python.h
 CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../engine/core/buffers.h
 CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../engine/core/shader.h
 CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../engine/ext_decl.h
+CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../game/game.h
+CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../game/loading/pre.cpp
 CMakeFiles/BarbariaCLion.dir/game/loading/pre.cpp.o: ../game/loading/pre.h
 
 CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../engine/core/shader.h
 CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../engine/ext_decl.h
+CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../game/game.h
+CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../game/utils/controls.cpp
 CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../game/utils/controls.h
 
@@ -93,9 +110,21 @@ CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o: ../engine/core/buffers.h
 CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o: ../engine/core/shader.h
 CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o: ../engine/ext_decl.h
 CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o: ../engine/graphics/model.h
+CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o: ../game/game.h
+CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o: ../game/world/block.cpp
 CMakeFiles/BarbariaCLion.dir/game/world/block.cpp.o: ../game/world/block.h
 
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../engine/core/buffers.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../engine/core/shader.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../engine/ext_decl.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../engine/graphics/model.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/entity/entity.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/entity/mob.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/entity/player.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/game.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/world/world.h
+CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/world/block.h
 CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/world/chunk.cpp
 CMakeFiles/BarbariaCLion.dir/game/world/chunk.cpp.o: ../game/world/chunk.h
 
@@ -108,7 +137,9 @@ CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/core/buffers.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/core/camera.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/core/shader.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/ext_decl.h
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/game.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/loading/pre.h
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/world/world.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../api/python/python.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/ext_decl.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/game.h
