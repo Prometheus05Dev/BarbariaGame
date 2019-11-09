@@ -16,11 +16,18 @@ public:
 protected:
     std::vector<Mob> mobList = {};
     std::vector<Player> playerList = {};
-    std::vector<Block> blockList = {};
-    std::vector<GrowingBlock> growingBlockList = {};
+    std::vector<std::vector<int>> heightMap = {};
+    std::vector<Vertex> vertices = {};
+    Model terrain;
     float x = 0;
     float y = 0;
     float z = 0;
+    float currentTextureX;
+    float currentTextureY;
+    int numberPerX = 15;
+    int numberPerY = 15;
+    int indexCount = 0;
+    std::vector<GLuint> indices = {};
 };
 
 #endif //BARBARIACLION_CHUNK_H

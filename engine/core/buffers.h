@@ -12,6 +12,7 @@
 
 class VertexBuffer{
 public:
+    VertexBuffer();
     VertexBuffer(Vertex *data, int numVertices);
     void vBind();
     void vUnbind();
@@ -23,6 +24,7 @@ private:
 
 class IndexBuffer{
 public:
+    IndexBuffer();
     IndexBuffer(GLuint *data, unsigned int numVertices);
     void iBind();
     void iUnbind();
@@ -33,6 +35,7 @@ private:
 
 class TextureBuffer{
 public:
+    TextureBuffer();
     TextureBuffer(const char* texturePath, int pixel);
     void tBind();
     void tUnbind();

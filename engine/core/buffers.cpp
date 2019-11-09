@@ -4,6 +4,11 @@
 
 #include "buffers.h"
 
+VertexBuffer::VertexBuffer() {
+    //Default constructor -> do not call!
+    int defaultConstructor = 1;
+}
+
 VertexBuffer::VertexBuffer(Vertex *data, int numVertices) {
     glGenVertexArrays(1, &vertexArrayObject);
     glBindVertexArray(vertexArrayObject);
@@ -25,6 +30,11 @@ void VertexBuffer::vUnbind() {
     glBindVertexArray(0);
 }
 
+IndexBuffer::IndexBuffer() {
+    //Default constructor -> do not call!
+    int defaultConstructor = 1;
+}
+
 IndexBuffer::IndexBuffer(GLuint *data, unsigned int numIndices){
     glGenBuffers(1, &bufferID);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, bufferID);
@@ -37,6 +47,11 @@ void IndexBuffer::iBind() {
 
 void IndexBuffer::iUnbind() {
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+}
+
+TextureBuffer::TextureBuffer() {
+    //Default Constructor -> do not call!
+    int defaultConstructor = 1;
 }
 
 TextureBuffer::TextureBuffer(const char *texturePath, int pixel) {

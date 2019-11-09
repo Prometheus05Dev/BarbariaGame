@@ -15,31 +15,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game/entity/entity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/entity/entity.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/ext_decl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/ext_decl.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/entity/mob.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/entity/mob.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/entity/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/entity/player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/block.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/block.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/core/buffers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/buffers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/core/buffers.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/buffers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/graphics/model.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/graphics/model.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/world/chunk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/chunk.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/world/chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/chunk.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/world.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +139,9 @@
       <workItem from="1572782481923" duration="83000" />
       <workItem from="1572782581160" duration="4256000" />
       <workItem from="1573063721966" duration="1017000" />
-      <workItem from="1573064757000" duration="3466000" />
+      <workItem from="1573064757000" duration="4936000" />
+      <workItem from="1573142764993" duration="599000" />
+      <workItem from="1573314120663" duration="5402000" />
     </task>
     <task id="LOCAL-00001" summary="First Structure">
       <created>1570368613453</created>
@@ -264,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572785801050</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added FPS Counter for same speed on every device, added a game loop&#10;and started to write the Chunk class. Seperated into Block/GrowingBlock/&#10;ActionBlock.">
+      <created>1573068376397</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573068376397</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +290,8 @@
     <MESSAGE value="Added few hardware-near things but nothing called yet. But - it compiles!" />
     <MESSAGE value="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues." />
     <MESSAGE value="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues" />
+    <MESSAGE value="Added FPS Counter for same speed on every device, added a game loop&#10;and started to write the Chunk class. Seperated into Block/GrowingBlock/&#10;ActionBlock." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added FPS Counter for same speed on every device, added a game loop&#10;and started to write the Chunk class. Seperated into Block/GrowingBlock/&#10;ActionBlock." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

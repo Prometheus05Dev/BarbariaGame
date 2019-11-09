@@ -11,6 +11,7 @@
 
 class Model : public VertexBuffer, IndexBuffer{
 public:
+    Model();
     Model(float x, float y, float z, Vertex *vertexData, int numVertices, GLuint *indexData, int numIndices);
     Model(float x, float y, float z, Vertex *vertexData, int numVertices, GLuint *indexData, int numIndices, TextureBuffer *textures, std::string bindOrder);
     void spawn();

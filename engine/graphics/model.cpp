@@ -5,12 +5,17 @@ std::vector<float> Model::spawnX = {0};
 std::vector<float> Model::spawnY = {0};
 std::vector<float> Model::spawnZ = {0};
 
+Model::Model(){
+    //Default constructor -> do not use!
+    int defaultConstructor = 1;
+}
+
+
 Model::Model(float x, float y, float z, Vertex *vertexData, int numVertices, GLuint *indexData, int numIndices) : IndexBuffer(indexData, numIndices), VertexBuffer(vertexData, numVertices) {
     spawnX.push_back(x);
     spawnY.push_back(y);
     spawnZ.push_back(z);
     modelCounter = modelCounter + 1;
-
 }
 
 Model::Model(float x, float y, float z, Vertex *vertexData, int numVertices, GLuint *indexData, int numIndices,
