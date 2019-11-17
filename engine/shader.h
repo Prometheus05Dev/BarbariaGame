@@ -1,26 +1,21 @@
-#ifndef BARBARIACLION_SHADER_H
-#define BARBARIACLION_SHADER_H
-
-#include <GL/glew.h>
+#pragma once
 #include <string>
+#include <GL/glew.h>
 #include <glm/glm.hpp>
+#include <fstream>
 #include <iostream>
-
-class Shader {
-public:
-    Shader();
+using namespace std;
+struct Shader {
     Shader(const char* vertexShaderFilename, const char* fragmentShaderFilename);
     virtual ~Shader();
     void bind();
     void unbind();
     GLuint getShaderID();
-private:
-    GLuint compile(std::string shaderSource, GLenum type);
-    std::string parse(const char* filename);
-    GLuint createShader(const char* vertexShaderFilename, const char* fragmentShaderFilename);
     GLuint shaderID;
+private:
+    GLuint compile(string shaderSource, GLenum type);
+    string parse(const char* filename);
+    GLuint createShader(const char* vertexShaderFilename, const char* fragmentShaderFilename);
     int uniformLocation;
     static glm::mat4 exampleMatrix;
 };
-
-#endif //BARBARIACLION_SHADER_H

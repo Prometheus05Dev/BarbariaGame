@@ -1,6 +1,0 @@
-1. GLFW
-2. GLEW
-3. GLM
-4. stb -> clone from GitHub paste to /usr/include
-5. boost
-6. barbariapy.py has to be pasted into the include folder!
