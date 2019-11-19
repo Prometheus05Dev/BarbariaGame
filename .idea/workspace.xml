@@ -14,15 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573995772151</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Removed Hard-Coded Shader Paths.">
+      <created>1574190553250</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574190553250</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +319,8 @@
     <MESSAGE value="Added FPS Counter for same speed on every device, added a game loop&#10;and started to write the Chunk class. Seperated into Block/GrowingBlock/&#10;ActionBlock." />
     <MESSAGE value="Added the Chunk-&gt; read function which generates the indexBufferArray, &#10;vertexBufferArray, the texture coordinates and the terrain Model for&#10;this chunk. Pushes the data back to the model to let the buffers be&#10;generated." />
     <MESSAGE value="Rewriting some of the code from scratch due to unsolveable issues :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rewriting some of the code from scratch due to unsolveable issues :(" />
+    <MESSAGE value="Removed Hard-Coded Shader Paths." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Hard-Coded Shader Paths." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
