@@ -20,6 +20,9 @@ CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../game/utils/time.h
 CMakeFiles/BarbariaCLion.dir/game/utils/time.cpp.o: ../game/utils/time.cpp
 CMakeFiles/BarbariaCLion.dir/game/utils/time.cpp.o: ../game/utils/time.h
 
+CMakeFiles/BarbariaCLion.dir/game/windows/gamewindow.cpp.o: ../game/windows/gamewindow.cpp
+CMakeFiles/BarbariaCLion.dir/game/windows/gamewindow.cpp.o: ../game/windows/gamewindow.h
+
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/buffers.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/camera.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/shader.h

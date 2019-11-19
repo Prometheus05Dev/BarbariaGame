@@ -10,6 +10,7 @@
 #include "engine/camera.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include <filesystem>
 
 Vertex firstTriangle[] = {
         Vertex{0.0f, 0.0f, 0.0f},
@@ -41,7 +42,15 @@ int main(){
 
     glm::mat4 projectionMatrix = glm::perspective(glm::radians(45.0f), (float)800/(float)600, 0.0f, 100.0f);
 
-    Shader mainShader("/home/janek/CLionProjects/Barbaria/shaders/VertexShader.glsl", "/home/janek/CLionProjects/Barbaria/shaders/FragmentShader.glsl");
+    std::filesystem::path currentWorkingDirectory = std::filesystem::current_path();
+    std::filesystem::path vertexShaderFS = currentWorkingDirectory / "VertexShader.glsl";
+    std::string vertexShaderSTR = vertexShaderFS.u8string();
+    const char* vertexShaderPath = vertexShaderSTR.c_str();
+    std::filesystem::path fragmentShaderFS = currentWorkingDirectory / "FragmentShader.glsl";
+    std::string fragmentShaderSTR = fragmentShaderFS.u8string();
+    const char* fragmentShaderPath = fragmentShaderSTR.c_str();
+
+    Shader mainShader(vertexShaderPath, fragmentShaderPath);
     mainShader.bind();
 
     //trans = glm::rotate(trans, glm::radians(-55.0f), glm::vec3(1.0, 0.0, 0.0));
