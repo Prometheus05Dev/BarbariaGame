@@ -20,24 +20,6 @@ BarbariaCLion_BINARY_DIR:STATIC=/home/janek/CLionProjects/Barbaria/cmake-build-d
 //Value Computed by CMake
 BarbariaCLion_SOURCE_DIR:STATIC=/home/janek/CLionProjects/Barbaria
 
-//The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=/usr/lib64/cmake/Boost-1.71.0
-
-Boost_FILESYSTEM_LIBRARY_RELEASE:STRING=/usr/lib64/libboost_filesystem.so.1.71.0
-
-//Path to a file.
-Boost_INCLUDE_DIR:PATH=/usr/include
-
-Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:STRING=/usr/lib64/libboost_program_options.so.1.71.0
-
-Boost_PYTHON_LIBRARY_RELEASE:STRING=/usr/lib64/libboost_python37.so.1.71.0
-
-Boost_REGEX_LIBRARY_RELEASE:STRING=/usr/lib64/libboost_regex.so.1.71.0
-
-Boost_SYSTEM_LIBRARY_RELEASE:STRING=/usr/lib64/libboost_system.so.1.71.0
-
-Boost_UNIT_TEST_FRAMEWORK_LIBRARY_RELEASE:STRING=/usr/lib64/libboost_unit_test_framework.so.1.71.0
-
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -235,12 +217,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Python version to use for compiling modules
-PYBIND11_PYTHON_VERSION:STRING=
-
-//Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3.7
-
 //Path to a file.
 PYTHON_INCLUDE_DIR:PATH=/usr/include/python3.7m
 
@@ -256,40 +232,11 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/bin/sysctl
 
-//The directory containing a CMake configuration file for boost_filesystem.
-boost_filesystem_DIR:PATH=/usr/lib64/cmake/boost_filesystem-1.71.0
-
-//The directory containing a CMake configuration file for boost_headers.
-boost_headers_DIR:PATH=/usr/lib64/cmake/boost_headers-1.71.0
-
-//The directory containing a CMake configuration file for boost_program_options.
-boost_program_options_DIR:PATH=/usr/lib64/cmake/boost_program_options-1.71.0
-
-//The directory containing a CMake configuration file for boost_python-py27.
-boost_python-py27_DIR:PATH=boost_python-py27_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for boost_python.
-boost_python_DIR:PATH=/usr/lib64/cmake/boost_python-1.71.0
-
-//The directory containing a CMake configuration file for boost_regex.
-boost_regex_DIR:PATH=/usr/lib64/cmake/boost_regex-1.71.0
-
-//The directory containing a CMake configuration file for boost_system.
-boost_system_DIR:PATH=/usr/lib64/cmake/boost_system-1.71.0
-
-//The directory containing a CMake configuration file for boost_unit_test_framework.
-boost_unit_test_framework_DIR:PATH=/usr/lib64/cmake/boost_unit_test_framework-1.71.0
-
-//The directory containing a CMake configuration file for pybind11.
-pybind11_DIR:PATH=/usr/share/cmake/pybind11
-
 
 ########################
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: Boost_DIR
-Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -435,20 +382,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib64/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components:  system python ][v1.71.0(1.71.0)]
-//Details about finding PYTHON
-FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/usr/bin/python3.7
-//Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3.7][v3.7.4(3)]
 //Details about finding PythonLibs
 FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/libpython3.7m.so][/usr/include/python3.7m][v3.7.4(3)]
-//Test HAS_FLTO
-HAS_FLTO:INTERNAL=1
-PYBIND11_LTO_CXX_FLAGS:INTERNAL=-flto;-fno-fat-lto-objects
-PYBIND11_LTO_LINKER_FLAGS:INTERNAL=-flto
-//ADVANCED property for variable: PYTHON_EXECUTABLE
-PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_INCLUDE_DIR
 PYTHON_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_LIBRARY
@@ -459,18 +394,4 @@ PYTHON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 ProcessorCount_cmd_nproc-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: boost_filesystem_DIR
-boost_filesystem_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: boost_headers_DIR
-boost_headers_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: boost_program_options_DIR
-boost_program_options_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: boost_python_DIR
-boost_python_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: boost_regex_DIR
-boost_regex_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: boost_system_DIR
-boost_system_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: boost_unit_test_framework_DIR
-boost_unit_test_framework_DIR-ADVANCED:INTERNAL=1
 

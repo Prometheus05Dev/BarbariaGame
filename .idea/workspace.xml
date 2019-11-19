@@ -15,8 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game/entity/entity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/entity/entity.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/camera.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/camera.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_decl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_decl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/utils/controls.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/utils/controls.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/utils/time.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/utils/time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/windows/gamewindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/windows/gamewindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion.cbp" afterDir="false" />
@@ -29,17 +37,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/ext_decl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/ext_decl.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/ext_decl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/entity/mob.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/entity/mob.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/entity/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/entity/player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/block.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/block.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/chunk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/chunk.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/chunk.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/world.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaders/VertexShader.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shaders/VertexShader.glsl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="GLSL Shader" />
         <option value="Python Script" />
+        <option value="GLSL Shader" />
       </list>
     </option>
   </component>
@@ -84,10 +83,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Barbaria-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,13 +99,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
       <recent name="$PROJECT_DIR$/game/utils" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
       <recent name="$PROJECT_DIR$/engine/graphics" />
       <recent name="$PROJECT_DIR$/engine/core" />
       <recent name="$PROJECT_DIR$/api/python" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/engine" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -157,7 +158,17 @@
       <workItem from="1572782481923" duration="83000" />
       <workItem from="1572782581160" duration="4256000" />
       <workItem from="1573063721966" duration="1017000" />
-      <workItem from="1573064757000" duration="3466000" />
+      <workItem from="1573064757000" duration="4936000" />
+      <workItem from="1573142764993" duration="599000" />
+      <workItem from="1573314120663" duration="6191000" />
+      <workItem from="1573328973863" duration="1442000" />
+      <workItem from="1573390858175" duration="8232000" />
+      <workItem from="1573832311363" duration="3347000" />
+      <workItem from="1573925621924" duration="14000" />
+      <workItem from="1573989026543" duration="6663000" />
+      <workItem from="1574097238055" duration="4538000" />
+      <workItem from="1574102015027" duration="3223000" />
+      <workItem from="1574174172189" duration="6354000" />
     </task>
     <task id="LOCAL-00001" summary="First Structure">
       <created>1570368613453</created>
@@ -264,7 +275,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572785801050</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added FPS Counter for same speed on every device, added a game loop&#10;and started to write the Chunk class. Seperated into Block/GrowingBlock/&#10;ActionBlock.">
+      <created>1573068376397</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573068376397</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added the Chunk-&gt; read function which generates the indexBufferArray, &#10;vertexBufferArray, the texture coordinates and the terrain Model for&#10;this chunk. Pushes the data back to the model to let the buffers be&#10;generated.">
+      <created>1573319693149</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573319693149</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Rewriting some of the code from scratch due to unsolveable issues :(">
+      <created>1573995772151</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573995772151</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +316,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Structure" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second Commit" />
@@ -299,7 +332,18 @@
     <MESSAGE value="Added few hardware-near things but nothing called yet. But - it compiles!" />
     <MESSAGE value="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues." />
     <MESSAGE value="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues" />
+    <MESSAGE value="Added FPS Counter for same speed on every device, added a game loop&#10;and started to write the Chunk class. Seperated into Block/GrowingBlock/&#10;ActionBlock." />
+    <MESSAGE value="Added the Chunk-&gt; read function which generates the indexBufferArray, &#10;vertexBufferArray, the texture coordinates and the terrain Model for&#10;this chunk. Pushes the data back to the model to let the buffers be&#10;generated." />
+    <MESSAGE value="Rewriting some of the code from scratch due to unsolveable issues :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewriting some of the code from scratch due to unsolveable issues :(" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="exampleChunk.indices" />
+        <watch expression="exampleChunk.indices" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

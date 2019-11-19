@@ -1,84 +1,79 @@
-// INCLUDES
-#include <iostream>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
-#include <loading/pre.h>
-#include "game/utils/controls.h"
-#include "engine/ext_decl.h"
-#include "game/game.h"
-#include "api/python/python.h"
 #define STB_IMAGE_IMPLEMENTATION
-#include <stb_image.h>
-#include <core/camera.h>
+#include <iostream>
+#include "engine/shader.h"
+#include "engine/buffers.h"
+#include "ext_decl.h"
+#include "game/utils/controls.h"
+#include "game/utils/time.h"
+#include "engine/camera.h"
+#include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
-// VARIABLES + FUNCTIONS
-preLoad preLoad;
+Vertex firstTriangle[] = {
+        Vertex{0.0f, 0.0f, 0.0f},
+        Vertex{1.0f, 0.0f, 0.0f},
+        Vertex{1.0f, 0.0f, 1.0f},
+        Vertex{0.0f, 0.0f, 1.0f}
+};
+
+GLuint firstTriangleIndices[] = {
+        0, 1, 2,
+        0, 3, 2
+};
 
 int main(){
-    // INITIALIZE GAME
-
-    std::cout << "Hello World!" << std::endl;
-    std::cout << "[INFO] Trying my best to load the game... 50:50 chance!" << std::endl;
-
-    glewExperimental = true;
-
+    glDisable(GL_DEPTH_TEST);
     glfwInit();
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-    glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
-    std::cout << "[INFO] All the window hints and contexts configured, now make ready for the magic moment of the (hopefully) appearing window!" << std::endl;
-
-    createWindow();
-    getAttributes();
-    glViewport(0, 0, screenWidth, screenHeight);
-    glfwSetFramebufferSizeCallback(mainWindow, framebuffer_size_callback);
-
-    std::cout << "[INFO] This are you're hardware and driver information, which are relevant to OpenGl:" << std::endl;
-    std::cout <<  "[INFO] " << glGetString(GL_VERSION) << std::endl;
-
-    GLenum initError;
-    if((initError = glewInit()) != GLEW_OK){
-        std::cerr << "[ERROR] A fatal occured while initializing OpenGL(GLEW). Please report this crash-report to Prometheus05!" << std::endl;
-        std::cerr << "[ERROR] " << glewGetErrorString(initError) << std::endl;
-        std::cerr << "[ERROR] This wasn't supposed to happen!" << std::endl;
+    GLFWwindow* window = glfwCreateWindow(800, 600, "Barbaria", glfwGetPrimaryMonitor(), NULL);
+    if(window == NULL){
+        std::cout << "Failed to create GLFW window" << std::endl;
+        glfwTerminate();
     }
+    glfwMakeContextCurrent(window);
+    glewExperimental = true;
+    glewInit();
+    glViewport(0, 0, 800, 600);
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
-    glEnable(GL_DEPTH_TEST);
+    glm::mat4 trans = glm::mat4(1.0f);
 
-    Camera defaultBarbariaCamera;
+    glm::mat4 projectionMatrix = glm::perspective(glm::radians(45.0f), (float)800/(float)600, 0.0f, 100.0f);
 
-    preLoad.printMods();
-    preLoad.loadTextures();
+    Shader mainShader("/home/janek/CLionProjects/Barbaria/shaders/VertexShader.glsl", "/home/janek/CLionProjects/Barbaria/shaders/FragmentShader.glsl");
+    mainShader.bind();
 
-    getAttributes();
+    //trans = glm::rotate(trans, glm::radians(-55.0f), glm::vec3(1.0, 0.0, 0.0));
+    trans = glm::translate(trans, glm::vec3(1.0f, 1.0f, 1.0f));
 
-    // GAME MAIN LOOP
-    while(!gameShallClose){
+    VertexBuffer mainVertex(firstTriangle, 4);
+    IndexBuffer mainIndex(firstTriangleIndices, 6);
 
-        // Clear screen -> background e.g.: sky
-        glClearColor(skyColorR, skyColorG, skyColorB, skyColorAlpha);
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    glfwSetCursorPosCallback(window, mouse_callback);
+
+    cameraView = glm::translate(cameraView, glm::vec3(0.0f, 0.0f, -3.0f));
+
+    while(!glfwWindowShouldClose(window)){
+        currentFrame = glfwGetTime();
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-        //Process Inputs and signals and every thing what has to be processed
-        processInput(mainWindow);
-
-        //Update CameraView to calcute the Model Matrices
-        defaultBarbariaCamera.updateCamera(cameraPosition, cameraFront, cameraUp);
-
-        //Calculate Tick duration for same speed on every PC
-        calculateTickDuration();
-        FPSUpdate();
-
-        // Gather everything to draw
-        // Bind, Unbind, Draw!
-
-        //Swap Buffers -> less flickering! And collect events
-        glfwSwapBuffers(mainWindow);
+        unsigned int transformLoc = glGetUniformLocation(mainShader.shaderID, "transform");
+        glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
+        unsigned int viewLoc = glGetUniformLocation(mainShader.shaderID, "view");
+        glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(cameraView));
+        unsigned int projectionLoc = glGetUniformLocation(mainShader.shaderID, "projection");
+        glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projectionMatrix));
+        mainVertex.vBind();
+        mainIndex.iBind();
+        processInput(window);
+        cameraView = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUP);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        glfwSwapBuffers(window);
         glfwPollEvents();
     }
-
-    // END
-    // Run post scripts, final log and kill window
     glfwTerminate();
 }
