@@ -1,5 +1,5 @@
 #include "controls.h"
-
+//new
 float lastX = 400;
 float lastY = 300;
 float yaw = 0.0f;

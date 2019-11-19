@@ -1,7 +1,7 @@
 #include "camera.h"
 
 glm::mat4 cameraView(1.0f);
-
+//new
 Camera::Camera() {
     cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
     cameraDirection = glm::normalize(cameraPosition - cameraTarget);

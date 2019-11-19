@@ -11,6 +11,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <filesystem>
+//new
 
 Vertex firstTriangle[] = {
         Vertex{0.0f, 0.0f, 0.0f},

@@ -1,5 +1,5 @@
 #include "buffers.h"
-
+//new
 VertexBuffer::VertexBuffer(Vertex *data, int numVertices){
     glGenVertexArrays(1, &vertexArrayObject);
     glBindVertexArray(vertexArrayObject);

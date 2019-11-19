@@ -3,7 +3,7 @@
 #include <stddef.h>
 #include <stb_image.h>
 #include <iostream>
-
+//new
 struct Vertex{
     float x;
     float y;
