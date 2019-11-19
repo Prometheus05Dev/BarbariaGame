@@ -88,10 +88,40 @@
 		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/buffers.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/camera.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/camera.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
 		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/shader.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
 		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/shader.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/ext_decl.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/ext_decl.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/utils/controls.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/utils/controls.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/utils/time.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/utils/time.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/windows/gamewindow.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/windows/gamewindow.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
 		<Unit filename="/home/janek/CLionProjects/Barbaria/main.cpp">

@@ -4,10 +4,27 @@
 CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.o: ../engine/buffers.cpp
 CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.o: ../engine/buffers.h
 
+CMakeFiles/BarbariaCLion.dir/engine/camera.cpp.o: ../engine/camera.cpp
+CMakeFiles/BarbariaCLion.dir/engine/camera.cpp.o: ../engine/camera.h
+
 CMakeFiles/BarbariaCLion.dir/engine/shader.cpp.o: ../engine/shader.cpp
 CMakeFiles/BarbariaCLion.dir/engine/shader.cpp.o: ../engine/shader.h
 
+CMakeFiles/BarbariaCLion.dir/ext_decl.cpp.o: ../ext_decl.cpp
+CMakeFiles/BarbariaCLion.dir/ext_decl.cpp.o: ../ext_decl.h
+
+CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../game/utils/controls.cpp
+CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../game/utils/controls.h
+CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o: ../game/utils/time.h
+
+CMakeFiles/BarbariaCLion.dir/game/utils/time.cpp.o: ../game/utils/time.cpp
+CMakeFiles/BarbariaCLion.dir/game/utils/time.cpp.o: ../game/utils/time.h
+
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/buffers.h
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/camera.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../engine/shader.h
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../ext_decl.h
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/controls.h
+CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../game/utils/time.h
 CMakeFiles/BarbariaCLion.dir/main.cpp.o: ../main.cpp
 

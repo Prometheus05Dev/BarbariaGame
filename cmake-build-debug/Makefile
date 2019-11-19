@@ -150,6 +150,33 @@ engine/buffers.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.s
 .PHONY : engine/buffers.cpp.s
 
+engine/camera.o: engine/camera.cpp.o
+
+.PHONY : engine/camera.o
+
+# target to build an object file
+engine/camera.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/camera.cpp.o
+.PHONY : engine/camera.cpp.o
+
+engine/camera.i: engine/camera.cpp.i
+
+.PHONY : engine/camera.i
+
+# target to preprocess a source file
+engine/camera.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/camera.cpp.i
+.PHONY : engine/camera.cpp.i
+
+engine/camera.s: engine/camera.cpp.s
+
+.PHONY : engine/camera.s
+
+# target to generate assembly for a file
+engine/camera.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/camera.cpp.s
+.PHONY : engine/camera.cpp.s
+
 engine/shader.o: engine/shader.cpp.o
 
 .PHONY : engine/shader.o
@@ -176,6 +203,114 @@ engine/shader.s: engine/shader.cpp.s
 engine/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/shader.cpp.s
 .PHONY : engine/shader.cpp.s
+
+ext_decl.o: ext_decl.cpp.o
+
+.PHONY : ext_decl.o
+
+# target to build an object file
+ext_decl.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/ext_decl.cpp.o
+.PHONY : ext_decl.cpp.o
+
+ext_decl.i: ext_decl.cpp.i
+
+.PHONY : ext_decl.i
+
+# target to preprocess a source file
+ext_decl.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/ext_decl.cpp.i
+.PHONY : ext_decl.cpp.i
+
+ext_decl.s: ext_decl.cpp.s
+
+.PHONY : ext_decl.s
+
+# target to generate assembly for a file
+ext_decl.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/ext_decl.cpp.s
+.PHONY : ext_decl.cpp.s
+
+game/utils/controls.o: game/utils/controls.cpp.o
+
+.PHONY : game/utils/controls.o
+
+# target to build an object file
+game/utils/controls.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.o
+.PHONY : game/utils/controls.cpp.o
+
+game/utils/controls.i: game/utils/controls.cpp.i
+
+.PHONY : game/utils/controls.i
+
+# target to preprocess a source file
+game/utils/controls.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.i
+.PHONY : game/utils/controls.cpp.i
+
+game/utils/controls.s: game/utils/controls.cpp.s
+
+.PHONY : game/utils/controls.s
+
+# target to generate assembly for a file
+game/utils/controls.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/controls.cpp.s
+.PHONY : game/utils/controls.cpp.s
+
+game/utils/time.o: game/utils/time.cpp.o
+
+.PHONY : game/utils/time.o
+
+# target to build an object file
+game/utils/time.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/time.cpp.o
+.PHONY : game/utils/time.cpp.o
+
+game/utils/time.i: game/utils/time.cpp.i
+
+.PHONY : game/utils/time.i
+
+# target to preprocess a source file
+game/utils/time.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/time.cpp.i
+.PHONY : game/utils/time.cpp.i
+
+game/utils/time.s: game/utils/time.cpp.s
+
+.PHONY : game/utils/time.s
+
+# target to generate assembly for a file
+game/utils/time.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/utils/time.cpp.s
+.PHONY : game/utils/time.cpp.s
+
+game/windows/gamewindow.o: game/windows/gamewindow.cpp.o
+
+.PHONY : game/windows/gamewindow.o
+
+# target to build an object file
+game/windows/gamewindow.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/windows/gamewindow.cpp.o
+.PHONY : game/windows/gamewindow.cpp.o
+
+game/windows/gamewindow.i: game/windows/gamewindow.cpp.i
+
+.PHONY : game/windows/gamewindow.i
+
+# target to preprocess a source file
+game/windows/gamewindow.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/windows/gamewindow.cpp.i
+.PHONY : game/windows/gamewindow.cpp.i
+
+game/windows/gamewindow.s: game/windows/gamewindow.cpp.s
+
+.PHONY : game/windows/gamewindow.s
+
+# target to generate assembly for a file
+game/windows/gamewindow.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/game/windows/gamewindow.cpp.s
+.PHONY : game/windows/gamewindow.cpp.s
 
 main.o: main.cpp.o
 
@@ -216,9 +351,24 @@ help:
 	@echo "... engine/buffers.o"
 	@echo "... engine/buffers.i"
 	@echo "... engine/buffers.s"
+	@echo "... engine/camera.o"
+	@echo "... engine/camera.i"
+	@echo "... engine/camera.s"
 	@echo "... engine/shader.o"
 	@echo "... engine/shader.i"
 	@echo "... engine/shader.s"
+	@echo "... ext_decl.o"
+	@echo "... ext_decl.i"
+	@echo "... ext_decl.s"
+	@echo "... game/utils/controls.o"
+	@echo "... game/utils/controls.i"
+	@echo "... game/utils/controls.s"
+	@echo "... game/utils/time.o"
+	@echo "... game/utils/time.i"
+	@echo "... game/utils/time.s"
+	@echo "... game/windows/gamewindow.o"
+	@echo "... game/windows/gamewindow.i"
+	@echo "... game/windows/gamewindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
