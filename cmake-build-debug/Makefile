@@ -123,86 +123,113 @@ BarbariaCLion/fast:
 	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/build
 .PHONY : BarbariaCLion/fast
 
-engine/buffers.o: engine/buffers.cpp.o
+engine/graphics/buffers.o: engine/graphics/buffers.cpp.o
 
-.PHONY : engine/buffers.o
-
-# target to build an object file
-engine/buffers.cpp.o:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.o
-.PHONY : engine/buffers.cpp.o
-
-engine/buffers.i: engine/buffers.cpp.i
-
-.PHONY : engine/buffers.i
-
-# target to preprocess a source file
-engine/buffers.cpp.i:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.i
-.PHONY : engine/buffers.cpp.i
-
-engine/buffers.s: engine/buffers.cpp.s
-
-.PHONY : engine/buffers.s
-
-# target to generate assembly for a file
-engine/buffers.cpp.s:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/buffers.cpp.s
-.PHONY : engine/buffers.cpp.s
-
-engine/camera.o: engine/camera.cpp.o
-
-.PHONY : engine/camera.o
+.PHONY : engine/graphics/buffers.o
 
 # target to build an object file
-engine/camera.cpp.o:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/camera.cpp.o
-.PHONY : engine/camera.cpp.o
+engine/graphics/buffers.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/buffers.cpp.o
+.PHONY : engine/graphics/buffers.cpp.o
 
-engine/camera.i: engine/camera.cpp.i
+engine/graphics/buffers.i: engine/graphics/buffers.cpp.i
 
-.PHONY : engine/camera.i
+.PHONY : engine/graphics/buffers.i
 
 # target to preprocess a source file
-engine/camera.cpp.i:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/camera.cpp.i
-.PHONY : engine/camera.cpp.i
+engine/graphics/buffers.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/buffers.cpp.i
+.PHONY : engine/graphics/buffers.cpp.i
 
-engine/camera.s: engine/camera.cpp.s
+engine/graphics/buffers.s: engine/graphics/buffers.cpp.s
 
-.PHONY : engine/camera.s
+.PHONY : engine/graphics/buffers.s
 
 # target to generate assembly for a file
-engine/camera.cpp.s:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/camera.cpp.s
-.PHONY : engine/camera.cpp.s
+engine/graphics/buffers.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/buffers.cpp.s
+.PHONY : engine/graphics/buffers.cpp.s
 
-engine/shader.o: engine/shader.cpp.o
+engine/graphics/camera.o: engine/graphics/camera.cpp.o
 
-.PHONY : engine/shader.o
+.PHONY : engine/graphics/camera.o
 
 # target to build an object file
-engine/shader.cpp.o:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/shader.cpp.o
-.PHONY : engine/shader.cpp.o
+engine/graphics/camera.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/camera.cpp.o
+.PHONY : engine/graphics/camera.cpp.o
 
-engine/shader.i: engine/shader.cpp.i
+engine/graphics/camera.i: engine/graphics/camera.cpp.i
 
-.PHONY : engine/shader.i
+.PHONY : engine/graphics/camera.i
 
 # target to preprocess a source file
-engine/shader.cpp.i:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/shader.cpp.i
-.PHONY : engine/shader.cpp.i
+engine/graphics/camera.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/camera.cpp.i
+.PHONY : engine/graphics/camera.cpp.i
 
-engine/shader.s: engine/shader.cpp.s
+engine/graphics/camera.s: engine/graphics/camera.cpp.s
 
-.PHONY : engine/shader.s
+.PHONY : engine/graphics/camera.s
 
 # target to generate assembly for a file
-engine/shader.cpp.s:
-	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/shader.cpp.s
-.PHONY : engine/shader.cpp.s
+engine/graphics/camera.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/camera.cpp.s
+.PHONY : engine/graphics/camera.cpp.s
+
+engine/graphics/model.o: engine/graphics/model.cpp.o
+
+.PHONY : engine/graphics/model.o
+
+# target to build an object file
+engine/graphics/model.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.o
+.PHONY : engine/graphics/model.cpp.o
+
+engine/graphics/model.i: engine/graphics/model.cpp.i
+
+.PHONY : engine/graphics/model.i
+
+# target to preprocess a source file
+engine/graphics/model.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.i
+.PHONY : engine/graphics/model.cpp.i
+
+engine/graphics/model.s: engine/graphics/model.cpp.s
+
+.PHONY : engine/graphics/model.s
+
+# target to generate assembly for a file
+engine/graphics/model.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/model.cpp.s
+.PHONY : engine/graphics/model.cpp.s
+
+engine/graphics/shader.o: engine/graphics/shader.cpp.o
+
+.PHONY : engine/graphics/shader.o
+
+# target to build an object file
+engine/graphics/shader.cpp.o:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/shader.cpp.o
+.PHONY : engine/graphics/shader.cpp.o
+
+engine/graphics/shader.i: engine/graphics/shader.cpp.i
+
+.PHONY : engine/graphics/shader.i
+
+# target to preprocess a source file
+engine/graphics/shader.cpp.i:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/shader.cpp.i
+.PHONY : engine/graphics/shader.cpp.i
+
+engine/graphics/shader.s: engine/graphics/shader.cpp.s
+
+.PHONY : engine/graphics/shader.s
+
+# target to generate assembly for a file
+engine/graphics/shader.cpp.s:
+	$(MAKE) -f CMakeFiles/BarbariaCLion.dir/build.make CMakeFiles/BarbariaCLion.dir/engine/graphics/shader.cpp.s
+.PHONY : engine/graphics/shader.cpp.s
 
 ext_decl.o: ext_decl.cpp.o
 
@@ -348,15 +375,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... BarbariaCLion"
 	@echo "... edit_cache"
-	@echo "... engine/buffers.o"
-	@echo "... engine/buffers.i"
-	@echo "... engine/buffers.s"
-	@echo "... engine/camera.o"
-	@echo "... engine/camera.i"
-	@echo "... engine/camera.s"
-	@echo "... engine/shader.o"
-	@echo "... engine/shader.i"
-	@echo "... engine/shader.s"
+	@echo "... engine/graphics/buffers.o"
+	@echo "... engine/graphics/buffers.i"
+	@echo "... engine/graphics/buffers.s"
+	@echo "... engine/graphics/camera.o"
+	@echo "... engine/graphics/camera.i"
+	@echo "... engine/graphics/camera.s"
+	@echo "... engine/graphics/model.o"
+	@echo "... engine/graphics/model.i"
+	@echo "... engine/graphics/model.s"
+	@echo "... engine/graphics/shader.o"
+	@echo "... engine/graphics/shader.i"
+	@echo "... engine/graphics/shader.s"
 	@echo "... ext_decl.o"
 	@echo "... ext_decl.i"
 	@echo "... ext_decl.s"

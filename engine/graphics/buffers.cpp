@@ -1,5 +1,5 @@
 #include "buffers.h"
-//new
+
 VertexBuffer::VertexBuffer(Vertex *data, int numVertices){
     glGenVertexArrays(1, &vertexArrayObject);
     glBindVertexArray(vertexArrayObject);
@@ -8,9 +8,20 @@ VertexBuffer::VertexBuffer(Vertex *data, int numVertices){
     glBufferData(GL_ARRAY_BUFFER, numVertices * sizeof(Vertex), data, GL_STATIC_DRAW);
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)offsetof(struct Vertex,x));
-    /*glEnableVertexAttribArray(1);
-    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)offsetof(struct Vertex,textureX)); */
 }
+
+VertexBuffer::VertexBuffer(VertexWT *data, int numVertices) {
+    glGenVertexArrays(1, &vertexArrayObject);
+    glBindVertexArray(vertexArrayObject);
+    glGenBuffers(1, &bufferID);
+    glBindBuffer(GL_ARRAY_BUFFER, bufferID);
+    glBufferData(GL_ARRAY_BUFFER, numVertices * sizeof(VertexWT), data, GL_STATIC_DRAW);
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(VertexWT), (void*)offsetof(struct VertexWT,x));
+    glEnableVertexAttribArray(1);
+    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(VertexWT), (void*)offsetof(struct VertexWT,textureX));
+}
+
 VertexBuffer::~VertexBuffer(){
     glDeleteBuffers(1, &bufferID);
 }

@@ -82,22 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/buffers.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/buffers.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/buffers.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/buffers.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/camera.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/camera.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/camera.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/camera.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/shader.cpp">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/model.cpp">
 			<Option target="BarbariaCLion"/>
 		</Unit>
-		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/shader.h">
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/model.h">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp">
+			<Option target="BarbariaCLion"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/shader.h">
 			<Option target="BarbariaCLion"/>
 		</Unit>
 		<Unit filename="/home/janek/CLionProjects/Barbaria/ext_decl.cpp">

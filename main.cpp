@@ -2,12 +2,12 @@
 #include <GLFW/glfw3.h>
 #define STB_IMAGE_IMPLEMENTATION
 #include <iostream>
-#include "engine/shader.h"
-#include "engine/buffers.h"
+#include "engine/graphics/shader.h"
+#include "engine/graphics/buffers.h"
 #include "ext_decl.h"
 #include "game/utils/controls.h"
 #include "game/utils/time.h"
-#include "engine/camera.h"
+#include "engine/graphics/camera.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <filesystem>

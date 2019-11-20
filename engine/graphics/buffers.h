@@ -3,16 +3,25 @@
 #include <stddef.h>
 #include <stb_image.h>
 #include <iostream>
-//new
+
 struct Vertex{
     float x;
     float y;
     float z;
 };
 
+struct VertexWT{
+    float x;
+    float y;
+    float z;
+    float textureX;
+    float textureY;
+};
+
 class VertexBuffer {
 public:
-    VertexBuffer(Vertex* data, int numVertices);
+    VertexBuffer(Vertex *data, int numVertices);
+    VertexBuffer(VertexWT *data, int numVertices); //Constructor for Vertices with Texture
     virtual ~VertexBuffer();
     void vBind();
     void vUnbind();
