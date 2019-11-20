@@ -26,8 +26,11 @@ GLuint firstTriangleIndices[] = {
 };
 
 int main(){
-    glDisable(GL_DEPTH_TEST);
+    glEnable(GL_DEPTH_TEST);
     glfwInit();
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     GLFWwindow* window = glfwCreateWindow(800, 600, "Barbaria", glfwGetPrimaryMonitor(), NULL);
     if(window == NULL){
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -38,6 +41,8 @@ int main(){
     glewInit();
     glViewport(0, 0, 800, 600);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+
+    std::cout << glGetString(GL_VERSION) << std::endl;
 
     glm::mat4 trans = glm::mat4(1.0f);
 
