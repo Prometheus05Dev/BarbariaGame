@@ -1,4 +1,4 @@
-/home/janek/Downloads/Minecraft/Mods/1.12.2/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/janek/CLionProjects/Barbaria
+/home/janek/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/janek/CLionProjects/Barbaria
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/janek/CLionProjects/Barbaria/cmake-build-debug

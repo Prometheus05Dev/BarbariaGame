@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BarbariaCLion" targetName="BarbariaCLion" />
+      <config projectName="Barbaria" targetName="Barbaria" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,16 +11,54 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="">
+    <list default="true" id="11de1042-b478-48e2-ad41-da7fd8a2ad69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/loader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/loader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/generation/chunk_generator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/generation/chunk_generator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/generation/climate_zones.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/generation/climate_zones.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/world.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/world.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/world/block.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/world/block.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/world/chunk.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/world/world/chunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/engine/shader.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/engine/graphics/model.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/engine/graphics/model.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/buffers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/buffers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/camera.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/camera.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/model.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/model.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/shader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/shader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_decl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_decl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/controls.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/controls.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/time.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/utils/time.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/windows/gamewindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/windows/gamewindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,82 +68,27 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="GLSL Shader" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Rebase.Settings">
-    <option name="ONTO" value="refs/remotes/master/master" />
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="testing" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1Rn810MC6QBDGLhQhYWEAEK6DIl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectId" id="1XlBDewnnDjmXyA0ltm9HOpff5W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/engine/graphics" />
-      <recent name="$PROJECT_DIR$/cmake-build-debug" />
-      <recent name="$PROJECT_DIR$/game/utils" />
-      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
-      <recent name="$PROJECT_DIR$/engine/core" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
-      <recent name="$PROJECT_DIR$/cmake-build-debug" />
-      <recent name="$PROJECT_DIR$/engine" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
-    <configuration name="BarbariaCLion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BarbariaCLion" TARGET_NAME="BarbariaCLion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BarbariaCLion" RUN_TARGET_NAME="BarbariaCLion">
+    <configuration name="Barbaria" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Barbaria" TARGET_NAME="Barbaria" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Barbaria" RUN_TARGET_NAME="Barbaria">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -119,263 +99,64 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0aa9b7b0-2b76-43d7-972f-7014ad261cda" name="Default Changelist" comment="" />
-      <created>1570291280987</created>
+      <changelist id="11de1042-b478-48e2-ad41-da7fd8a2ad69" name="Default Changelist" comment="" />
+      <created>1581610682786</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570291280987</updated>
-      <workItem from="1570291283105" duration="2926000" />
-      <workItem from="1570368259309" duration="2714000" />
-      <workItem from="1570467087270" duration="223000" />
-      <workItem from="1570545416577" duration="1973000" />
-      <workItem from="1570558363977" duration="3044000" />
-      <workItem from="1570640496372" duration="5277000" />
-      <workItem from="1570715886188" duration="4505000" />
-      <workItem from="1572377490354" duration="508000" />
-      <workItem from="1572378385219" duration="2236000" />
-      <workItem from="1572423206239" duration="2601000" />
-      <workItem from="1572426302426" duration="2869000" />
-      <workItem from="1572623470347" duration="38000" />
-      <workItem from="1572623535938" duration="15128000" />
-      <workItem from="1572682896562" duration="6270000" />
-      <workItem from="1572708894294" duration="2944000" />
-      <workItem from="1572712247913" duration="2526000" />
-      <workItem from="1572782481923" duration="83000" />
-      <workItem from="1572782581160" duration="4256000" />
-      <workItem from="1573063721966" duration="1017000" />
-      <workItem from="1573064757000" duration="4936000" />
-      <workItem from="1573142764993" duration="599000" />
-      <workItem from="1573314120663" duration="6191000" />
-      <workItem from="1573328973863" duration="1442000" />
-      <workItem from="1573390858175" duration="8232000" />
-      <workItem from="1573832311363" duration="3347000" />
-      <workItem from="1573925621924" duration="14000" />
-      <workItem from="1573989026543" duration="6663000" />
-      <workItem from="1574097238055" duration="4538000" />
-      <workItem from="1574102015027" duration="3223000" />
-      <workItem from="1574174172189" duration="6354000" />
-      <workItem from="1574260345096" duration="3082000" />
+      <updated>1581610682786</updated>
+      <workItem from="1581610688730" duration="2101000" />
+      <workItem from="1581684413215" duration="7955000" />
+      <workItem from="1581692870269" duration="427000" />
     </task>
-    <task id="LOCAL-00001" summary="First Structure">
-      <created>1570368613453</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1570368613453</updated>
-    </task>
-    <task id="LOCAL-00002" summary="First Structure">
-      <created>1570369236336</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1570369236336</updated>
-    </task>
-    <task id="LOCAL-00003" summary="First Structure">
-      <created>1570369236608</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1570369236608</updated>
-    </task>
-    <task id="LOCAL-00004" summary="First Commit">
-      <created>1570370754459</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1570370754459</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Second Commit">
-      <created>1570370931508</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1570370931508</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Structure of the project is completed!">
-      <created>1570547301988</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1570547301988</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added Buffers, which transfer data from the CPU to the GPU. Currently supported: VertexBuffer, IndexBuffer, TextureBuffer!">
-      <created>1570643892134</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1570643892134</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Starting to load the game textures, edit relative path! Maybe Game Installation folder?">
-      <created>1570645758331</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1570645758331</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Started to integrate the basic Python API!">
-      <created>1572427673197</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1572427673197</updated>
-    </task>
-    <task id="LOCAL-00010" summary="First successful run of python function! May the embedding start!">
-      <created>1572427846717</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1572427846717</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Started to implement the Model and Block Class. Nothing hardware-near &#10;implemented yet. Nothing dangerous at all, every graphics card, driver&#10;and compiler should be able to accept it.">
-      <created>1572689168414</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1572689168414</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Prepared the Model class a little bit more.">
-      <created>1572711820120</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1572711820120</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added few hardware-near things but nothing called yet. But - it compiles!">
-      <created>1572714582218</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1572714582218</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues.">
-      <created>1572785296805</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1572785296805</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues">
-      <created>1572785801050</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1572785801050</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Added FPS Counter for same speed on every device, added a game loop&#10;and started to write the Chunk class. Seperated into Block/GrowingBlock/&#10;ActionBlock.">
-      <created>1573068376397</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1573068376397</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Added the Chunk-&gt; read function which generates the indexBufferArray, &#10;vertexBufferArray, the texture coordinates and the terrain Model for&#10;this chunk. Pushes the data back to the model to let the buffers be&#10;generated.">
-      <created>1573319693149</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1573319693149</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Rewriting some of the code from scratch due to unsolveable issues :(">
-      <created>1573995772151</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1573995772151</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Removed Hard-Coded Shader Paths.">
-      <created>1574190553250</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1574190553250</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Removed Hard-Coded Shader Paths.">
-      <created>1574190636926</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1574190636926</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Removed Hard-Coded Shader Paths.">
-      <created>1574190867367</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1574190867367</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Fixed a bug for the OpenGL not supported on new graphic cards.&#10;Not included dual graphic cards yet. Following soon ;)">
-      <created>1574262151431</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1574262151431</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Introduced a Vertex Structure for vertices with textures and&#10;started to write the Model class">
-      <created>1574263053965</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1574263053965</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="First Structure" />
-    <MESSAGE value="First Commit" />
-    <MESSAGE value="Second Commit" />
-    <MESSAGE value="Structuring... Part 2!" />
-    <MESSAGE value="Structure of the project is completed!" />
-    <MESSAGE value="First window created with GLFW, should work on every PC" />
-    <MESSAGE value="Added Buffers, which transfer data from the CPU to the GPU. Currently supported: VertexBuffer, IndexBuffer, TextureBuffer!" />
-    <MESSAGE value="Starting to load the game textures, edit relative path! Maybe Game Installation folder?" />
-    <MESSAGE value="Started to integrate the basic Python API!" />
-    <MESSAGE value="First successful run of python function! May the embedding start!" />
-    <MESSAGE value="Started to implement the Model and Block Class. Nothing hardware-near &#10;implemented yet. Nothing dangerous at all, every graphics card, driver&#10;and compiler should be able to accept it." />
-    <MESSAGE value="Prepared the Model class a little bit more." />
-    <MESSAGE value="Added few hardware-near things but nothing called yet. But - it compiles!" />
-    <MESSAGE value="Implemented Camera Class, fixed hardcoded screen, wrote default shaders,&#10;implemented basic movement system. No compile errors, no runtime&#10;issues." />
-    <MESSAGE value="Implemented the camera update into the main, calculate delta Time to have&#10;the same game speed on every PC. No compile errors, no runtime issues" />
-    <MESSAGE value="Added FPS Counter for same speed on every device, added a game loop&#10;and started to write the Chunk class. Seperated into Block/GrowingBlock/&#10;ActionBlock." />
-    <MESSAGE value="Added the Chunk-&gt; read function which generates the indexBufferArray, &#10;vertexBufferArray, the texture coordinates and the terrain Model for&#10;this chunk. Pushes the data back to the model to let the buffers be&#10;generated." />
-    <MESSAGE value="Rewriting some of the code from scratch due to unsolveable issues :(" />
-    <MESSAGE value="Removed Hard-Coded Shader Paths." />
-    <MESSAGE value="Fixed a bug for the OpenGL not supported on new graphic cards.&#10;Not included dual graphic cards yet. Following soon ;)" />
-    <MESSAGE value="Introduced a Vertex Structure for vertices with textures and&#10;started to write the Model class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduced a Vertex Structure for vertices with textures and&#10;started to write the Model class" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="exampleChunk.indices" />
-        <watch expression="exampleChunk.indices" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand>
-      <path>
-        <item name="Barbaria" type="b2602c69:ProjectViewProjectNode" />
-        <item name="Barbaria" type="462c0819:PsiDirectoryNode" />
-      </path>
-    </expand>
-    <select />
+  <component name="WindowStateProjectService">
+    <state width="1876" height="222" key="GridCell.Tab.0.bottom" timestamp="1581693146521">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="222" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146521" />
+    <state width="1876" height="222" key="GridCell.Tab.0.center" timestamp="1581693146520">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="222" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146520" />
+    <state width="1876" height="222" key="GridCell.Tab.0.left" timestamp="1581693146520">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="222" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146520" />
+    <state width="1876" height="222" key="GridCell.Tab.0.right" timestamp="1581693146521">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="222" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146521" />
+    <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581692370467">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="345" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370467" />
+    <state width="1876" height="345" key="GridCell.Tab.1.center" timestamp="1581692370466">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="345" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370466" />
+    <state width="1876" height="345" key="GridCell.Tab.1.left" timestamp="1581692370466">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="345" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370466" />
+    <state width="1876" height="345" key="GridCell.Tab.1.right" timestamp="1581692370466">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370466" />
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581693308499">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581693308499" />
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581692870490">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581692870490" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1581687499790">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1581687499790" />
   </component>
 </project>

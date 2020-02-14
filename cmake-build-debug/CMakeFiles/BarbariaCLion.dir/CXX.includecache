@@ -56,6 +56,10 @@ fstream
 iostream
 -
 
+/home/janek/CLionProjects/Barbaria/ext_decl.cpp
+ext_decl.h
+/home/janek/CLionProjects/Barbaria/ext_decl.h
+
 /home/janek/CLionProjects/Barbaria/ext_decl.h
 glm/glm.hpp
 -
@@ -63,6 +67,10 @@ glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
 -
+
+/home/janek/CLionProjects/Barbaria/game/utils/controls.cpp
+controls.h
+/home/janek/CLionProjects/Barbaria/game/utils/controls.h
 
 /home/janek/CLionProjects/Barbaria/game/utils/controls.h
 GLFW/glfw3.h
@@ -74,7 +82,17 @@ glm/gtc/matrix_transform.hpp
 time.h
 /home/janek/CLionProjects/Barbaria/game/utils/time.h
 
+/home/janek/CLionProjects/Barbaria/game/utils/time.cpp
+time.h
 /home/janek/CLionProjects/Barbaria/game/utils/time.h
+
+/home/janek/CLionProjects/Barbaria/game/utils/time.h
+
+/home/janek/CLionProjects/Barbaria/game/windows/gamewindow.cpp
+gamewindow.h
+/home/janek/CLionProjects/Barbaria/game/windows/gamewindow.h
+
+/home/janek/CLionProjects/Barbaria/game/windows/gamewindow.h
 
 /home/janek/CLionProjects/Barbaria/main.cpp
 GL/glew.h

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
-project(BarbariaCLion)
+project(Barbaria)
+
 set(CMAKE_CXX_STANDARD 17)
-add_compile_options("-lGL -lGLEW -lglfw -ldl -lX11 -lpthread -lXrandr -lXi")
-link_libraries("-lGL -lGLEW -lglfw -ldl -lX11 -lpthread -lXrandr -lXi")
-add_executable(BarbariaCLion main.cpp engine/graphics/buffers.cpp engine/graphics/shader.cpp engine/graphics/camera.cpp ext_decl.cpp game/utils/controls.cpp game/utils/time.cpp game/windows/gamewindow.cpp engine/graphics/model.cpp engine/graphics/model.h)
+
+add_executable(Barbaria main.cpp game/world/world.cpp game/world/generation/climate_zones.cpp game/world/generation/climate_zones.h game/world/generation/chunk_generator.cpp game/world/generation/chunk_generator.h game/world/world/chunk.cpp game/world/world/chunk.h game/world/world/block.cpp game/world/world/block.h api/loader.cpp api/loader.h)
