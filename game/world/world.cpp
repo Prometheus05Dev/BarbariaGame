@@ -15,9 +15,8 @@ World::World() {
     Chunk *tempChunk;
     srand(time(nullptr));
     int dist6;
-    for (int x = 0; x <= 1000; x++) {
-        yChunks.clear();
-        for (int y = 0; y <= 1000; y++) {
+    for (int x = 0; x <= 10000; x++) {
+        for (int y = 0; y <= 10000; y++) {
             dist6 = rand()%6;
             if (climateZones[x][y] == 3) {
                 if (dist6 == 3) {
@@ -84,5 +83,6 @@ World::World() {
             yChunks.push_back(*tempChunk);
         }
         worldChunks.push_back(yChunks);
+        yChunks.clear();
     }
 }

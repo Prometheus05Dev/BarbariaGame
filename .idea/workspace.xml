@@ -14,12 +14,10 @@
     <list default="true" id="11de1042-b478-48e2-ad41-da7fd8a2ad69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Barbaria" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Barbaria" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/world/generation/climate_zones.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/generation/climate_zones.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/world/world.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/world/chunk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world/chunk.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <workItem from="1581610688730" duration="2101000" />
       <workItem from="1581684413215" duration="7955000" />
       <workItem from="1581692870269" duration="427000" />
-      <workItem from="1581711828844" duration="4439000" />
+      <workItem from="1581711828844" duration="5062000" />
     </task>
     <task id="LOCAL-00001" summary="reworking the rng (random index instead of reshuffling the whole list), using the pre c++1 rng rand() for the moment (maybe change that later)">
       <created>1581714674653</created>
@@ -88,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581714674653</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="made a probably remarkable change to the world generation, fixed a very severe bug (yChunks was not cleared for each x iteration, thus making it get longer and longer)">
+      <created>1581716566005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581716566005</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,37 +102,38 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reworking the rng (random index instead of reshuffling the whole list)" />
     <MESSAGE value="reworking the rng (random index instead of reshuffling the whole list), using the pre c++1 rng rand() for the moment (maybe change that later)" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworking the rng (random index instead of reshuffling the whole list), using the pre c++1 rng rand() for the moment (maybe change that later)" />
+    <MESSAGE value="made a probably remarkable change to the world generation, fixed a very severe bug (yChunks was not cleared for each x iteration, thus making it get longer and longer)" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a probably remarkable change to the world generation, fixed a very severe bug (yChunks was not cleared for each x iteration, thus making it get longer and longer)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="404" y="194" width="810" height="681" key="#Deployment" timestamp="1581714172115">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="404" y="194" width="810" height="681" key="#Deployment/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581714172115" />
-    <state x="389" y="31" width="1463" height="806" key="CommitChangelistDialog2" timestamp="1581714674053">
+    <state x="163" y="200" width="1463" height="806" key="CommitChangelistDialog2" timestamp="1581716565444">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="389" y="31" width="1463" height="806" key="CommitChangelistDialog2/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581714674053" />
-    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1581716298386">
+    <state x="163" y="200" width="1463" height="806" key="CommitChangelistDialog2/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581716565444" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1581717032599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="222" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146521" />
-    <state width="1878" height="280" key="GridCell.Tab.0.bottom/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581716298386" />
-    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1581716298385">
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581717032599" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1581717032598">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="222" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146520" />
-    <state width="1878" height="280" key="GridCell.Tab.0.center/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581716298385" />
-    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1581716298385">
+    <state width="1878" height="280" key="GridCell.Tab.0.center/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581717032598" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1581717032598">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="222" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146520" />
-    <state width="1878" height="280" key="GridCell.Tab.0.left/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581716298385" />
-    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1581716298385">
+    <state width="1878" height="280" key="GridCell.Tab.0.left/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581717032598" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1581717032598">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="222" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146521" />
-    <state width="1878" height="280" key="GridCell.Tab.0.right/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581716298385" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581717032598" />
     <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581692370467">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -144,10 +150,11 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370466" />
-    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581693308499">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="555" y="268" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581716611318">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581693308499" />
+    <state x="555" y="268" key="Vcs.Push.Dialog.v2/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581716611318" />
     <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581692870490">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
