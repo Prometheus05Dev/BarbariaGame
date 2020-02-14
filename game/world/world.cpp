@@ -15,8 +15,9 @@ World::World() {
     Chunk *tempChunk;
     srand(time(nullptr));
     int dist6;
-    for (int x = 0; x <= 50; x++) {
-        for (int y = 0; y <= 50; y++) {
+    for (int x = 0; x <= 1000; x++) {
+        yChunks.clear();
+        for (int y = 0; y <= 1000; y++) {
             dist6 = rand()%6;
             if (climateZones[x][y] == 3) {
                 if (dist6 == 3) {
@@ -76,8 +77,9 @@ World::World() {
                     tempChunk = new Chunk(mainLoader.extremelyWinteryBiomes[0]);
                 }
             } else {
-                std::cout << "Fatal error! Climate zone not in range. Aborting" << std::endl;
-                exit(-1);
+                std::cout << "[world.cpp]: Fatal error! Climate zone not in range. Aborting" << std::endl;
+                std::cout << "Climate zone is:"+std::to_string(climateZones[x][y]) << std::endl;
+                exit(42);
             }
             yChunks.push_back(*tempChunk);
         }
