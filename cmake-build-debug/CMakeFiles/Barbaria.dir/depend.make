@@ -4,9 +4,6 @@
 CMakeFiles/Barbaria.dir/api/loader.cpp.o: ../api/loader.cpp
 CMakeFiles/Barbaria.dir/api/loader.cpp.o: ../api/loader.h
 
-CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o: ../game/world/generation/chunk_generator.cpp
-CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o: ../game/world/generation/chunk_generator.h
-
 CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o: ../game/world/generation/climate_zones.cpp
 CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o: ../game/world/generation/climate_zones.h
 

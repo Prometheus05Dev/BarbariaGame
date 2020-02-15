@@ -12,52 +12,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11de1042-b478-48e2-ad41-da7fd8a2ad69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/loader.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/loader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/generation/chunk_generator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/generation/chunk_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/generation/climate_zones.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/generation/climate_zones.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/world.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/world.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/world/block.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/world/block.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/world/chunk.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/world/world/chunk.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BarbariaCLion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BarbariaCLion.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Barbaria" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Barbaria" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Barbaria.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Barbaria.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/buffers.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/buffers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/camera.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/camera.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/model.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/model.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/shader.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/graphics/shader.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext_decl.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext_decl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/utils/controls.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/utils/controls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/utils/time.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/utils/time.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/windows/gamewindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/windows/gamewindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/generation/chunk_generator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/generation/chunk_generator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/world/block.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world/block.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/world/block.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world/block.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,54 +82,76 @@
       <updated>1581610682786</updated>
       <workItem from="1581610688730" duration="2101000" />
       <workItem from="1581684413215" duration="7955000" />
-      <workItem from="1581692870269" duration="427000" />
+      <workItem from="1581692870269" duration="753000" />
+      <workItem from="1581705340411" duration="3921000" />
+      <workItem from="1581773975424" duration="652000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed OpenGL code for rewrite, started to write world generation">
+      <created>1581693394083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581693394083</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed OpenGL code for rewrite, started to write world generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed OpenGL code for rewrite, started to write world generation" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="222" key="GridCell.Tab.0.bottom" timestamp="1581693146521">
+    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2" timestamp="1581693393576">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146521" />
-    <state width="1876" height="222" key="GridCell.Tab.0.center" timestamp="1581693146520">
+    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1581693393576" />
+    <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl" timestamp="1581693499495">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146520" />
-    <state width="1876" height="222" key="GridCell.Tab.0.left" timestamp="1581693146520">
+    <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1581693499495" />
+    <state width="1876" height="345" key="GridCell.Tab.0.bottom" timestamp="1581709912229">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146520" />
-    <state width="1876" height="222" key="GridCell.Tab.0.right" timestamp="1581693146521">
+    <state width="1876" height="345" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581709912229" />
+    <state width="1876" height="345" key="GridCell.Tab.0.center" timestamp="1581709912228">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146521" />
-    <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581692370467">
+    <state width="1876" height="345" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581709912228" />
+    <state width="1876" height="345" key="GridCell.Tab.0.left" timestamp="1581709912228">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="345" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370467" />
-    <state width="1876" height="345" key="GridCell.Tab.1.center" timestamp="1581692370466">
+    <state width="1876" height="345" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581709912228" />
+    <state width="1876" height="345" key="GridCell.Tab.0.right" timestamp="1581709912229">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="345" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370466" />
-    <state width="1876" height="345" key="GridCell.Tab.1.left" timestamp="1581692370466">
+    <state width="1876" height="345" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581709912229" />
+    <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581709912239">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="345" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370466" />
-    <state width="1876" height="345" key="GridCell.Tab.1.right" timestamp="1581692370466">
+    <state width="1876" height="345" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581709912239" />
+    <state width="1876" height="345" key="GridCell.Tab.1.center" timestamp="1581709912238">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370466" />
-    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581693308499">
+    <state width="1876" height="345" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581709912238" />
+    <state width="1876" height="345" key="GridCell.Tab.1.left" timestamp="1581709912234">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581693308499" />
-    <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581692870490">
+    <state width="1876" height="345" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581709912234" />
+    <state width="1876" height="345" key="GridCell.Tab.1.right" timestamp="1581709912238">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581692870490" />
+    <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581709912238" />
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581693430078">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581693430078" />
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581793167548">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581793167548" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1581687499790">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

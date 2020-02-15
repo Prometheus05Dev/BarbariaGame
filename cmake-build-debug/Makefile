@@ -150,32 +150,32 @@ api/loader.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/loader.cpp.s
 .PHONY : api/loader.cpp.s
 
-game/world/generation/chunk_generator.o: game/world/generation/chunk_generator.cpp.o
+api/python/python.o: api/python/python.cpp.o
 
-.PHONY : game/world/generation/chunk_generator.o
+.PHONY : api/python/python.o
 
 # target to build an object file
-game/world/generation/chunk_generator.cpp.o:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o
-.PHONY : game/world/generation/chunk_generator.cpp.o
+api/python/python.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/python/python.cpp.o
+.PHONY : api/python/python.cpp.o
 
-game/world/generation/chunk_generator.i: game/world/generation/chunk_generator.cpp.i
+api/python/python.i: api/python/python.cpp.i
 
-.PHONY : game/world/generation/chunk_generator.i
+.PHONY : api/python/python.i
 
 # target to preprocess a source file
-game/world/generation/chunk_generator.cpp.i:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.i
-.PHONY : game/world/generation/chunk_generator.cpp.i
+api/python/python.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/python/python.cpp.i
+.PHONY : api/python/python.cpp.i
 
-game/world/generation/chunk_generator.s: game/world/generation/chunk_generator.cpp.s
+api/python/python.s: api/python/python.cpp.s
 
-.PHONY : game/world/generation/chunk_generator.s
+.PHONY : api/python/python.s
 
 # target to generate assembly for a file
-game/world/generation/chunk_generator.cpp.s:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.s
-.PHONY : game/world/generation/chunk_generator.cpp.s
+api/python/python.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/python/python.cpp.s
+.PHONY : api/python/python.cpp.s
 
 game/world/generation/climate_zones.o: game/world/generation/climate_zones.cpp.o
 
@@ -324,9 +324,9 @@ help:
 	@echo "... api/loader.o"
 	@echo "... api/loader.i"
 	@echo "... api/loader.s"
-	@echo "... game/world/generation/chunk_generator.o"
-	@echo "... game/world/generation/chunk_generator.i"
-	@echo "... game/world/generation/chunk_generator.s"
+	@echo "... api/python/python.o"
+	@echo "... api/python/python.i"
+	@echo "... api/python/python.s"
 	@echo "... game/world/generation/climate_zones.o"
 	@echo "... game/world/generation/climate_zones.i"
 	@echo "... game/world/generation/climate_zones.s"

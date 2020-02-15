@@ -96,22 +96,9 @@ CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.cpp -o CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.s
 
-CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o: CMakeFiles/Barbaria.dir/flags.make
-CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o: ../game/world/generation/chunk_generator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o -c /home/janek/CLionProjects/Barbaria/game/world/generation/chunk_generator.cpp
-
-CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/world/generation/chunk_generator.cpp > CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.i
-
-CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/world/generation/chunk_generator.cpp -o CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.s
-
 CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o: ../game/world/world/chunk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o -c /home/janek/CLionProjects/Barbaria/game/world/world/chunk.cpp
 
 CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.s: cmake_force
 
 CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o: ../game/world/world/block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o -c /home/janek/CLionProjects/Barbaria/game/world/world/block.cpp
 
 CMakeFiles/Barbaria.dir/game/world/world/block.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/Barbaria.dir/game/world/world/block.cpp.s: cmake_force
 
 CMakeFiles/Barbaria.dir/api/loader.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/api/loader.cpp.o: ../api/loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Barbaria.dir/api/loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Barbaria.dir/api/loader.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/api/loader.cpp.o -c /home/janek/CLionProjects/Barbaria/api/loader.cpp
 
 CMakeFiles/Barbaria.dir/api/loader.cpp.i: cmake_force
@@ -148,15 +135,28 @@ CMakeFiles/Barbaria.dir/api/loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/api/loader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/api/loader.cpp -o CMakeFiles/Barbaria.dir/api/loader.cpp.s
 
+CMakeFiles/Barbaria.dir/api/python/python.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/api/python/python.cpp.o: ../api/python/python.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Barbaria.dir/api/python/python.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/api/python/python.cpp.o -c /home/janek/CLionProjects/Barbaria/api/python/python.cpp
+
+CMakeFiles/Barbaria.dir/api/python/python.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/api/python/python.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/api/python/python.cpp > CMakeFiles/Barbaria.dir/api/python/python.cpp.i
+
+CMakeFiles/Barbaria.dir/api/python/python.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/api/python/python.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/api/python/python.cpp -o CMakeFiles/Barbaria.dir/api/python/python.cpp.s
+
 # Object files for target Barbaria
 Barbaria_OBJECTS = \
 "CMakeFiles/Barbaria.dir/main.cpp.o" \
 "CMakeFiles/Barbaria.dir/game/world/world.cpp.o" \
 "CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o" \
-"CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o" \
 "CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o" \
 "CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o" \
-"CMakeFiles/Barbaria.dir/api/loader.cpp.o"
+"CMakeFiles/Barbaria.dir/api/loader.cpp.o" \
+"CMakeFiles/Barbaria.dir/api/python/python.cpp.o"
 
 # External object files for target Barbaria
 Barbaria_EXTERNAL_OBJECTS =
@@ -164,10 +164,10 @@ Barbaria_EXTERNAL_OBJECTS =
 Barbaria: CMakeFiles/Barbaria.dir/main.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/game/world/world.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o
-Barbaria: CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/api/loader.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/api/python/python.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/build.make
 Barbaria: CMakeFiles/Barbaria.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Barbaria"

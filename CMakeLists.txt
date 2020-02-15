@@ -3,4 +3,4 @@ project(Barbaria)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Barbaria main.cpp game/world/world.cpp game/world/generation/climate_zones.cpp game/world/generation/climate_zones.h game/world/generation/chunk_generator.cpp game/world/generation/chunk_generator.h game/world/world/chunk.cpp game/world/world/chunk.h game/world/world/block.cpp game/world/world/block.h api/loader.cpp api/loader.h)
+add_executable(Barbaria main.cpp game/world/world.cpp game/world/generation/climate_zones.cpp game/world/generation/climate_zones.h game/world/world/chunk.cpp game/world/world/chunk.h game/world/world/block.cpp game/world/world/block.h api/loader.cpp api/loader.h api/python/python.cpp api/python/python.h)
