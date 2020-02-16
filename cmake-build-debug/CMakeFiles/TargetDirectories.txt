@@ -1,3 +1,0 @@
-/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir
-/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/edit_cache.dir

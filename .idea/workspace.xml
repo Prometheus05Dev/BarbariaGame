@@ -12,33 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11de1042-b478-48e2-ad41-da7fd8a2ad69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/graphics/object.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/graphics/object.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/graphics/shader.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/graphics/shader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/loader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/api/loader.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/loader.h" beforeDir="false" afterPath="$PROJECT_DIR$/api/loader.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Barbaria" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Barbaria" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Barbaria.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Barbaria.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FragmentShader.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/VertexShader.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/world.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581693394083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added OpenGL stuff">
+      <created>1581862874563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581862874563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,13 +92,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed OpenGL code for rewrite, started to write world generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed OpenGL code for rewrite, started to write world generation" />
+    <MESSAGE value="Added OpenGL stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added OpenGL stuff" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2" timestamp="1581693393576">
+    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2" timestamp="1581862874196">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1581693393576" />
+    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1581862874196" />
     <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl" timestamp="1581693499495">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -151,14 +136,14 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581862397245" />
-    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581693430078">
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581862880518">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581693430078" />
-    <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581793167548">
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581862880518" />
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581877323069">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581793167548" />
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581877323069" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1581687499790">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

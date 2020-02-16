@@ -18,13 +18,12 @@ void processInput(GLFWwindow *window)
 void mouse_callback(GLFWwindow* window, double xpos, double ypos){
 }
 
-
 int main() {
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-    GLFWwindow* gameWindow = glfwCreateWindow(400, 200, "Barbaria",  NULL, NULL);
+    GLFWwindow* gameWindow = glfwCreateWindow(400, 200, "Barbaria",NULL, NULL);
     if(gameWindow == NULL) {
         std::cout << "Creation of gameWindow failed!" << std::endl;
         glfwTerminate();
