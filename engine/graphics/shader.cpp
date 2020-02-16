@@ -1,0 +1,63 @@
+#include "shader.h"
+
+Shader::Shader(const char* vertexShaderPath, const char* fragmentShaderPath){
+    std::string vertexShaderSourceString = readShaderFile(vertexShaderPath);
+    std::string fragmentShaderSourceString = readShaderFile(fragmentShaderPath);
+    vertexShaderSource = vertexShaderSourceString.c_str();
+    fragmentShaderSource = fragmentShaderSourceString.c_str();
+    int vertexShader = glCreateShader(GL_VERTEX_SHADER);
+    glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
+    glCompileShader(vertexShader);
+    int success;
+    char infoLog[512];
+    glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success);
+    if (!success)
+    {
+        glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
+        std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << std::endl;
+    }
+    int fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+    glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
+    glCompileShader(fragmentShader);
+    glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);
+    if (!success)
+    {
+        glGetShaderInfoLog(fragmentShader, 512, NULL, infoLog);
+        std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
+    }
+    this->shaderProgram = glCreateProgram();
+    glAttachShader(shaderProgram, vertexShader);
+    glAttachShader(shaderProgram, fragmentShader);
+    glLinkProgram(shaderProgram);
+    glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
+    if (!success) {
+        glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
+        std::cout << "ERROR::SHADER::PROGRAM::LINKING_FAILED\n" << infoLog << std::endl;
+    }
+    glDeleteShader(vertexShader);
+    glDeleteShader(fragmentShader);
+}
+
+void Shader::bind() {
+    glUseProgram(shaderProgram);
+}
+
+std::string Shader::readShaderFile(const char *filePath) {
+    std::string content;
+    std::ifstream fileStream(filePath, std::ios::in);
+    if(!fileStream.is_open()) {
+        std::cerr << "[ERROR] Could not read shader file! Aborting." << std::endl;
+    }
+    std::string line = "";
+    while(!fileStream.eof()){
+        std::getline(fileStream, line);
+        content.append(line + "\n");
+    }
+    fileStream.close();
+    return content;
+}
+
+int Shader::getShaderLocation(const GLchar *variableName) {
+    int returnValue = glGetUniformLocation(shaderProgram, variableName);
+    return returnValue;
+}

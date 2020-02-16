@@ -135,18 +135,31 @@ CMakeFiles/Barbaria.dir/api/loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/api/loader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/api/loader.cpp -o CMakeFiles/Barbaria.dir/api/loader.cpp.s
 
-CMakeFiles/Barbaria.dir/api/python/python.cpp.o: CMakeFiles/Barbaria.dir/flags.make
-CMakeFiles/Barbaria.dir/api/python/python.cpp.o: ../api/python/python.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Barbaria.dir/api/python/python.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/api/python/python.cpp.o -c /home/janek/CLionProjects/Barbaria/api/python/python.cpp
+CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o: ../engine/graphics/object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o -c /home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp
 
-CMakeFiles/Barbaria.dir/api/python/python.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/api/python/python.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/api/python/python.cpp > CMakeFiles/Barbaria.dir/api/python/python.cpp.i
+CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp > CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i
 
-CMakeFiles/Barbaria.dir/api/python/python.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/api/python/python.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/api/python/python.cpp -o CMakeFiles/Barbaria.dir/api/python/python.cpp.s
+CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s
+
+CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o: ../engine/graphics/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o -c /home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp
+
+CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp > CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i
+
+CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s
 
 # Object files for target Barbaria
 Barbaria_OBJECTS = \
@@ -156,7 +169,8 @@ Barbaria_OBJECTS = \
 "CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o" \
 "CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o" \
 "CMakeFiles/Barbaria.dir/api/loader.cpp.o" \
-"CMakeFiles/Barbaria.dir/api/python/python.cpp.o"
+"CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o" \
+"CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
 
 # External object files for target Barbaria
 Barbaria_EXTERNAL_OBJECTS =
@@ -167,10 +181,11 @@ Barbaria: CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/api/loader.cpp.o
-Barbaria: CMakeFiles/Barbaria.dir/api/python/python.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/build.make
 Barbaria: CMakeFiles/Barbaria.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Barbaria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Barbaria"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Barbaria.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

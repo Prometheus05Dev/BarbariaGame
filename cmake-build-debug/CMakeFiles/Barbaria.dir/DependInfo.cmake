@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/CLionProjects/Barbaria/api/loader.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o"
-  "/home/janek/CLionProjects/Barbaria/api/python/python.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/api/python/python.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/world/world.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o"
   "/home/janek/CLionProjects/Barbaria/game/world/world/block.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o"

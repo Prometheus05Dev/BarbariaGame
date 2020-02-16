@@ -150,32 +150,59 @@ api/loader.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/loader.cpp.s
 .PHONY : api/loader.cpp.s
 
-api/python/python.o: api/python/python.cpp.o
+engine/graphics/object.o: engine/graphics/object.cpp.o
 
-.PHONY : api/python/python.o
+.PHONY : engine/graphics/object.o
 
 # target to build an object file
-api/python/python.cpp.o:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/python/python.cpp.o
-.PHONY : api/python/python.cpp.o
+engine/graphics/object.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o
+.PHONY : engine/graphics/object.cpp.o
 
-api/python/python.i: api/python/python.cpp.i
+engine/graphics/object.i: engine/graphics/object.cpp.i
 
-.PHONY : api/python/python.i
+.PHONY : engine/graphics/object.i
 
 # target to preprocess a source file
-api/python/python.cpp.i:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/python/python.cpp.i
-.PHONY : api/python/python.cpp.i
+engine/graphics/object.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i
+.PHONY : engine/graphics/object.cpp.i
 
-api/python/python.s: api/python/python.cpp.s
+engine/graphics/object.s: engine/graphics/object.cpp.s
 
-.PHONY : api/python/python.s
+.PHONY : engine/graphics/object.s
 
 # target to generate assembly for a file
-api/python/python.cpp.s:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/python/python.cpp.s
-.PHONY : api/python/python.cpp.s
+engine/graphics/object.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s
+.PHONY : engine/graphics/object.cpp.s
+
+engine/graphics/shader.o: engine/graphics/shader.cpp.o
+
+.PHONY : engine/graphics/shader.o
+
+# target to build an object file
+engine/graphics/shader.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o
+.PHONY : engine/graphics/shader.cpp.o
+
+engine/graphics/shader.i: engine/graphics/shader.cpp.i
+
+.PHONY : engine/graphics/shader.i
+
+# target to preprocess a source file
+engine/graphics/shader.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i
+.PHONY : engine/graphics/shader.cpp.i
+
+engine/graphics/shader.s: engine/graphics/shader.cpp.s
+
+.PHONY : engine/graphics/shader.s
+
+# target to generate assembly for a file
+engine/graphics/shader.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s
+.PHONY : engine/graphics/shader.cpp.s
 
 game/world/generation/climate_zones.o: game/world/generation/climate_zones.cpp.o
 
@@ -324,9 +351,12 @@ help:
 	@echo "... api/loader.o"
 	@echo "... api/loader.i"
 	@echo "... api/loader.s"
-	@echo "... api/python/python.o"
-	@echo "... api/python/python.i"
-	@echo "... api/python/python.s"
+	@echo "... engine/graphics/object.o"
+	@echo "... engine/graphics/object.i"
+	@echo "... engine/graphics/object.s"
+	@echo "... engine/graphics/shader.o"
+	@echo "... engine/graphics/shader.i"
+	@echo "... engine/graphics/shader.s"
 	@echo "... game/world/generation/climate_zones.o"
 	@echo "... game/world/generation/climate_zones.i"
 	@echo "... game/world/generation/climate_zones.s"

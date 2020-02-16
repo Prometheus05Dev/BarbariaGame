@@ -8,11 +8,13 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+#include "../engine/graphics/shader.h"
 
 class Loader {
 public:
     Loader();
     void loadBiomes();
+    void loadShader();
     std::vector<std::string> extremelyHotBiomes;
     std::vector<std::string> hotBiomes;
     std::vector<std::string> warmBiomes;

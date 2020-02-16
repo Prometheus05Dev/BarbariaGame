@@ -11,8 +11,8 @@ World::World() {
     std::string lastExtremelyWinterly;
     std::vector<Chunk> yChunks;
     Chunk *tempChunk;
-    for(int x = 0; x <= 500; x++){
-        for(int y = 0; y <= 500; y++){
+    for(int x = 0; x <= 1000000; x++){
+        for(int y = 0; y <= 100000; y++){
             std::random_device dev;
             std::mt19937 rng(dev());
             std::uniform_int_distribution<std::mt19937::result_type> dist6(1,6);
@@ -82,5 +82,6 @@ World::World() {
             yChunks.push_back(*tempChunk);
         }
         worldChunks.push_back(yChunks);
+        yChunks.erase(yChunks.begin(), yChunks.end());
     }
 }
