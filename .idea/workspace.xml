@@ -13,15 +13,36 @@
   <component name="ChangeListManager">
     <list default="true" id="11de1042-b478-48e2-ad41-da7fd8a2ad69" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/game/input/framebuffer.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/game/input/framebuffer.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/game/input/keyboard.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/game/input/keyboard.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/game/input/mouse.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/game/input/mouse.h" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/engine/graphics/cubeObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/graphics/cubeObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern_world.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/camera/camera.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/camera/camera.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/camera/inputs_global.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/utils/time.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/utils/time.h" afterDir="false" />
+>>>>>>> master
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/world/world.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/loader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/api/loader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/loader.h" beforeDir="false" afterPath="$PROJECT_DIR$/api/loader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/object.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/graphics/object.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/input/framebuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/camera/framebuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/input/framebuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/camera/framebuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/input/keyboard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/camera/movement/keyboard.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/input/keyboard.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/camera/movement/keyboard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/input/mouse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/camera/movement/mouse.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/input/mouse.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/camera/movement/mouse.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/world.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -70,6 +91,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game/camera/movement" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Barbaria" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Barbaria" TARGET_NAME="Barbaria" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Barbaria" RUN_TARGET_NAME="Barbaria">
@@ -128,7 +154,14 @@
       <updated>1581716566005</updated>
 >>>>>>> Jakob
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added OpenGL stuff">
+      <created>1581961456584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581961456584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,22 +182,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1581693499495" />
-    <state width="906" height="118" key="GridCell.Tab.0.bottom" timestamp="1581957989688">
+    <state width="906" height="116" key="GridCell.Tab.0.bottom" timestamp="1581968619844">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="906" height="118" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989688" />
-    <state width="906" height="118" key="GridCell.Tab.0.center" timestamp="1581957989687">
+    <state width="906" height="116" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581968619844" />
+    <state width="906" height="116" key="GridCell.Tab.0.center" timestamp="1581968619843">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="906" height="118" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989687" />
-    <state width="906" height="118" key="GridCell.Tab.0.left" timestamp="1581957989687">
+    <state width="906" height="116" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581968619843" />
+    <state width="906" height="116" key="GridCell.Tab.0.left" timestamp="1581968619843">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="906" height="118" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989687" />
-    <state width="906" height="118" key="GridCell.Tab.0.right" timestamp="1581957989687">
+    <state width="906" height="116" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581968619843" />
+    <state width="906" height="116" key="GridCell.Tab.0.right" timestamp="1581968619843">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="906" height="118" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989687" />
+    <state width="906" height="116" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581968619843" />
     <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581957791467">
 =======
     <MESSAGE value="reworking the rng (random index instead of reshuffling the whole list)" />
@@ -247,21 +280,5 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1581687499790" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/game/world/world.cpp</url>
-          <line>84</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/game/world/world.cpp</url>
-          <line>85</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -15,8 +15,8 @@ void Loader::loadShader() {
     shaderDirectory = configDirectory + "/shaders/";
     std::string vertexShaderPathCPP = shaderDirectory + "VertexShader.glsl";
     std::string fragmentShaderPathCPP = shaderDirectory + "FragmentShader.glsl";
-    Shader mainShader = Shader(vertexShaderPathCPP.c_str(), fragmentShaderPathCPP.c_str());
-    mainShader.bind();
+    mainShader = new Shader(vertexShaderPathCPP.c_str(), fragmentShaderPathCPP.c_str());
+    mainShader->bind();
 }
 
 void Loader::loadBiomes() {

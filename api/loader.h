@@ -1,6 +1,7 @@
 #ifndef BARBARIA_LOADER_H
 #define BARBARIA_LOADER_H
 
+#include "../engine/graphics/shader.h"
 #include <string>
 #include <filesystem>
 #include <pwd.h>
@@ -8,7 +9,6 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
-#include "../engine/graphics/shader.h"
 
 class Loader {
 public:
@@ -22,6 +22,7 @@ public:
     std::vector<std::string> coldBiomes;
     std::vector<std::string> winteryBiomes;
     std::vector<std::string> extremelyWinteryBiomes;
+    Shader *mainShader;
 protected:
 private:
     std::string configDirectory = "";
