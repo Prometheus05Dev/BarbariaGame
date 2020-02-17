@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11de1042-b478-48e2-ad41-da7fd8a2ad69" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/game/input/framebuffer.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/game/input/framebuffer.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/game/input/keyboard.cpp" afterDir="false" />
@@ -22,6 +23,14 @@
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/world/world.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Barbaria" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Barbaria" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/generation/climate_zones.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/generation/climate_zones.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/world.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.cpp" afterDir="false" />
+>>>>>>> Jakob
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +42,16 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="TheLegolas@github.com" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XlBDewnnDjmXyA0ltm9HOpff5W" />
@@ -71,6 +90,7 @@
       <updated>1581610682786</updated>
       <workItem from="1581610688730" duration="2101000" />
       <workItem from="1581684413215" duration="7955000" />
+<<<<<<< HEAD
       <workItem from="1581692870269" duration="753000" />
       <workItem from="1581705340411" duration="3921000" />
       <workItem from="1581773975424" duration="652000" />
@@ -89,6 +109,24 @@
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1581862874563</updated>
+=======
+      <workItem from="1581692870269" duration="427000" />
+      <workItem from="1581711828844" duration="5062000" />
+    </task>
+    <task id="LOCAL-00001" summary="reworking the rng (random index instead of reshuffling the whole list), using the pre c++1 rng rand() for the moment (maybe change that later)">
+      <created>1581714674653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581714674653</updated>
+    </task>
+    <task id="LOCAL-00002" summary="made a probably remarkable change to the world generation, fixed a very severe bug (yChunks was not cleared for each x iteration, thus making it get longer and longer)">
+      <created>1581716566005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581716566005</updated>
+>>>>>>> Jakob
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -97,6 +135,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="Removed OpenGL code for rewrite, started to write world generation" />
     <MESSAGE value="Added OpenGL stuff" />
     <option name="LAST_COMMIT_MESSAGE" value="Added OpenGL stuff" />
@@ -127,6 +166,43 @@
     </state>
     <state width="906" height="118" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989687" />
     <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581957791467">
+=======
+    <MESSAGE value="reworking the rng (random index instead of reshuffling the whole list)" />
+    <MESSAGE value="reworking the rng (random index instead of reshuffling the whole list), using the pre c++1 rng rand() for the moment (maybe change that later)" />
+    <MESSAGE value="made a probably remarkable change to the world generation, fixed a very severe bug (yChunks was not cleared for each x iteration, thus making it get longer and longer)" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a probably remarkable change to the world generation, fixed a very severe bug (yChunks was not cleared for each x iteration, thus making it get longer and longer)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="404" y="194" width="810" height="681" key="#Deployment" timestamp="1581714172115">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="404" y="194" width="810" height="681" key="#Deployment/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581714172115" />
+    <state x="163" y="200" width="1463" height="806" key="CommitChangelistDialog2" timestamp="1581716565444">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="163" y="200" width="1463" height="806" key="CommitChangelistDialog2/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581716565444" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1581717032599">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="222" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146521" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581717032599" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1581717032598">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="222" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146520" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581717032598" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1581717032598">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="222" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146520" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581717032598" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1581717032598">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="222" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581693146521" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581717032598" />
+    <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581692370467">
+>>>>>>> Jakob
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1876" height="345" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581957791467" />
@@ -141,6 +217,7 @@
     <state width="1876" height="345" key="GridCell.Tab.1.right" timestamp="1581957791467">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
+<<<<<<< HEAD
     <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581957791467" />
     <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581877368381">
       <screen x="0" y="30" width="1920" height="1050" />
@@ -150,6 +227,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581957161442" />
+=======
+    <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581692370466" />
+    <state x="555" y="268" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581716611318">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581693308499" />
+    <state x="555" y="268" key="Vcs.Push.Dialog.v2/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581716611318" />
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581692870490">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581692870490" />
+    <state x="740" y="475" width="439" height="164" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581713577444">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="475" width="439" height="164" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1581713577444" />
+>>>>>>> Jakob
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1581687499790">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
