@@ -6,9 +6,6 @@
 #include "game/camera/framebuffer.h"
 #include "game/camera/movement/mouse.h"
 #include "game/camera/movement/keyboard.h"
-#include "game/utils/time.h"
-#include "game/camera/camera.h"
-#include "extern_world.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>

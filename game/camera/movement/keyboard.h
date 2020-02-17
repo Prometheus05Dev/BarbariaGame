@@ -1,7 +1,7 @@
 #ifndef BARBARIA_KEYBOARD_H
 #define BARBARIA_KEYBOARD_H
 
-#include "../../../extern_world.h"
+#include "../../world/world.h"
 #include <GLFW/glfw3.h>
 #include "../inputs_global.h"
 

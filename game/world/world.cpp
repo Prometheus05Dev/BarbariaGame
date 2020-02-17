@@ -104,3 +104,8 @@ World::World() {
 >>>>>>> Jakob
     }
 }
+
+World& returnMainWorld(){
+    static World mainWorld = World();
+    return mainWorld;
+}

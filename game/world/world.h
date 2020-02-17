@@ -22,4 +22,6 @@ private:
     std::vector<std::vector<Chunk>> worldChunks;
 };
 
+extern World& returnMainWorld();
+
 #endif //BARBARIA_WORLD_H
