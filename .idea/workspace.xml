@@ -12,10 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11de1042-b478-48e2-ad41-da7fd8a2ad69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/input/framebuffer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/input/framebuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/input/keyboard.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/input/keyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/input/mouse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/input/mouse.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Barbaria.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/world/world.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/world/world.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +74,7 @@
       <workItem from="1581692870269" duration="753000" />
       <workItem from="1581705340411" duration="3921000" />
       <workItem from="1581773975424" duration="652000" />
+      <workItem from="1581957148063" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="Removed OpenGL code for rewrite, started to write world generation">
       <created>1581693394083</created>
@@ -96,54 +102,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added OpenGL stuff" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2" timestamp="1581862874196">
+    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2" timestamp="1581877359230">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1581862874196" />
+    <state x="526" y="153" width="868" height="808" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1581877359230" />
     <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl" timestamp="1581693499495">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1581693499495" />
-    <state width="1876" height="97" key="GridCell.Tab.0.bottom" timestamp="1581862807640">
+    <state width="906" height="118" key="GridCell.Tab.0.bottom" timestamp="1581957989688">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="97" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581862807640" />
-    <state width="1876" height="97" key="GridCell.Tab.0.center" timestamp="1581862807640">
+    <state width="906" height="118" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989688" />
+    <state width="906" height="118" key="GridCell.Tab.0.center" timestamp="1581957989687">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="97" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581862807640" />
-    <state width="1876" height="97" key="GridCell.Tab.0.left" timestamp="1581862807639">
+    <state width="906" height="118" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989687" />
+    <state width="906" height="118" key="GridCell.Tab.0.left" timestamp="1581957989687">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="97" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581862807639" />
-    <state width="1876" height="97" key="GridCell.Tab.0.right" timestamp="1581862807640">
+    <state width="906" height="118" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989687" />
+    <state width="906" height="118" key="GridCell.Tab.0.right" timestamp="1581957989687">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="97" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581862807640" />
-    <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581862397246">
+    <state width="906" height="118" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581957989687" />
+    <state width="1876" height="345" key="GridCell.Tab.1.bottom" timestamp="1581957791467">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="345" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581862397246" />
-    <state width="1876" height="345" key="GridCell.Tab.1.center" timestamp="1581862397245">
+    <state width="1876" height="345" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581957791467" />
+    <state width="1876" height="345" key="GridCell.Tab.1.center" timestamp="1581957791467">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="345" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581862397245" />
-    <state width="1876" height="345" key="GridCell.Tab.1.left" timestamp="1581862397245">
+    <state width="1876" height="345" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581957791467" />
+    <state width="1876" height="345" key="GridCell.Tab.1.left" timestamp="1581957791467">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="345" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581862397245" />
-    <state width="1876" height="345" key="GridCell.Tab.1.right" timestamp="1581862397245">
+    <state width="1876" height="345" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581957791467" />
+    <state width="1876" height="345" key="GridCell.Tab.1.right" timestamp="1581957791467">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581862397245" />
-    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581862880518">
+    <state width="1876" height="345" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581957791467" />
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1581877368381">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581862880518" />
-    <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581877323069">
+    <state x="555" y="291" width="810" height="532" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1581877368381" />
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1581957161442">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581877323069" />
+    <state x="620" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581957161442" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1581687499790">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -153,34 +159,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/api/loader.cpp</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/game/world/world.cpp</url>
+          <line>84</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/api/loader.cpp</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/api/loader.cpp</url>
-          <line>15</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/api/loader.cpp</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/api/loader.cpp</url>
-          <line>17</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/api/loader.cpp</url>
-          <line>18</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/game/world/world.cpp</url>
+          <line>85</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

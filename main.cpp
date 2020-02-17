@@ -3,20 +3,9 @@
 #include <GLFW/glfw3.h>
 #include "game/world/world.h"
 #include "api/loader.h"
-
-void framebuffer_size_callback(GLFWwindow* window, int width, int height)
-{
-    glViewport(0, 0, width, height);
-}
-
-void processInput(GLFWwindow *window)
-{
-    if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-        glfwSetWindowShouldClose(window, true);
-}
-
-void mouse_callback(GLFWwindow* window, double xpos, double ypos){
-}
+#include "game/input/framebuffer.h"
+#include "game/input/mouse.h"
+#include "game/input/keyboard.h"
 
 int main() {
     glfwInit();
@@ -29,7 +18,7 @@ int main() {
         glfwTerminate();
         return -1;
     }
-    glViewport(0, 0, 1920, 1080);
+    glViewport(0, 0, 400, 200);
     glfwSetFramebufferSizeCallback(gameWindow, framebuffer_size_callback);
     glfwMakeContextCurrent(gameWindow);
     //glfwSetInputMode(gameWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
@@ -39,8 +28,14 @@ int main() {
     glewExperimental = GL_TRUE;
     glewInit();
     World mainWorld;
+
     while(!glfwWindowShouldClose(gameWindow)){
+        glfwSwapBuffers(gameWindow);
+        glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        glfwPollEvents();
         processInput(gameWindow);
     }
+
     return 0;
 }
