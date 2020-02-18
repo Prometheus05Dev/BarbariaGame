@@ -1,0 +1,4 @@
+#ifndef BARBARIA_ENTITY_H
+#define BARBARIA_ENTITY_H
+
+#endif //BARBARIA_ENTITY_H

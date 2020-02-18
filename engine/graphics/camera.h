@@ -1,0 +1,4 @@
+#ifndef BARBARIA_CAMERA_H
+#define BARBARIA_CAMERA_H
+
+#endif //BARBARIA_CAMERA_H

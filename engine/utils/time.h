@@ -1,0 +1,4 @@
+#ifndef BARBARIA_TIME_H
+#define BARBARIA_TIME_H
+
+#endif //BARBARIA_TIME_H

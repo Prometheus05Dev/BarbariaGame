@@ -150,6 +150,33 @@ api/loader.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/loader.cpp.s
 .PHONY : api/loader.cpp.s
 
+engine/graphics/camera.o: engine/graphics/camera.cpp.o
+
+.PHONY : engine/graphics/camera.o
+
+# target to build an object file
+engine/graphics/camera.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o
+.PHONY : engine/graphics/camera.cpp.o
+
+engine/graphics/camera.i: engine/graphics/camera.cpp.i
+
+.PHONY : engine/graphics/camera.i
+
+# target to preprocess a source file
+engine/graphics/camera.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.i
+.PHONY : engine/graphics/camera.cpp.i
+
+engine/graphics/camera.s: engine/graphics/camera.cpp.s
+
+.PHONY : engine/graphics/camera.s
+
+# target to generate assembly for a file
+engine/graphics/camera.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.s
+.PHONY : engine/graphics/camera.cpp.s
+
 engine/graphics/object.o: engine/graphics/object.cpp.o
 
 .PHONY : engine/graphics/object.o
@@ -203,6 +230,222 @@ engine/graphics/shader.s: engine/graphics/shader.cpp.s
 engine/graphics/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s
 .PHONY : engine/graphics/shader.cpp.s
+
+engine/utils/time.o: engine/utils/time.cpp.o
+
+.PHONY : engine/utils/time.o
+
+# target to build an object file
+engine/utils/time.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o
+.PHONY : engine/utils/time.cpp.o
+
+engine/utils/time.i: engine/utils/time.cpp.i
+
+.PHONY : engine/utils/time.i
+
+# target to preprocess a source file
+engine/utils/time.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/utils/time.cpp.i
+.PHONY : engine/utils/time.cpp.i
+
+engine/utils/time.s: engine/utils/time.cpp.s
+
+.PHONY : engine/utils/time.s
+
+# target to generate assembly for a file
+engine/utils/time.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/utils/time.cpp.s
+.PHONY : engine/utils/time.cpp.s
+
+game.o: game.cpp.o
+
+.PHONY : game.o
+
+# target to build an object file
+game.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game.cpp.o
+.PHONY : game.cpp.o
+
+game.i: game.cpp.i
+
+.PHONY : game.i
+
+# target to preprocess a source file
+game.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game.cpp.i
+.PHONY : game.cpp.i
+
+game.s: game.cpp.s
+
+.PHONY : game.s
+
+# target to generate assembly for a file
+game.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game.cpp.s
+.PHONY : game.cpp.s
+
+game/blocks/block.o: game/blocks/block.cpp.o
+
+.PHONY : game/blocks/block.o
+
+# target to build an object file
+game/blocks/block.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o
+.PHONY : game/blocks/block.cpp.o
+
+game/blocks/block.i: game/blocks/block.cpp.i
+
+.PHONY : game/blocks/block.i
+
+# target to preprocess a source file
+game/blocks/block.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/blocks/block.cpp.i
+.PHONY : game/blocks/block.cpp.i
+
+game/blocks/block.s: game/blocks/block.cpp.s
+
+.PHONY : game/blocks/block.s
+
+# target to generate assembly for a file
+game/blocks/block.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/blocks/block.cpp.s
+.PHONY : game/blocks/block.cpp.s
+
+game/entities/entity.o: game/entities/entity.cpp.o
+
+.PHONY : game/entities/entity.o
+
+# target to build an object file
+game/entities/entity.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/entities/entity.cpp.o
+.PHONY : game/entities/entity.cpp.o
+
+game/entities/entity.i: game/entities/entity.cpp.i
+
+.PHONY : game/entities/entity.i
+
+# target to preprocess a source file
+game/entities/entity.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/entities/entity.cpp.i
+.PHONY : game/entities/entity.cpp.i
+
+game/entities/entity.s: game/entities/entity.cpp.s
+
+.PHONY : game/entities/entity.s
+
+# target to generate assembly for a file
+game/entities/entity.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/entities/entity.cpp.s
+.PHONY : game/entities/entity.cpp.s
+
+game/input/keyboard.o: game/input/keyboard.cpp.o
+
+.PHONY : game/input/keyboard.o
+
+# target to build an object file
+game/input/keyboard.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o
+.PHONY : game/input/keyboard.cpp.o
+
+game/input/keyboard.i: game/input/keyboard.cpp.i
+
+.PHONY : game/input/keyboard.i
+
+# target to preprocess a source file
+game/input/keyboard.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.i
+.PHONY : game/input/keyboard.cpp.i
+
+game/input/keyboard.s: game/input/keyboard.cpp.s
+
+.PHONY : game/input/keyboard.s
+
+# target to generate assembly for a file
+game/input/keyboard.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.s
+.PHONY : game/input/keyboard.cpp.s
+
+game/input/mouse.o: game/input/mouse.cpp.o
+
+.PHONY : game/input/mouse.o
+
+# target to build an object file
+game/input/mouse.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o
+.PHONY : game/input/mouse.cpp.o
+
+game/input/mouse.i: game/input/mouse.cpp.i
+
+.PHONY : game/input/mouse.i
+
+# target to preprocess a source file
+game/input/mouse.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/input/mouse.cpp.i
+.PHONY : game/input/mouse.cpp.i
+
+game/input/mouse.s: game/input/mouse.cpp.s
+
+.PHONY : game/input/mouse.s
+
+# target to generate assembly for a file
+game/input/mouse.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/input/mouse.cpp.s
+.PHONY : game/input/mouse.cpp.s
+
+game/windows/framebuffer.o: game/windows/framebuffer.cpp.o
+
+.PHONY : game/windows/framebuffer.o
+
+# target to build an object file
+game/windows/framebuffer.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.o
+.PHONY : game/windows/framebuffer.cpp.o
+
+game/windows/framebuffer.i: game/windows/framebuffer.cpp.i
+
+.PHONY : game/windows/framebuffer.i
+
+# target to preprocess a source file
+game/windows/framebuffer.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.i
+.PHONY : game/windows/framebuffer.cpp.i
+
+game/windows/framebuffer.s: game/windows/framebuffer.cpp.s
+
+.PHONY : game/windows/framebuffer.s
+
+# target to generate assembly for a file
+game/windows/framebuffer.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.s
+.PHONY : game/windows/framebuffer.cpp.s
+
+game/windows/gamewindow.o: game/windows/gamewindow.cpp.o
+
+.PHONY : game/windows/gamewindow.o
+
+# target to build an object file
+game/windows/gamewindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.o
+.PHONY : game/windows/gamewindow.cpp.o
+
+game/windows/gamewindow.i: game/windows/gamewindow.cpp.i
+
+.PHONY : game/windows/gamewindow.i
+
+# target to preprocess a source file
+game/windows/gamewindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.i
+.PHONY : game/windows/gamewindow.cpp.i
+
+game/windows/gamewindow.s: game/windows/gamewindow.cpp.s
+
+.PHONY : game/windows/gamewindow.s
+
+# target to generate assembly for a file
+game/windows/gamewindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.s
+.PHONY : game/windows/gamewindow.cpp.s
 
 game/world/generation/climate_zones.o: game/world/generation/climate_zones.cpp.o
 
@@ -324,12 +567,39 @@ help:
 	@echo "... api/loader.o"
 	@echo "... api/loader.i"
 	@echo "... api/loader.s"
+	@echo "... engine/graphics/camera.o"
+	@echo "... engine/graphics/camera.i"
+	@echo "... engine/graphics/camera.s"
 	@echo "... engine/graphics/object.o"
 	@echo "... engine/graphics/object.i"
 	@echo "... engine/graphics/object.s"
 	@echo "... engine/graphics/shader.o"
 	@echo "... engine/graphics/shader.i"
 	@echo "... engine/graphics/shader.s"
+	@echo "... engine/utils/time.o"
+	@echo "... engine/utils/time.i"
+	@echo "... engine/utils/time.s"
+	@echo "... game.o"
+	@echo "... game.i"
+	@echo "... game.s"
+	@echo "... game/blocks/block.o"
+	@echo "... game/blocks/block.i"
+	@echo "... game/blocks/block.s"
+	@echo "... game/entities/entity.o"
+	@echo "... game/entities/entity.i"
+	@echo "... game/entities/entity.s"
+	@echo "... game/input/keyboard.o"
+	@echo "... game/input/keyboard.i"
+	@echo "... game/input/keyboard.s"
+	@echo "... game/input/mouse.o"
+	@echo "... game/input/mouse.i"
+	@echo "... game/input/mouse.s"
+	@echo "... game/windows/framebuffer.o"
+	@echo "... game/windows/framebuffer.i"
+	@echo "... game/windows/framebuffer.s"
+	@echo "... game/windows/gamewindow.o"
+	@echo "... game/windows/gamewindow.i"
+	@echo "... game/windows/gamewindow.s"
 	@echo "... game/world/generation/climate_zones.o"
 	@echo "... game/world/generation/climate_zones.i"
 	@echo "... game/world/generation/climate_zones.s"

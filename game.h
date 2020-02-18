@@ -1,0 +1,4 @@
+#ifndef BARBARIA_GAME_H
+#define BARBARIA_GAME_H
+
+#endif //BARBARIA_GAME_H

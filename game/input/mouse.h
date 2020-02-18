@@ -1,0 +1,4 @@
+#ifndef BARBARIA_MOUSE_H
+#define BARBARIA_MOUSE_H
+
+#endif //BARBARIA_MOUSE_H

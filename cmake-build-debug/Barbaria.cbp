@@ -88,6 +88,12 @@
 		<Unit filename="/home/janek/CLionProjects/Barbaria/api/loader.h">
 			<Option target="Barbaria"/>
 		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/camera.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/camera.h">
+			<Option target="Barbaria"/>
+		</Unit>
 		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp">
 			<Option target="Barbaria"/>
 		</Unit>
@@ -98,6 +104,54 @@
 			<Option target="Barbaria"/>
 		</Unit>
 		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/graphics/shader.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/utils/time.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/engine/utils/time.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/blocks/block.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/blocks/block.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/entities/entity.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/entities/entity.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/input/keyboard.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/input/keyboard.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/input/mouse.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/input/mouse.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/windows/framebuffer.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/windows/framebuffer.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/windows/gamewindow.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/Barbaria/game/windows/gamewindow.h">
 			<Option target="Barbaria"/>
 		</Unit>
 		<Unit filename="/home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.cpp">
