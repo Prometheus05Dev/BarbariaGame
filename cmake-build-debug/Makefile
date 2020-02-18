@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/janek/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/janek/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakob/Documents/Barbaria/Barbaria-src
+CMAKE_SOURCE_DIR = /home/janek/CLionProjects/Barbaria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/janek/CLionProjects/Barbaria/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/janek/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/janek/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles /home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles /home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,32 +150,59 @@ api/loader.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/api/loader.cpp.s
 .PHONY : api/loader.cpp.s
 
-game/world/generation/chunk_generator.o: game/world/generation/chunk_generator.cpp.o
+engine/graphics/object.o: engine/graphics/object.cpp.o
 
-.PHONY : game/world/generation/chunk_generator.o
+.PHONY : engine/graphics/object.o
 
 # target to build an object file
-game/world/generation/chunk_generator.cpp.o:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o
-.PHONY : game/world/generation/chunk_generator.cpp.o
+engine/graphics/object.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o
+.PHONY : engine/graphics/object.cpp.o
 
-game/world/generation/chunk_generator.i: game/world/generation/chunk_generator.cpp.i
+engine/graphics/object.i: engine/graphics/object.cpp.i
 
-.PHONY : game/world/generation/chunk_generator.i
+.PHONY : engine/graphics/object.i
 
 # target to preprocess a source file
-game/world/generation/chunk_generator.cpp.i:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.i
-.PHONY : game/world/generation/chunk_generator.cpp.i
+engine/graphics/object.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i
+.PHONY : engine/graphics/object.cpp.i
 
-game/world/generation/chunk_generator.s: game/world/generation/chunk_generator.cpp.s
+engine/graphics/object.s: engine/graphics/object.cpp.s
 
-.PHONY : game/world/generation/chunk_generator.s
+.PHONY : engine/graphics/object.s
 
 # target to generate assembly for a file
-game/world/generation/chunk_generator.cpp.s:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.s
-.PHONY : game/world/generation/chunk_generator.cpp.s
+engine/graphics/object.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s
+.PHONY : engine/graphics/object.cpp.s
+
+engine/graphics/shader.o: engine/graphics/shader.cpp.o
+
+.PHONY : engine/graphics/shader.o
+
+# target to build an object file
+engine/graphics/shader.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o
+.PHONY : engine/graphics/shader.cpp.o
+
+engine/graphics/shader.i: engine/graphics/shader.cpp.i
+
+.PHONY : engine/graphics/shader.i
+
+# target to preprocess a source file
+engine/graphics/shader.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i
+.PHONY : engine/graphics/shader.cpp.i
+
+engine/graphics/shader.s: engine/graphics/shader.cpp.s
+
+.PHONY : engine/graphics/shader.s
+
+# target to generate assembly for a file
+engine/graphics/shader.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s
+.PHONY : engine/graphics/shader.cpp.s
 
 game/world/generation/climate_zones.o: game/world/generation/climate_zones.cpp.o
 
@@ -230,33 +257,6 @@ game/world/world.s: game/world/world.cpp.s
 game/world/world.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/world.cpp.s
 .PHONY : game/world/world.cpp.s
-
-game/world/world/block.o: game/world/world/block.cpp.o
-
-.PHONY : game/world/world/block.o
-
-# target to build an object file
-game/world/world/block.cpp.o:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o
-.PHONY : game/world/world/block.cpp.o
-
-game/world/world/block.i: game/world/world/block.cpp.i
-
-.PHONY : game/world/world/block.i
-
-# target to preprocess a source file
-game/world/world/block.cpp.i:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/world/block.cpp.i
-.PHONY : game/world/world/block.cpp.i
-
-game/world/world/block.s: game/world/world/block.cpp.s
-
-.PHONY : game/world/world/block.s
-
-# target to generate assembly for a file
-game/world/world/block.cpp.s:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/world/block.cpp.s
-.PHONY : game/world/world/block.cpp.s
 
 game/world/world/chunk.o: game/world/world/chunk.cpp.o
 
@@ -324,18 +324,18 @@ help:
 	@echo "... api/loader.o"
 	@echo "... api/loader.i"
 	@echo "... api/loader.s"
-	@echo "... game/world/generation/chunk_generator.o"
-	@echo "... game/world/generation/chunk_generator.i"
-	@echo "... game/world/generation/chunk_generator.s"
+	@echo "... engine/graphics/object.o"
+	@echo "... engine/graphics/object.i"
+	@echo "... engine/graphics/object.s"
+	@echo "... engine/graphics/shader.o"
+	@echo "... engine/graphics/shader.i"
+	@echo "... engine/graphics/shader.s"
 	@echo "... game/world/generation/climate_zones.o"
 	@echo "... game/world/generation/climate_zones.i"
 	@echo "... game/world/generation/climate_zones.s"
 	@echo "... game/world/world.o"
 	@echo "... game/world/world.i"
 	@echo "... game/world/world.s"
-	@echo "... game/world/world/block.o"
-	@echo "... game/world/world/block.i"
-	@echo "... game/world/world/block.s"
 	@echo "... game/world/world/chunk.o"
 	@echo "... game/world/world/chunk.i"
 	@echo "... game/world/world/chunk.s"

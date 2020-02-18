@@ -1,4 +1,4 @@
-#include "cubeObject.h"
+#include "object.h"
 
 CubeObject::CubeObject() {
     float vertices[] = {

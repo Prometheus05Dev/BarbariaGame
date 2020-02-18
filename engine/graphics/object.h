@@ -1,5 +1,5 @@
-#ifndef BARBARIA_CUBEOBJECT_H
-#define BARBARIA_CUBEOBJECT_H
+#ifndef BARBARIA_OBJECT_H
+#define BARBARIA_OBJECT_H
 
 #include <GL/glew.h>
 
@@ -14,4 +14,4 @@ private:
     float vertices[108];
 };
 
-#endif //BARBARIA_CUBEOBJECT_H
+#endif //BARBARIA_OBJECT_H

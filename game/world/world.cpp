@@ -13,31 +13,16 @@ World::World() {
     std::string lastExtremelyWinterly;
     std::vector<Chunk> yChunks;
     Chunk *tempChunk;
-<<<<<<< HEAD
-    for(int x = 0; x <= 2; x++){
-        for(int y = 0; y <= 2; y++){
-            std::random_device dev;
-            std::mt19937 rng(dev());
-            std::uniform_int_distribution<std::mt19937::result_type> dist6(1,6);
-            if(climateZones[x][y] == 3){
-                if(dist6(rng) == 3) {
-                    std::random_shuffle(mainLoader.extremelyHotBiomes.begin(), mainLoader.extremelyHotBiomes.end());
-                    tempChunk = new Chunk(mainLoader.extremelyHotBiomes[0]);
-                }
-                else {
-=======
     srand(time(nullptr));
     int dist6;
-    for (int x = 0; x <= 10000; x++) {
-        for (int y = 0; y <= 10000; y++) {
+    for (int x = 0; x <= 10; x++) {
+        for (int y = 0; y <= 10; y++) {
             dist6 = rand()%6;
             if (climateZones[x][y] == 3) {
                 if (dist6 == 3) {
                     //std::random_shuffle(mainLoader.extremelyHotBiomes.begin(), mainLoader.extremelyHotBiomes.end());
-
                     tempChunk = new Chunk(mainLoader.extremelyHotBiomes[rand() % mainLoader.extremelyHotBiomes.size()]);
                 } else {
->>>>>>> Jakob
                     tempChunk = new Chunk(mainLoader.extremelyHotBiomes[0]);
                 }
             }
@@ -97,11 +82,7 @@ World::World() {
             yChunks.push_back(*tempChunk);
         }
         worldChunks.push_back(yChunks);
-<<<<<<< HEAD
-        yChunks.erase(yChunks.begin(), yChunks.end());
-=======
         yChunks.clear();
->>>>>>> Jakob
     }
 }
 

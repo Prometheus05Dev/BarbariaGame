@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jakob/Documents/Barbaria/Barbaria-src/api/loader.cpp" "/home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o"
-  "/home/jakob/Documents/Barbaria/Barbaria-src/game/world/generation/chunk_generator.cpp" "/home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/chunk_generator.cpp.o"
-  "/home/jakob/Documents/Barbaria/Barbaria-src/game/world/generation/climate_zones.cpp" "/home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o"
-  "/home/jakob/Documents/Barbaria/Barbaria-src/game/world/world.cpp" "/home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o"
-  "/home/jakob/Documents/Barbaria/Barbaria-src/game/world/world/block.cpp" "/home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world/block.cpp.o"
-  "/home/jakob/Documents/Barbaria/Barbaria-src/game/world/world/chunk.cpp" "/home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o"
-  "/home/jakob/Documents/Barbaria/Barbaria-src/main.cpp" "/home/jakob/Documents/Barbaria/Barbaria-src/cmake-build-debug/CMakeFiles/Barbaria.dir/main.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/api/loader.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/game/world/world.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/game/world/world/chunk.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o"
+  "/home/janek/CLionProjects/Barbaria/main.cpp" "/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
