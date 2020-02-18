@@ -9,7 +9,6 @@ void generateClimateZones(std::vector<std::vector<int>> &climateZones) {
     int tempClimate;
     for(x = 0; x <= 10; x++){
         for(y = 0; y <= 10; y++){
-
             if(currentClimate == -100.0)
                 getHot = true;
             else if(currentClimate == 100.0)

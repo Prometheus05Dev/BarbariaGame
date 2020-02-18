@@ -50,6 +50,7 @@ int main() {
         glfwSwapBuffers(gameWindow);
         glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        testTriangle.bind();
         //returnMainWorld().mainCamera.updateCamera();
         //glUniformMatrix4fv(returnMainWorld().mainLoader.mainShader->getShaderLocation("viewMatrix"), 1, GL_FALSE, glm::value_ptr(returnMainWorld().mainCamera.viewMatrix));
         //glUniformMatrix4fv(returnMainWorld().mainLoader.mainShader->getShaderLocation("modelMatrix"), 1, GL_FALSE, glm::value_ptr(modelMatrix));
