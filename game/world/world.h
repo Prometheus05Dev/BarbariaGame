@@ -1,25 +1,4 @@
 #ifndef BARBARIA_WORLD_H
 #define BARBARIA_WORLD_H
 
-#include "../../api/loader.h"
-#include <vector>
-#include <algorithm>
-#include <random>
-#include "generation/climate_zones.h"
-#include "world/chunk.h"
-
-class World {
-public:
-    World();
-    Loader mainLoader;
-    //GameTime mainTick;
-    //Camera mainCamera;
-protected:
-private:
-    std::vector<std::vector<int>> climateZones;
-    std::vector<std::vector<Chunk>> worldChunks;
-};
-
-//extern World& returnMainWorld();
-
 #endif //BARBARIA_WORLD_H

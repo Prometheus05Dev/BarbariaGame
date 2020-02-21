@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/janek/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/janek/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/janek/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/janek/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/janek/CLionProjects/Barbaria
+CMAKE_SOURCE_DIR = /home/janek/CLionProjects/BarbariaGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/janek/CLionProjects/Barbaria/cmake-build-debug
+CMAKE_BINARY_DIR = /home/janek/CLionProjects/BarbariaGame/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Barbaria.dir/depend.make
@@ -59,211 +59,211 @@ include CMakeFiles/Barbaria.dir/flags.make
 
 CMakeFiles/Barbaria.dir/main.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Barbaria.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/main.cpp.o -c /home/janek/CLionProjects/Barbaria/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Barbaria.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/main.cpp.o -c /home/janek/CLionProjects/BarbariaGame/main.cpp
 
 CMakeFiles/Barbaria.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/main.cpp > CMakeFiles/Barbaria.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/main.cpp > CMakeFiles/Barbaria.dir/main.cpp.i
 
 CMakeFiles/Barbaria.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/main.cpp -o CMakeFiles/Barbaria.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/main.cpp -o CMakeFiles/Barbaria.dir/main.cpp.s
 
 CMakeFiles/Barbaria.dir/game/world/world.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/world/world.cpp.o: ../game/world/world.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Barbaria.dir/game/world/world.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/world.cpp.o -c /home/janek/CLionProjects/Barbaria/game/world/world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Barbaria.dir/game/world/world.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/world.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/world.cpp
 
 CMakeFiles/Barbaria.dir/game/world/world.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/world.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/world/world.cpp > CMakeFiles/Barbaria.dir/game/world/world.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/world.cpp > CMakeFiles/Barbaria.dir/game/world/world.cpp.i
 
 CMakeFiles/Barbaria.dir/game/world/world.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/world.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/world/world.cpp -o CMakeFiles/Barbaria.dir/game/world/world.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/world.cpp -o CMakeFiles/Barbaria.dir/game/world/world.cpp.s
 
 CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o: ../game/world/generation/climate_zones.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o -c /home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/generation/climate_zones.cpp
 
 CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.cpp > CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/generation/climate_zones.cpp > CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.i
 
 CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.cpp -o CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/generation/climate_zones.cpp -o CMakeFiles/Barbaria.dir/game/world/generation/climate_zones.cpp.s
 
 CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o: ../game/world/world/chunk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o -c /home/janek/CLionProjects/Barbaria/game/world/world/chunk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.cpp
 
 CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/world/world/chunk.cpp > CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.cpp > CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.i
 
 CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/world/world/chunk.cpp -o CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.cpp -o CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.s
 
 CMakeFiles/Barbaria.dir/api/loader.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/api/loader.cpp.o: ../api/loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Barbaria.dir/api/loader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/api/loader.cpp.o -c /home/janek/CLionProjects/Barbaria/api/loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Barbaria.dir/api/loader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/api/loader.cpp.o -c /home/janek/CLionProjects/BarbariaGame/api/loader.cpp
 
 CMakeFiles/Barbaria.dir/api/loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/api/loader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/api/loader.cpp > CMakeFiles/Barbaria.dir/api/loader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/api/loader.cpp > CMakeFiles/Barbaria.dir/api/loader.cpp.i
 
 CMakeFiles/Barbaria.dir/api/loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/api/loader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/api/loader.cpp -o CMakeFiles/Barbaria.dir/api/loader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/api/loader.cpp -o CMakeFiles/Barbaria.dir/api/loader.cpp.s
 
 CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o: ../engine/graphics/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o -c /home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o -c /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp
 
 CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp > CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp > CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.i
 
 CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/engine/graphics/shader.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s
 
 CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o: ../engine/graphics/object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o -c /home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o -c /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp
 
 CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp > CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp > CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.i
 
 CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/engine/graphics/object.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.s
 
 CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o: ../game/blocks/block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o -c /home/janek/CLionProjects/Barbaria/game/blocks/block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/blocks/block.cpp
 
 CMakeFiles/Barbaria.dir/game/blocks/block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/blocks/block.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/blocks/block.cpp > CMakeFiles/Barbaria.dir/game/blocks/block.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/blocks/block.cpp > CMakeFiles/Barbaria.dir/game/blocks/block.cpp.i
 
 CMakeFiles/Barbaria.dir/game/blocks/block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/blocks/block.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/blocks/block.cpp -o CMakeFiles/Barbaria.dir/game/blocks/block.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/blocks/block.cpp -o CMakeFiles/Barbaria.dir/game/blocks/block.cpp.s
 
 CMakeFiles/Barbaria.dir/game/entities/entity.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/entities/entity.cpp.o: ../game/entities/entity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Barbaria.dir/game/entities/entity.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/entities/entity.cpp.o -c /home/janek/CLionProjects/Barbaria/game/entities/entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Barbaria.dir/game/entities/entity.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/entities/entity.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/entities/entity.cpp
 
 CMakeFiles/Barbaria.dir/game/entities/entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/entities/entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/entities/entity.cpp > CMakeFiles/Barbaria.dir/game/entities/entity.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/entities/entity.cpp > CMakeFiles/Barbaria.dir/game/entities/entity.cpp.i
 
 CMakeFiles/Barbaria.dir/game/entities/entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/entities/entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/entities/entity.cpp -o CMakeFiles/Barbaria.dir/game/entities/entity.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/entities/entity.cpp -o CMakeFiles/Barbaria.dir/game/entities/entity.cpp.s
 
 CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.o: ../game/windows/gamewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.o -c /home/janek/CLionProjects/Barbaria/game/windows/gamewindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.cpp
 
 CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/windows/gamewindow.cpp > CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.cpp > CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.i
 
 CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/windows/gamewindow.cpp -o CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.cpp -o CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.s
 
 CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.o: ../game/windows/framebuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.o -c /home/janek/CLionProjects/Barbaria/game/windows/framebuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/windows/framebuffer.cpp
 
 CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/windows/framebuffer.cpp > CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/windows/framebuffer.cpp > CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.i
 
 CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/windows/framebuffer.cpp -o CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/windows/framebuffer.cpp -o CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.s
 
 CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o: ../game/input/keyboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o -c /home/janek/CLionProjects/Barbaria/game/input/keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/input/keyboard.cpp
 
 CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/input/keyboard.cpp > CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/input/keyboard.cpp > CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.i
 
 CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/input/keyboard.cpp -o CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/input/keyboard.cpp -o CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.s
 
 CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o: ../game/input/mouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o -c /home/janek/CLionProjects/Barbaria/game/input/mouse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/input/mouse.cpp
 
 CMakeFiles/Barbaria.dir/game/input/mouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/input/mouse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game/input/mouse.cpp > CMakeFiles/Barbaria.dir/game/input/mouse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/input/mouse.cpp > CMakeFiles/Barbaria.dir/game/input/mouse.cpp.i
 
 CMakeFiles/Barbaria.dir/game/input/mouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/input/mouse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game/input/mouse.cpp -o CMakeFiles/Barbaria.dir/game/input/mouse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/input/mouse.cpp -o CMakeFiles/Barbaria.dir/game/input/mouse.cpp.s
 
 CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o: ../engine/graphics/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o -c /home/janek/CLionProjects/Barbaria/engine/graphics/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o -c /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp
 
 CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/engine/graphics/camera.cpp > CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp > CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.i
 
 CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/engine/graphics/camera.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.s
 
 CMakeFiles/Barbaria.dir/game.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/game.cpp.o: ../game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Barbaria.dir/game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game.cpp.o -c /home/janek/CLionProjects/Barbaria/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Barbaria.dir/game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game.cpp
 
 CMakeFiles/Barbaria.dir/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/game.cpp > CMakeFiles/Barbaria.dir/game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game.cpp > CMakeFiles/Barbaria.dir/game.cpp.i
 
 CMakeFiles/Barbaria.dir/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/game.cpp -o CMakeFiles/Barbaria.dir/game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game.cpp -o CMakeFiles/Barbaria.dir/game.cpp.s
 
 CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o: CMakeFiles/Barbaria.dir/flags.make
 CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o: ../engine/utils/time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o -c /home/janek/CLionProjects/Barbaria/engine/utils/time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o -c /home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp
 
 CMakeFiles/Barbaria.dir/engine/utils/time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/engine/utils/time.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/Barbaria/engine/utils/time.cpp > CMakeFiles/Barbaria.dir/engine/utils/time.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp > CMakeFiles/Barbaria.dir/engine/utils/time.cpp.i
 
 CMakeFiles/Barbaria.dir/engine/utils/time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/engine/utils/time.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/Barbaria/engine/utils/time.cpp -o CMakeFiles/Barbaria.dir/engine/utils/time.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp -o CMakeFiles/Barbaria.dir/engine/utils/time.cpp.s
 
 # Object files for target Barbaria
 Barbaria_OBJECTS = \
@@ -305,7 +305,7 @@ Barbaria: CMakeFiles/Barbaria.dir/game.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/build.make
 Barbaria: CMakeFiles/Barbaria.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Barbaria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Barbaria"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Barbaria.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -318,6 +318,6 @@ CMakeFiles/Barbaria.dir/clean:
 .PHONY : CMakeFiles/Barbaria.dir/clean
 
 CMakeFiles/Barbaria.dir/depend:
-	cd /home/janek/CLionProjects/Barbaria/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/janek/CLionProjects/Barbaria /home/janek/CLionProjects/Barbaria /home/janek/CLionProjects/Barbaria/cmake-build-debug /home/janek/CLionProjects/Barbaria/cmake-build-debug /home/janek/CLionProjects/Barbaria/cmake-build-debug/CMakeFiles/Barbaria.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/janek/CLionProjects/BarbariaGame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/janek/CLionProjects/BarbariaGame /home/janek/CLionProjects/BarbariaGame /home/janek/CLionProjects/BarbariaGame/cmake-build-debug /home/janek/CLionProjects/BarbariaGame/cmake-build-debug /home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Barbaria.dir/depend
 

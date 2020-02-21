@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/janek/CLionProjects/Barbaria/api/loader.h
+/home/janek/CLionProjects/BarbariaGame/api/loader.h
 ../engine/graphics/shader.h
-/home/janek/CLionProjects/Barbaria/engine/graphics/shader.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 string
 -
 filesystem
@@ -24,11 +24,11 @@ vector
 fstream
 -
 
-/home/janek/CLionProjects/Barbaria/engine/graphics/object.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
 GL/glew.h
 -
 
-/home/janek/CLionProjects/Barbaria/engine/graphics/shader.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 GL/glew.h
 -
 iostream
@@ -38,47 +38,35 @@ string
 fstream
 -
 
-/home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.h
-vector
+/home/janek/CLionProjects/BarbariaGame/game.h
+GL/glew.h
+-
+game/windows/gamewindow.h
+/home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h
+api/loader.h
+/home/janek/CLionProjects/BarbariaGame/api/loader.h
+
+/home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h
+GLFW/glfw3.h
 -
 iostream
 -
 
-/home/janek/CLionProjects/Barbaria/game/world/world.h
-../../api/loader.h
-/home/janek/CLionProjects/Barbaria/api/loader.h
-vector
--
-algorithm
--
-random
--
-generation/climate_zones.h
-/home/janek/CLionProjects/Barbaria/game/world/generation/climate_zones.h
-world/chunk.h
-/home/janek/CLionProjects/Barbaria/game/world/world/chunk.h
-
-/home/janek/CLionProjects/Barbaria/game/world/world/chunk.h
-iostream
--
-
-/home/janek/CLionProjects/Barbaria/main.cpp
+/home/janek/CLionProjects/BarbariaGame/main.cpp
 iostream
 -
 GL/glew.h
 -
-GLFW/glfw3.h
--
-api/loader.h
-/home/janek/CLionProjects/Barbaria/api/loader.h
 engine/graphics/object.h
-/home/janek/CLionProjects/Barbaria/engine/graphics/object.h
-game/world/world.h
-/home/janek/CLionProjects/Barbaria/game/world/world.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
+game.h
+/home/janek/CLionProjects/BarbariaGame/game.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
+-
+zconf.h
 -
 
