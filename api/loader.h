@@ -2,6 +2,7 @@
 #define BARBARIA_LOADER_H
 
 #include "../engine/graphics/shader.h"
+#include "../engine/graphics/camera.h"
 #include <string>
 #include <filesystem>
 #include <pwd.h>
@@ -23,6 +24,7 @@ public:
     std::vector<std::string> winteryBiomes;
     std::vector<std::string> extremelyWinteryBiomes;
     Shader *mainShader;
+    Camera *mainCamera;
 protected:
 private:
     std::string configDirectory = "";

@@ -8,6 +8,7 @@ Loader::Loader() {
     configDirectory = configPath;
     loadShader();
     loadBiomes();
+    this->mainCamera = new Camera(*mainShader);
 }
 
 void Loader::loadShader() {

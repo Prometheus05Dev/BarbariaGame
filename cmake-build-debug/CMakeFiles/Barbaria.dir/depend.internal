@@ -4,10 +4,12 @@
 CMakeFiles/Barbaria.dir/api/loader.cpp.o
  /home/janek/CLionProjects/BarbariaGame/api/loader.cpp
  /home/janek/CLionProjects/BarbariaGame/api/loader.h
+ /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
+ /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
@@ -19,6 +21,7 @@ CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o
  /home/janek/CLionProjects/BarbariaGame/engine/utils/time.h
 CMakeFiles/Barbaria.dir/game.cpp.o
  /home/janek/CLionProjects/BarbariaGame/api/loader.h
+ /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
  /home/janek/CLionProjects/BarbariaGame/game.cpp
  /home/janek/CLionProjects/BarbariaGame/game.h
@@ -52,6 +55,7 @@ CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o
  /home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.h
 CMakeFiles/Barbaria.dir/main.cpp.o
  /home/janek/CLionProjects/BarbariaGame/api/loader.h
+ /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
  /home/janek/CLionProjects/BarbariaGame/game.h

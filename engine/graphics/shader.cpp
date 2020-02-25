@@ -61,3 +61,7 @@ int Shader::getShaderLocation(const GLchar *variableName) {
     int returnValue = glGetUniformLocation(shaderProgram, variableName);
     return returnValue;
 }
+
+int Shader::pushMatrix4f(glm::mat4 matrix, const GLchar *name) {
+    glUniformMatrix4fv(this->getShaderLocation(name), 1, GL_FALSE, glm::value_ptr(matrix));
+}
