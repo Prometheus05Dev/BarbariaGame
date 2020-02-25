@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/CLionProjects/BarbariaGame/api/loader.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o"
-  "/home/janek/CLionProjects/BarbariaGame/engine/graphics/geometry/cubeobject.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/geometry/cubeobject.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o"
@@ -26,10 +25,16 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../"
+  "../libraries/assimp-5.0.1/include/assimp"
+  "../libraries/assimp-5.0.1/code/../include"
+  "libraries/assimp-5.0.1/code/../include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/libraries/assimp-5.0.1/code/CMakeFiles/assimp.dir/DependInfo.cmake"
+  "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/libraries/assimp-5.0.1/contrib/irrXML/CMakeFiles/IrrXML.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

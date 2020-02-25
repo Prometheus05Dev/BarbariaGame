@@ -1,11 +1,11 @@
 #include <iostream>
 #include <GL/glew.h>
 #include "game.h"
-#include "engine/graphics/geometry/cubeobject.h"
+#include "engine/graphics/object.h"
 #include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
-#include <zconf.h>
+#include <Importer.hpp>
+#include <scene.h>
+#include <postprocess.h>
 
 float currentFrame = glfwGetTime();
 
@@ -21,7 +21,9 @@ int main() {
     glewInit();
     game.postInit();
 
-    CubeObject testObject;
+    Object testObject;
+
+    Assimp::Importer importer;
 
     while(!game.shouldClose){
         //currentFrame = glfwGetTime();

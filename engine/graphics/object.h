@@ -11,7 +11,10 @@ protected:
 private:
     unsigned int VAO;
     unsigned int VBO;
-    float vertices[108];
+    unsigned int EBO;
+    float vertices[24];
+    unsigned int indices[36];
 };
+
 
 #endif //BARBARIA_OBJECT_H

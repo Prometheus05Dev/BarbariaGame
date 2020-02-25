@@ -1,2 +1,5 @@
 cmake-build-debug/
 .idea/
+/.idea/
+/libraries/
+/cmake-build-debug/

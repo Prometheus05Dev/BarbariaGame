@@ -56,16 +56,17 @@ CMAKE_BINARY_DIR = /home/janek/CLionProjects/BarbariaGame/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,6 +78,51 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"assimp-bin\" \"assimp-dev\" \"libassimp5.0.0-dev\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -122,6 +168,71 @@ Barbaria: cmake_check_build_system
 Barbaria/fast:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/build
 .PHONY : Barbaria/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f libraries/assimp-5.0.1/CMakeFiles/uninstall.dir/build.make libraries/assimp-5.0.1/CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named IrrXML
+
+# Build rule for target.
+IrrXML: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IrrXML
+.PHONY : IrrXML
+
+# fast build rule for target.
+IrrXML/fast:
+	$(MAKE) -f libraries/assimp-5.0.1/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make libraries/assimp-5.0.1/contrib/irrXML/CMakeFiles/IrrXML.dir/build
+.PHONY : IrrXML/fast
+
+#=============================================================================
+# Target rules for targets named assimp
+
+# Build rule for target.
+assimp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assimp
+.PHONY : assimp
+
+# fast build rule for target.
+assimp/fast:
+	$(MAKE) -f libraries/assimp-5.0.1/code/CMakeFiles/assimp.dir/build.make libraries/assimp-5.0.1/code/CMakeFiles/assimp.dir/build
+.PHONY : assimp/fast
+
+#=============================================================================
+# Target rules for targets named assimp_cmd
+
+# Build rule for target.
+assimp_cmd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assimp_cmd
+.PHONY : assimp_cmd
+
+# fast build rule for target.
+assimp_cmd/fast:
+	$(MAKE) -f libraries/assimp-5.0.1/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make libraries/assimp-5.0.1/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build
+.PHONY : assimp_cmd/fast
+
+#=============================================================================
+# Target rules for targets named unit
+
+# Build rule for target.
+unit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unit
+.PHONY : unit
+
+# fast build rule for target.
+unit/fast:
+	$(MAKE) -f libraries/assimp-5.0.1/test/CMakeFiles/unit.dir/build.make libraries/assimp-5.0.1/test/CMakeFiles/unit.dir/build
+.PHONY : unit/fast
 
 api/loader.o: api/loader.cpp.o
 
@@ -176,33 +287,6 @@ engine/graphics/camera.s: engine/graphics/camera.cpp.s
 engine/graphics/camera.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.s
 .PHONY : engine/graphics/camera.cpp.s
-
-engine/graphics/geometry/cubeobject.o: engine/graphics/geometry/cubeobject.cpp.o
-
-.PHONY : engine/graphics/geometry/cubeobject.o
-
-# target to build an object file
-engine/graphics/geometry/cubeobject.cpp.o:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/geometry/cubeobject.cpp.o
-.PHONY : engine/graphics/geometry/cubeobject.cpp.o
-
-engine/graphics/geometry/cubeobject.i: engine/graphics/geometry/cubeobject.cpp.i
-
-.PHONY : engine/graphics/geometry/cubeobject.i
-
-# target to preprocess a source file
-engine/graphics/geometry/cubeobject.cpp.i:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/geometry/cubeobject.cpp.i
-.PHONY : engine/graphics/geometry/cubeobject.cpp.i
-
-engine/graphics/geometry/cubeobject.s: engine/graphics/geometry/cubeobject.cpp.s
-
-.PHONY : engine/graphics/geometry/cubeobject.s
-
-# target to generate assembly for a file
-engine/graphics/geometry/cubeobject.cpp.s:
-	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/geometry/cubeobject.cpp.s
-.PHONY : engine/graphics/geometry/cubeobject.cpp.s
 
 engine/graphics/object.o: engine/graphics/object.cpp.o
 
@@ -588,18 +672,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... Barbaria"
+	@echo "... install/strip"
 	@echo "... edit_cache"
+	@echo "... Barbaria"
+	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... uninstall"
+	@echo "... IrrXML"
+	@echo "... assimp"
+	@echo "... assimp_cmd"
+	@echo "... unit"
 	@echo "... api/loader.o"
 	@echo "... api/loader.i"
 	@echo "... api/loader.s"
 	@echo "... engine/graphics/camera.o"
 	@echo "... engine/graphics/camera.i"
 	@echo "... engine/graphics/camera.s"
-	@echo "... engine/graphics/geometry/cubeobject.o"
-	@echo "... engine/graphics/geometry/cubeobject.i"
-	@echo "... engine/graphics/geometry/cubeobject.s"
 	@echo "... engine/graphics/object.o"
 	@echo "... engine/graphics/object.i"
 	@echo "... engine/graphics/object.s"
