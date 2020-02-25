@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/CLionProjects/BarbariaGame/api/loader.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/api/loader.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o"
+  "/home/janek/CLionProjects/BarbariaGame/engine/graphics/geometry/cubeobject.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/geometry/cubeobject.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o"

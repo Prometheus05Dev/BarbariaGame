@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp
-camera.h
+/home/janek/CLionProjects/BarbariaGame/api/loader.h
+../engine/graphics/shader.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
+../engine/graphics/camera.h
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
+string
+-
+filesystem
+-
+pwd.h
+-
+zconf.h
+-
+iostream
+-
+vector
+-
+fstream
+-
 
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
 glm/glm.hpp
@@ -19,6 +35,14 @@ glm/gtc/type_ptr.hpp
 -
 shader.h
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
+
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/geometry/cubeobject.cpp
+cubeobject.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/geometry/cubeobject.h
+
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/geometry/cubeobject.h
+GL/glew.h
+-
 
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 GL/glew.h
@@ -32,5 +56,37 @@ fstream
 glm/glm.hpp
 -
 glm/gtc/type_ptr.hpp
+-
+
+/home/janek/CLionProjects/BarbariaGame/game.h
+GL/glew.h
+-
+game/windows/gamewindow.h
+/home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h
+api/loader.h
+/home/janek/CLionProjects/BarbariaGame/api/loader.h
+
+/home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h
+GLFW/glfw3.h
+-
+iostream
+-
+
+/home/janek/CLionProjects/BarbariaGame/main.cpp
+iostream
+-
+GL/glew.h
+-
+game.h
+/home/janek/CLionProjects/BarbariaGame/game.h
+engine/graphics/geometry/cubeobject.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/geometry/cubeobject.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+zconf.h
 -
 

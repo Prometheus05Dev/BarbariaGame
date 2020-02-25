@@ -94,6 +94,12 @@
 		<Unit filename="/home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h">
 			<Option target="Barbaria"/>
 		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/engine/graphics/geometry/cubeobject.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/engine/graphics/geometry/cubeobject.h">
+			<Option target="Barbaria"/>
+		</Unit>
 		<Unit filename="/home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp">
 			<Option target="Barbaria"/>
 		</Unit>

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <GL/glew.h>
-#include "engine/graphics/object.h"
 #include "game.h"
+#include "engine/graphics/geometry/cubeobject.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -22,11 +22,6 @@ int main() {
     game.postInit();
 
     CubeObject testObject;
-
-    /*projectionMatrix = glm::perspective(glm::radians(45.0f), 400.0f / 200.0f, 0.1f, 100.0f);
-    //glUniformMatrix4fv(returnMainWorld().mainLoader.mainShader->getShaderLocation("projectionMatrix"), 1, GL_FALSE, glm::value_ptr(projectionMatrix));
-    viewMatrix = glm::translate(viewMatrix, glm::vec3(0.0f, 0.0f, -3.0f));
-    modelMatrix = glm::rotate(modelMatrix, glm::radians(-55.0f), glm::vec3(1.0f, 1.0f, 0.0f)); */
 
     while(!game.shouldClose){
         //currentFrame = glfwGetTime();

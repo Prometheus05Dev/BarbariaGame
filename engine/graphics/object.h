@@ -3,9 +3,9 @@
 
 #include <GL/glew.h>
 
-class CubeObject {
+class Object {
 public:
-    CubeObject();
+    Object();
     void bind();
 protected:
 private:

@@ -177,6 +177,33 @@ engine/graphics/camera.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.s
 .PHONY : engine/graphics/camera.cpp.s
 
+engine/graphics/geometry/cubeobject.o: engine/graphics/geometry/cubeobject.cpp.o
+
+.PHONY : engine/graphics/geometry/cubeobject.o
+
+# target to build an object file
+engine/graphics/geometry/cubeobject.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/geometry/cubeobject.cpp.o
+.PHONY : engine/graphics/geometry/cubeobject.cpp.o
+
+engine/graphics/geometry/cubeobject.i: engine/graphics/geometry/cubeobject.cpp.i
+
+.PHONY : engine/graphics/geometry/cubeobject.i
+
+# target to preprocess a source file
+engine/graphics/geometry/cubeobject.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/geometry/cubeobject.cpp.i
+.PHONY : engine/graphics/geometry/cubeobject.cpp.i
+
+engine/graphics/geometry/cubeobject.s: engine/graphics/geometry/cubeobject.cpp.s
+
+.PHONY : engine/graphics/geometry/cubeobject.s
+
+# target to generate assembly for a file
+engine/graphics/geometry/cubeobject.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/geometry/cubeobject.cpp.s
+.PHONY : engine/graphics/geometry/cubeobject.cpp.s
+
 engine/graphics/object.o: engine/graphics/object.cpp.o
 
 .PHONY : engine/graphics/object.o
@@ -570,6 +597,9 @@ help:
 	@echo "... engine/graphics/camera.o"
 	@echo "... engine/graphics/camera.i"
 	@echo "... engine/graphics/camera.s"
+	@echo "... engine/graphics/geometry/cubeobject.o"
+	@echo "... engine/graphics/geometry/cubeobject.i"
+	@echo "... engine/graphics/geometry/cubeobject.s"
 	@echo "... engine/graphics/object.o"
 	@echo "... engine/graphics/object.i"
 	@echo "... engine/graphics/object.s"
