@@ -2,6 +2,7 @@
 #define BARBARIA_OBJECT_H
 
 #include <GL/glew.h>
+#include <vector>
 
 struct Vertex {
     float x, y, z;
@@ -18,7 +19,7 @@ private:
     unsigned int VAO;
     unsigned int VBO;
     unsigned int EBO;
-    Vertex vertices[64];
+    std::vector<Vertex> vertices;
     unsigned int indices[36];
 };
 

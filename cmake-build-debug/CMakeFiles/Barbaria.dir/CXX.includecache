@@ -7,12 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp
-iostream
--
 object.h
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
 
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
 GL/glew.h
+-
+vector
 -
 
