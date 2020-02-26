@@ -11,8 +11,41 @@ CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o
+ ../libraries/assimp-5.0.1/include/assimp/Compiler/poppack1.h
+ ../libraries/assimp-5.0.1/include/assimp/Compiler/pstdint.h
+ ../libraries/assimp-5.0.1/include/assimp/Compiler/pushpack1.h
+ ../libraries/assimp-5.0.1/include/assimp/Importer.hpp
+ ../libraries/assimp-5.0.1/include/assimp/MathFunctions.h
+ ../libraries/assimp-5.0.1/include/assimp/aabb.h
+ ../libraries/assimp-5.0.1/include/assimp/anim.h
+ ../libraries/assimp-5.0.1/include/assimp/camera.h
+ ../libraries/assimp-5.0.1/include/assimp/cimport.h
+ ../libraries/assimp-5.0.1/include/assimp/color4.h
+ ../libraries/assimp-5.0.1/include/assimp/color4.inl
+ ../libraries/assimp-5.0.1/include/assimp/defs.h
+ ../libraries/assimp-5.0.1/include/assimp/importerdesc.h
+ ../libraries/assimp-5.0.1/include/assimp/light.h
+ ../libraries/assimp-5.0.1/include/assimp/material.h
+ ../libraries/assimp-5.0.1/include/assimp/material.inl
+ ../libraries/assimp-5.0.1/include/assimp/matrix3x3.h
+ ../libraries/assimp-5.0.1/include/assimp/matrix3x3.inl
+ ../libraries/assimp-5.0.1/include/assimp/matrix4x4.h
+ ../libraries/assimp-5.0.1/include/assimp/matrix4x4.inl
+ ../libraries/assimp-5.0.1/include/assimp/mesh.h
+ ../libraries/assimp-5.0.1/include/assimp/metadata.h
+ ../libraries/assimp-5.0.1/include/assimp/postprocess.h
+ ../libraries/assimp-5.0.1/include/assimp/quaternion.h
+ ../libraries/assimp-5.0.1/include/assimp/quaternion.inl
+ ../libraries/assimp-5.0.1/include/assimp/scene.h
+ ../libraries/assimp-5.0.1/include/assimp/texture.h
+ ../libraries/assimp-5.0.1/include/assimp/types.h
+ ../libraries/assimp-5.0.1/include/assimp/vector2.h
+ ../libraries/assimp-5.0.1/include/assimp/vector2.inl
+ ../libraries/assimp-5.0.1/include/assimp/vector3.h
+ ../libraries/assimp-5.0.1/include/assimp/vector3.inl
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
+ libraries/assimp-5.0.1/include/assimp/config.h
 CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
@@ -62,9 +95,11 @@ CMakeFiles/Barbaria.dir/main.cpp.o
  ../libraries/assimp-5.0.1/include/assimp/aabb.h
  ../libraries/assimp-5.0.1/include/assimp/anim.h
  ../libraries/assimp-5.0.1/include/assimp/camera.h
+ ../libraries/assimp-5.0.1/include/assimp/cimport.h
  ../libraries/assimp-5.0.1/include/assimp/color4.h
  ../libraries/assimp-5.0.1/include/assimp/color4.inl
  ../libraries/assimp-5.0.1/include/assimp/defs.h
+ ../libraries/assimp-5.0.1/include/assimp/importerdesc.h
  ../libraries/assimp-5.0.1/include/assimp/light.h
  ../libraries/assimp-5.0.1/include/assimp/material.h
  ../libraries/assimp-5.0.1/include/assimp/material.inl

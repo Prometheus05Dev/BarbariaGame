@@ -21,9 +21,8 @@ int main() {
     glewInit();
     game.postInit();
 
-    Object testObject;
+    Object testObject("hi.obj");
 
-    Assimp::Importer importer;
 
     while(!game.shouldClose){
         //currentFrame = glfwGetTime();
