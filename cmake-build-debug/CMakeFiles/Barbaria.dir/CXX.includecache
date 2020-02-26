@@ -246,6 +246,10 @@ vector3.h
 cmath
 -
 
+/home/janek/CLionProjects/BarbariaGame/api/loader.cpp
+loader.h
+/home/janek/CLionProjects/BarbariaGame/api/loader.h
+
 /home/janek/CLionProjects/BarbariaGame/api/loader.h
 ../engine/graphics/shader.h
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
@@ -266,6 +270,10 @@ vector
 fstream
 -
 
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp
+camera.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
+
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
 glm/glm.hpp
 -
@@ -276,9 +284,17 @@ glm/gtc/type_ptr.hpp
 shader.h
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp
+object.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
+
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
 GL/glew.h
 -
+
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp
+shader.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
 GL/glew.h
@@ -294,6 +310,16 @@ glm/glm.hpp
 glm/gtc/type_ptr.hpp
 -
 
+/home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp
+time.h
+/home/janek/CLionProjects/BarbariaGame/engine/utils/time.h
+
+/home/janek/CLionProjects/BarbariaGame/engine/utils/time.h
+
+/home/janek/CLionProjects/BarbariaGame/game.cpp
+game.h
+/home/janek/CLionProjects/BarbariaGame/game.h
+
 /home/janek/CLionProjects/BarbariaGame/game.h
 GL/glew.h
 -
@@ -302,9 +328,67 @@ game/windows/gamewindow.h
 api/loader.h
 /home/janek/CLionProjects/BarbariaGame/api/loader.h
 
+/home/janek/CLionProjects/BarbariaGame/game/blocks/block.cpp
+block.h
+/home/janek/CLionProjects/BarbariaGame/game/blocks/block.h
+
+/home/janek/CLionProjects/BarbariaGame/game/blocks/block.h
+
+/home/janek/CLionProjects/BarbariaGame/game/entities/entity.cpp
+entity.h
+/home/janek/CLionProjects/BarbariaGame/game/entities/entity.h
+
+/home/janek/CLionProjects/BarbariaGame/game/entities/entity.h
+
+/home/janek/CLionProjects/BarbariaGame/game/input/keyboard.cpp
+keyboard.h
+/home/janek/CLionProjects/BarbariaGame/game/input/keyboard.h
+
+/home/janek/CLionProjects/BarbariaGame/game/input/keyboard.h
+
+/home/janek/CLionProjects/BarbariaGame/game/input/mouse.cpp
+mouse.h
+/home/janek/CLionProjects/BarbariaGame/game/input/mouse.h
+
+/home/janek/CLionProjects/BarbariaGame/game/input/mouse.h
+
+/home/janek/CLionProjects/BarbariaGame/game/windows/framebuffer.cpp
+framebuffer.h
+/home/janek/CLionProjects/BarbariaGame/game/windows/framebuffer.h
+
+/home/janek/CLionProjects/BarbariaGame/game/windows/framebuffer.h
+
+/home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.cpp
+gamewindow.h
+/home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h
+
 /home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h
 GLFW/glfw3.h
 -
+iostream
+-
+
+/home/janek/CLionProjects/BarbariaGame/game/world/generation/climate_zones.cpp
+climate_zones.h
+/home/janek/CLionProjects/BarbariaGame/game/world/generation/climate_zones.h
+
+/home/janek/CLionProjects/BarbariaGame/game/world/generation/climate_zones.h
+vector
+-
+iostream
+-
+
+/home/janek/CLionProjects/BarbariaGame/game/world/world.cpp
+world.h
+/home/janek/CLionProjects/BarbariaGame/game/world/world.h
+
+/home/janek/CLionProjects/BarbariaGame/game/world/world.h
+
+/home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.cpp
+chunk.h
+/home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.h
+
+/home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.h
 iostream
 -
 
