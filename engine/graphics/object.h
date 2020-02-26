@@ -20,7 +20,8 @@ private:
     unsigned int VBO;
     unsigned int EBO;
     std::vector<Vertex> vertices;
-    unsigned int indices[36];
+    std::vector<unsigned int> indices;
+    unsigned int numIndices = 0;
 };
 
 
