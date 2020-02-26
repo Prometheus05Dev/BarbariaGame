@@ -12,7 +12,7 @@ private:
     unsigned int VAO;
     unsigned int VBO;
     unsigned int EBO;
-    float vertices[24];
+    float vertices[64];
     unsigned int indices[36];
 };
 
