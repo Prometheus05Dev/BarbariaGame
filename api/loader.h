@@ -15,7 +15,7 @@ class Loader {
 public:
     Loader();
     void loadBiomes();
-    void loadShader();
+    Shader * loadShader();
     std::vector<std::string> extremelyHotBiomes;
     std::vector<std::string> hotBiomes;
     std::vector<std::string> warmBiomes;
@@ -23,8 +23,6 @@ public:
     std::vector<std::string> coldBiomes;
     std::vector<std::string> winteryBiomes;
     std::vector<std::string> extremelyWinteryBiomes;
-    Shader *mainShader;
-    Camera *mainCamera;
 protected:
 private:
     std::string configDirectory = "";

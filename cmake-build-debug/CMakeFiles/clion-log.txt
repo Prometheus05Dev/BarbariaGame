@@ -1,4 +1,4 @@
-/home/janek/Programme/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/janek/CLionProjects/BarbariaGame
+/home/janek/Programme/clion/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/janek/CLionProjects/BarbariaGame
 -- Shared libraries enabled
 -- Looking for ZLIB...
 -- Found ZLIB: optimized;/usr/local/lib/libz.so;debug;/usr/local/lib/libz.so

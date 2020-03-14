@@ -7,6 +7,9 @@ Game::Game() {
 
 void Game::postInit() {
     this->gameLoader = new Loader();
+    gameShader = this->gameLoader->loadShader();
+    this->gameShader->bind();
+    gameCamera = new Camera(*this->gameShader);
 }
 
 void Game::update() {

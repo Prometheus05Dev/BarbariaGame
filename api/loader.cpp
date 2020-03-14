@@ -6,18 +6,15 @@ Loader::Loader() {
     std::string configPath = std::string(pw->pw_dir);
     configPath += "/.config/barbaria";
     configDirectory = configPath;
-    loadShader();
     loadBiomes();
-    this->mainCamera = new Camera(*mainShader);
 }
 
-void Loader::loadShader() {
+Shader * Loader::loadShader() {
     std::string shaderDirectory = "";
     shaderDirectory = configDirectory + "/shaders/";
     std::string vertexShaderPathCPP = shaderDirectory + "VertexShader.glsl";
     std::string fragmentShaderPathCPP = shaderDirectory + "FragmentShader.glsl";
-    mainShader = new Shader(vertexShaderPathCPP.c_str(), fragmentShaderPathCPP.c_str());
-    mainShader->bind();
+    return new Shader(vertexShaderPathCPP.c_str(), fragmentShaderPathCPP.c_str());
 }
 
 void Loader::loadBiomes() {
