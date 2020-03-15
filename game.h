@@ -3,6 +3,7 @@
 
 #include "api/loader.h"
 #include "game/windows/gamewindow.h"
+#include <game/input/keyboard.h>
 
 class Game {
 public:
@@ -16,6 +17,7 @@ private:
     Loader *gameLoader;
     Shader *gameShader;
     Camera *gameCamera;
+    KeyBoard *gameKeyBoard;
 };
 
 #endif //BARBARIA_GAME_H

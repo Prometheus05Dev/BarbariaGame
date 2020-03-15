@@ -10,12 +10,15 @@ void Game::postInit() {
     gameShader = this->gameLoader->loadShader();
     this->gameShader->bind();
     gameCamera = new Camera(*this->gameShader);
+    gameKeyBoard = new KeyBoard();
+    gameKeyBoard->processWindow = gameWindow->mainWindow;
 }
 
 void Game::update() {
     this->gameWindow->update();
     glfwPollEvents();
     this->gameWindow->processInput();
+    this->gameKeyBoard->processInput();
     if(this->gameWindow->shouldClose() == true){
         shouldClose == true;
         glfwTerminate();
