@@ -1,26 +1,14 @@
 #include "game.h"
 
+float Game::deltaTime = 0.0f;
+
 Game::Game() {
-    this->gameWindow = new GameWindow();
-    shouldClose = false;
+    currentFrame = 0.0f;
+    lastFrame = 0.0f;
 }
 
-void Game::postInit() {
-    this->gameLoader = new Loader();
-    gameShader = this->gameLoader->loadShader();
-    this->gameShader->bind();
-    gameCamera = new Camera(*this->gameShader);
-    gameKeyBoard = new KeyBoard();
-    gameKeyBoard->processWindow = gameWindow->mainWindow;
-}
-
-void Game::update() {
-    this->gameWindow->update();
-    glfwPollEvents();
-    this->gameWindow->processInput();
-    this->gameKeyBoard->processInput();
-    if(this->gameWindow->shouldClose() == true){
-        shouldClose == true;
-        glfwTerminate();
-    }
+void Game::update(float currentTime) {
+    currentFrame = currentTime;
+    deltaTime = currentFrame - lastFrame;
+    lastFrame = currentFrame;
 }

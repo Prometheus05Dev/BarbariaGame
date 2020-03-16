@@ -15,7 +15,7 @@ class Loader {
 public:
     Loader();
     void loadBiomes();
-    Shader * loadShader();
+    Shader loadShader();
     std::vector<std::string> extremelyHotBiomes;
     std::vector<std::string> hotBiomes;
     std::vector<std::string> warmBiomes;

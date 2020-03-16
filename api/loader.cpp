@@ -9,12 +9,12 @@ Loader::Loader() {
     loadBiomes();
 }
 
-Shader * Loader::loadShader() {
+Shader Loader::loadShader() {
     std::string shaderDirectory = "";
     shaderDirectory = configDirectory + "/shaders/";
     std::string vertexShaderPathCPP = shaderDirectory + "VertexShader.glsl";
     std::string fragmentShaderPathCPP = shaderDirectory + "FragmentShader.glsl";
-    return new Shader(vertexShaderPathCPP.c_str(), fragmentShaderPathCPP.c_str());
+    return Shader(vertexShaderPathCPP.c_str(), fragmentShaderPathCPP.c_str());
 }
 
 void Loader::loadBiomes() {

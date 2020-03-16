@@ -53,13 +53,8 @@ CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o
  /home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp
  /home/janek/CLionProjects/BarbariaGame/engine/utils/time.h
 CMakeFiles/Barbaria.dir/game.cpp.o
- ../game/input/keyboard.h
- /home/janek/CLionProjects/BarbariaGame/api/loader.h
- /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
- /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
  /home/janek/CLionProjects/BarbariaGame/game.cpp
  /home/janek/CLionProjects/BarbariaGame/game.h
- /home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h
 CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o
  /home/janek/CLionProjects/BarbariaGame/game/blocks/block.cpp
  /home/janek/CLionProjects/BarbariaGame/game/blocks/block.h
@@ -67,6 +62,8 @@ CMakeFiles/Barbaria.dir/game/entities/entity.cpp.o
  /home/janek/CLionProjects/BarbariaGame/game/entities/entity.cpp
  /home/janek/CLionProjects/BarbariaGame/game/entities/entity.h
 CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o
+ ../engine/graphics/camera.h
+ ../engine/graphics/shader.h
  /home/janek/CLionProjects/BarbariaGame/game/input/keyboard.cpp
  /home/janek/CLionProjects/BarbariaGame/game/input/keyboard.h
 CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o
@@ -88,7 +85,11 @@ CMakeFiles/Barbaria.dir/game/world/world/chunk.cpp.o
  /home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.cpp
  /home/janek/CLionProjects/BarbariaGame/game/world/world/chunk.h
 CMakeFiles/Barbaria.dir/main.cpp.o
+ ../api/loader.h
+ ../engine/graphics/camera.h
+ ../engine/graphics/shader.h
  ../game/input/keyboard.h
+ ../game/windows/gamewindow.h
  ../libraries/assimp-5.0.1/include/assimp/Compiler/poppack1.h
  ../libraries/assimp-5.0.1/include/assimp/Compiler/pstdint.h
  ../libraries/assimp-5.0.1/include/assimp/Compiler/pushpack1.h
@@ -121,11 +122,7 @@ CMakeFiles/Barbaria.dir/main.cpp.o
  ../libraries/assimp-5.0.1/include/assimp/vector2.inl
  ../libraries/assimp-5.0.1/include/assimp/vector3.h
  ../libraries/assimp-5.0.1/include/assimp/vector3.inl
- /home/janek/CLionProjects/BarbariaGame/api/loader.h
- /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/object.h
- /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
  /home/janek/CLionProjects/BarbariaGame/game.h
- /home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h
  /home/janek/CLionProjects/BarbariaGame/main.cpp
  libraries/assimp-5.0.1/include/assimp/config.h
