@@ -29,12 +29,13 @@ int main() {
     Mouse::processCamera = &gameCamera;
     glfwSetCursorPosCallback(gameWindow.mainWindow, &gameMouse.mouse_callback_function);
 
-    Object testObject("WoodenCrate.obj");
-    Texture testTexture("grass.jpg");
+    Object testObject("stall.obj");
+    Texture testTexture("stall.png");
 
     while(!shouldClose){
         glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        gameShader.bind();
         testTexture.bind();
         testObject.bind();
         gameWindow.update();
