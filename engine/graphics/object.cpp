@@ -33,6 +33,8 @@ Object::Object(std::string path) {
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)offsetof(Vertex, normalX));
     glEnableVertexAttribArray(1);
+    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)offsetof(Vertex,textureX));
+    glEnableVertexAttribArray(2);
 }
 
 bool Object::assimpGetMeshData(const aiMesh *mesh) {
@@ -45,6 +47,8 @@ bool Object::assimpGetMeshData(const aiMesh *mesh) {
         vertex.normalX = mesh->mNormals[v].x;
         vertex.normalY = mesh->mNormals[v].y;
         vertex.normalZ = mesh->mNormals[v].z;
+        vertex.textureX = mesh->mTextureCoords[0][v].x;
+        vertex.textureY = mesh->mTextureCoords[0][v].y;
         vertices.push_back(vertex);
     }
     for(unsigned int f = 0; f < mesh->mNumFaces; f++){

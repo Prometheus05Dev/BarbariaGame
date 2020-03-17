@@ -27,7 +27,9 @@ int main() {
     Mouse::processCamera = &gameCamera;
     glfwSetCursorPosCallback(gameWindow.mainWindow, &gameMouse.mouse_callback_function);
 
-    Object testObject("hi.obj");
+    Object testObject("cube.obj");
+
+    glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
 
     while(!shouldClose){
         glClearColor(0.5f, 0.5f, 0.5f, 1.0f);

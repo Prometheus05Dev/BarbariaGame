@@ -14,6 +14,7 @@
 struct Vertex {
     float x, y, z;
     float normalX, normalY, normalZ;
+    float textureX, textureY;
 };
 
 class Object {

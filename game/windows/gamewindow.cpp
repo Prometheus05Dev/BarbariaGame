@@ -5,12 +5,12 @@ GameWindow::GameWindow() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-    this->mainWindow = glfwCreateWindow(400, 200, "Barbaria",NULL, NULL);
+    this->mainWindow = glfwCreateWindow(1920, 1080, "Barbaria",glfwGetPrimaryMonitor(), NULL);
     if(this->mainWindow == NULL) {
         std::cout << "Creation of gameWindow failed!" << std::endl;
         glfwTerminate();
     }
-    glViewport(0, 0, 400, 200);
+    glViewport(0, 0, 1920, 1080);
     //glfwSetFramebufferSizeCallback(gameWindow, framebuffer_size_callback);
     glfwMakeContextCurrent(this->mainWindow);
     glfwSetInputMode(mainWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
