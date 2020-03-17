@@ -8,7 +8,7 @@
 class KeyBoard {
 public:
     KeyBoard();
-    void processInput(Camera camera);
+    void processInput(Camera &camera);
     GLFWwindow *processWindow;
 protected:
 private:

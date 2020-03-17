@@ -4,7 +4,7 @@ KeyBoard::KeyBoard(){
 
 }
 
-void KeyBoard::processInput(Camera camera) {
+void KeyBoard::processInput(Camera &camera) {
     if(glfwGetKey(processWindow, GLFW_KEY_W) == GLFW_PRESS)
         camera.moveForward();
     if(glfwGetKey(processWindow, GLFW_KEY_S) == GLFW_PRESS)

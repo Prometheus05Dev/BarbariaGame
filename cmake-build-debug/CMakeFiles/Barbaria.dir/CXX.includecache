@@ -312,6 +312,30 @@ vector3.h
 cmath
 -
 
+/home/janek/CLionProjects/BarbariaGame/api/loader.cpp
+loader.h
+/home/janek/CLionProjects/BarbariaGame/api/loader.h
+
+/home/janek/CLionProjects/BarbariaGame/api/loader.h
+../engine/graphics/shader.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
+../engine/graphics/camera.h
+/home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
+string
+-
+filesystem
+-
+pwd.h
+-
+zconf.h
+-
+iostream
+-
+vector
+-
+fstream
+-
+
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp
 camera.h
 /home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.h
@@ -361,6 +385,18 @@ glm/gtc/type_ptr.hpp
 -
 
 /home/janek/CLionProjects/BarbariaGame/game.h
+
+/home/janek/CLionProjects/BarbariaGame/game/input/keyboard.cpp
+keyboard.h
+/home/janek/CLionProjects/BarbariaGame/game/input/keyboard.h
+
+/home/janek/CLionProjects/BarbariaGame/game/input/keyboard.h
+engine/graphics/camera.h
+-
+GLFW/glfw3.h
+-
+iostream
+-
 
 /home/janek/CLionProjects/BarbariaGame/main.cpp
 iostream
