@@ -67,6 +67,8 @@ CMakeFiles/Barbaria.dir/game/input/keyboard.cpp.o
  /home/janek/CLionProjects/BarbariaGame/game/input/keyboard.cpp
  /home/janek/CLionProjects/BarbariaGame/game/input/keyboard.h
 CMakeFiles/Barbaria.dir/game/input/mouse.cpp.o
+ ../engine/graphics/camera.h
+ ../engine/graphics/shader.h
  /home/janek/CLionProjects/BarbariaGame/game/input/mouse.cpp
  /home/janek/CLionProjects/BarbariaGame/game/input/mouse.h
 CMakeFiles/Barbaria.dir/game/windows/framebuffer.cpp.o
@@ -89,6 +91,7 @@ CMakeFiles/Barbaria.dir/main.cpp.o
  ../engine/graphics/camera.h
  ../engine/graphics/shader.h
  ../game/input/keyboard.h
+ ../game/input/mouse.h
  ../game/windows/gamewindow.h
  ../libraries/assimp-5.0.1/include/assimp/Compiler/poppack1.h
  ../libraries/assimp-5.0.1/include/assimp/Compiler/pstdint.h

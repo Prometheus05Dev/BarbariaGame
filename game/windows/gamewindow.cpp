@@ -13,8 +13,7 @@ GameWindow::GameWindow() {
     glViewport(0, 0, 400, 200);
     //glfwSetFramebufferSizeCallback(gameWindow, framebuffer_size_callback);
     glfwMakeContextCurrent(this->mainWindow);
-    //glfwSetInputMode(gameWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-    //glfwSetCursorPosCallback(gameWindow, mouse_callback);
+    glfwSetInputMode(mainWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 }
 
 bool GameWindow::shouldClose() {

@@ -6,6 +6,7 @@
 #include <game/windows/gamewindow.h>
 #include <api/loader.h>
 #include <game/input/keyboard.h>
+#include <game/input/mouse.h>
 
 bool shouldClose = false;
 
@@ -22,6 +23,9 @@ int main() {
     Camera gameCamera(gameShader);
     KeyBoard gameKeyboard;
     gameKeyboard.processWindow = gameWindow.mainWindow;
+    Mouse gameMouse;
+    Mouse::processCamera = &gameCamera;
+    glfwSetCursorPosCallback(gameWindow.mainWindow, &gameMouse.mouse_callback_function);
 
     Object testObject("hi.obj");
 
@@ -33,6 +37,7 @@ int main() {
         glfwPollEvents();
         gameWindow.processInput();
         gameKeyboard.processInput(gameCamera);
+        gameCamera.update();
         if(gameWindow.shouldClose() == true){
             glfwTerminate();
             shouldClose = true;
