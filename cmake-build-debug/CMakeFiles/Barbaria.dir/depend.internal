@@ -49,6 +49,9 @@ CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o
 CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp
  /home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h
+CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.o
+ /home/janek/CLionProjects/BarbariaGame/engine/graphics/texture.cpp
+ /home/janek/CLionProjects/BarbariaGame/engine/graphics/texture.h
 CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o
  /home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp
  /home/janek/CLionProjects/BarbariaGame/engine/utils/time.h
@@ -90,6 +93,7 @@ CMakeFiles/Barbaria.dir/main.cpp.o
  ../api/loader.h
  ../engine/graphics/camera.h
  ../engine/graphics/shader.h
+ ../engine/graphics/texture.h
  ../game/input/keyboard.h
  ../game/input/mouse.h
  ../game/windows/gamewindow.h

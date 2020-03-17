@@ -1,3 +1,4 @@
+#define STB_IMAGE_IMPLEMENTATION
 #include <iostream>
 #include <GL/glew.h>
 #include "game.h"
@@ -7,6 +8,7 @@
 #include <api/loader.h>
 #include <game/input/keyboard.h>
 #include <game/input/mouse.h>
+#include <engine/graphics/texture.h>
 
 bool shouldClose = false;
 
@@ -27,13 +29,13 @@ int main() {
     Mouse::processCamera = &gameCamera;
     glfwSetCursorPosCallback(gameWindow.mainWindow, &gameMouse.mouse_callback_function);
 
-    Object testObject("cube.obj");
-
-    glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
+    Object testObject("WoodenCrate.obj");
+    Texture testTexture("grass.jpg");
 
     while(!shouldClose){
         glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        testTexture.bind();
         testObject.bind();
         gameWindow.update();
         glfwPollEvents();

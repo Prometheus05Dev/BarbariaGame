@@ -342,6 +342,33 @@ engine/graphics/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.s
 .PHONY : engine/graphics/shader.cpp.s
 
+engine/graphics/texture.o: engine/graphics/texture.cpp.o
+
+.PHONY : engine/graphics/texture.o
+
+# target to build an object file
+engine/graphics/texture.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.o
+.PHONY : engine/graphics/texture.cpp.o
+
+engine/graphics/texture.i: engine/graphics/texture.cpp.i
+
+.PHONY : engine/graphics/texture.i
+
+# target to preprocess a source file
+engine/graphics/texture.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.i
+.PHONY : engine/graphics/texture.cpp.i
+
+engine/graphics/texture.s: engine/graphics/texture.cpp.s
+
+.PHONY : engine/graphics/texture.s
+
+# target to generate assembly for a file
+engine/graphics/texture.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.s
+.PHONY : engine/graphics/texture.cpp.s
+
 engine/utils/time.o: engine/utils/time.cpp.o
 
 .PHONY : engine/utils/time.o
@@ -696,6 +723,9 @@ help:
 	@echo "... engine/graphics/shader.o"
 	@echo "... engine/graphics/shader.i"
 	@echo "... engine/graphics/shader.s"
+	@echo "... engine/graphics/texture.o"
+	@echo "... engine/graphics/texture.i"
+	@echo "... engine/graphics/texture.s"
 	@echo "... engine/utils/time.o"
 	@echo "... engine/utils/time.i"
 	@echo "... engine/utils/time.s"

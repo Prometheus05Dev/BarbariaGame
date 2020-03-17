@@ -457,6 +457,12 @@
 		<Unit filename="/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.h">
 			<Option target="Barbaria"/>
 		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/engine/graphics/texture.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/engine/graphics/texture.h">
+			<Option target="Barbaria"/>
+		</Unit>
 		<Unit filename="/home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp">
 			<Option target="Barbaria"/>
 		</Unit>

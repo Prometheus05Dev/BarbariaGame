@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/camera.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/camera.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/object.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/graphics/shader.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/shader.cpp.o"
+  "/home/janek/CLionProjects/BarbariaGame/engine/graphics/texture.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/engine/utils/time.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/game.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/game.cpp.o"
   "/home/janek/CLionProjects/BarbariaGame/game/blocks/block.cpp" "/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles/Barbaria.dir/game/blocks/block.cpp.o"
