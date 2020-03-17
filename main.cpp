@@ -29,6 +29,9 @@ int main() {
     Mouse::processCamera = &gameCamera;
     glfwSetCursorPosCallback(gameWindow.mainWindow, &gameMouse.mouse_callback_function);
 
+    glEnable(GL_CULL_FACE);
+    glCullFace(GL_BACK);
+
     Object testObject("stall.obj");
     Texture testTexture("stall.png");
 

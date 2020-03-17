@@ -2,7 +2,7 @@
 
 Object::Object(std::string path) {
 
-    modelScene = importer.ReadFile(path, aiProcess_MakeLeftHanded | aiProcess_FlipWindingOrder | aiProcess_FlipUVs | aiProcess_PreTransformVertices |
+    modelScene = importer.ReadFile(path, aiProcess_MakeLeftHanded | aiProcess_FlipWindingOrder | aiProcess_PreTransformVertices |
                                          aiProcess_CalcTangentSpace |
                                          aiProcess_GenSmoothNormals |
                                          aiProcess_Triangulate |
