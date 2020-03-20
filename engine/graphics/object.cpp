@@ -2,9 +2,14 @@
 
 Object::Object(std::string path) {
 
-    modelScene = importer.ReadFile(path, aiProcess_MakeLeftHanded | aiProcess_FlipWindingOrder | aiProcess_PreTransformVertices |
+    modelScene = importer.ReadFile(path, aiProcess_MakeLeftHanded |
+                                         aiProcess_FlipWindingOrder |
+                                         aiProcess_PreTransformVertices |
                                          aiProcess_CalcTangentSpace |
                                          aiProcess_GenSmoothNormals |
+                                         aiProcess_OptimizeMeshes|
+                                         aiProcess_OptimizeGraph |
+                                         aiProcess_GenNormals |
                                          aiProcess_Triangulate |
                                          aiProcess_FixInfacingNormals |
                                          aiProcess_FindInvalidData |
@@ -47,8 +52,13 @@ bool Object::assimpGetMeshData(const aiMesh *mesh) {
         vertex.normalX = mesh->mNormals[v].x;
         vertex.normalY = mesh->mNormals[v].y;
         vertex.normalZ = mesh->mNormals[v].z;
-        vertex.textureX = mesh->mTextureCoords[0][v].x;
-        vertex.textureY = mesh->mTextureCoords[0][v].y;
+        if(mesh->mTextureCoords[0]) {
+            vertex.textureX = mesh->mTextureCoords[0][v].x;
+            vertex.textureY = mesh->mTextureCoords[0][v].y;
+        }else{
+            vertex.textureX = 0.0f;
+            vertex.textureY = 0.0f;
+        }
         vertices.push_back(vertex);
     }
     for(unsigned int f = 0; f < mesh->mNumFaces; f++){
