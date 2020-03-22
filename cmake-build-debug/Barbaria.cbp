@@ -511,6 +511,144 @@
 		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/windows/gamewindow.h">
 			<Option target="Barbaria"/>
 		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/faction.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/faction.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/barrow_wights.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/barrow_wights.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/corsairs.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/corsairs.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dol_guldur.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dol_guldur.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dorwinions.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dorwinions.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunedain_north.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunedain_north.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunlending.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunlending.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dwarves.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dwarves.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/easterlings.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/easterlings.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/ents.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/ents.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gondorians.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gondorians.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gundabad.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gundabad.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/high_elves.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/high_elves.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/hobbits.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/hobbits.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/huorns.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/huorns.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/isengard.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/isengard.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/lossoth.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/lossoth.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/mordor.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/mordor.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/moria_orcs.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/moria_orcs.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/rohirrim.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/rohirrim.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/southrons.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/southrons.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/variags.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/variags.h">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/wood_elves.cpp">
+			<Option target="Barbaria"/>
+		</Unit>
+		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/wood_elves.h">
+			<Option target="Barbaria"/>
+		</Unit>
 		<Unit filename="/home/janek/CLionProjects/BarbariaGame/game/world/generation/climate_zones.cpp">
 			<Option target="Barbaria"/>
 		</Unit>

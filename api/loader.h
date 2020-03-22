@@ -10,11 +10,22 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+#include <engine/graphics/texture.h>
+#include <engine/graphics/object.h>
+
+struct ObjectConfig {
+    std::string name;
+    int textureID;
+    int modelID;
+};
 
 class Loader {
 public:
     Loader();
     void loadBiomes();
+    void loadModels();
+    void loadObjects();
+    void loadTextures();
     Shader loadShader();
     std::vector<std::string> extremelyHotBiomes;
     std::vector<std::string> hotBiomes;
@@ -28,6 +39,9 @@ private:
     std::string configDirectory = "";
     std::vector<std::string> biomeList;
     std::vector<int> biomeClimates;
+    std::vector<ObjectConfig> models;
+    std::vector<Texture> textures;
+    std::vector<Object> objects;
 };
 
 #endif //BARBARIA_LOADER_H

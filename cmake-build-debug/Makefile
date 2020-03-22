@@ -585,6 +585,627 @@ game/windows/gamewindow.cpp.s:
 	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/windows/gamewindow.cpp.s
 .PHONY : game/windows/gamewindow.cpp.s
 
+game/world/factions/faction.o: game/world/factions/faction.cpp.o
+
+.PHONY : game/world/factions/faction.o
+
+# target to build an object file
+game/world/factions/faction.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.o
+.PHONY : game/world/factions/faction.cpp.o
+
+game/world/factions/faction.i: game/world/factions/faction.cpp.i
+
+.PHONY : game/world/factions/faction.i
+
+# target to preprocess a source file
+game/world/factions/faction.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.i
+.PHONY : game/world/factions/faction.cpp.i
+
+game/world/factions/faction.s: game/world/factions/faction.cpp.s
+
+.PHONY : game/world/factions/faction.s
+
+# target to generate assembly for a file
+game/world/factions/faction.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.s
+.PHONY : game/world/factions/faction.cpp.s
+
+game/world/factions/lotr/barrow_wights.o: game/world/factions/lotr/barrow_wights.cpp.o
+
+.PHONY : game/world/factions/lotr/barrow_wights.o
+
+# target to build an object file
+game/world/factions/lotr/barrow_wights.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.o
+.PHONY : game/world/factions/lotr/barrow_wights.cpp.o
+
+game/world/factions/lotr/barrow_wights.i: game/world/factions/lotr/barrow_wights.cpp.i
+
+.PHONY : game/world/factions/lotr/barrow_wights.i
+
+# target to preprocess a source file
+game/world/factions/lotr/barrow_wights.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.i
+.PHONY : game/world/factions/lotr/barrow_wights.cpp.i
+
+game/world/factions/lotr/barrow_wights.s: game/world/factions/lotr/barrow_wights.cpp.s
+
+.PHONY : game/world/factions/lotr/barrow_wights.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/barrow_wights.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.s
+.PHONY : game/world/factions/lotr/barrow_wights.cpp.s
+
+game/world/factions/lotr/corsairs.o: game/world/factions/lotr/corsairs.cpp.o
+
+.PHONY : game/world/factions/lotr/corsairs.o
+
+# target to build an object file
+game/world/factions/lotr/corsairs.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.o
+.PHONY : game/world/factions/lotr/corsairs.cpp.o
+
+game/world/factions/lotr/corsairs.i: game/world/factions/lotr/corsairs.cpp.i
+
+.PHONY : game/world/factions/lotr/corsairs.i
+
+# target to preprocess a source file
+game/world/factions/lotr/corsairs.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.i
+.PHONY : game/world/factions/lotr/corsairs.cpp.i
+
+game/world/factions/lotr/corsairs.s: game/world/factions/lotr/corsairs.cpp.s
+
+.PHONY : game/world/factions/lotr/corsairs.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/corsairs.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.s
+.PHONY : game/world/factions/lotr/corsairs.cpp.s
+
+game/world/factions/lotr/dol_guldur.o: game/world/factions/lotr/dol_guldur.cpp.o
+
+.PHONY : game/world/factions/lotr/dol_guldur.o
+
+# target to build an object file
+game/world/factions/lotr/dol_guldur.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.o
+.PHONY : game/world/factions/lotr/dol_guldur.cpp.o
+
+game/world/factions/lotr/dol_guldur.i: game/world/factions/lotr/dol_guldur.cpp.i
+
+.PHONY : game/world/factions/lotr/dol_guldur.i
+
+# target to preprocess a source file
+game/world/factions/lotr/dol_guldur.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.i
+.PHONY : game/world/factions/lotr/dol_guldur.cpp.i
+
+game/world/factions/lotr/dol_guldur.s: game/world/factions/lotr/dol_guldur.cpp.s
+
+.PHONY : game/world/factions/lotr/dol_guldur.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/dol_guldur.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.s
+.PHONY : game/world/factions/lotr/dol_guldur.cpp.s
+
+game/world/factions/lotr/dorwinions.o: game/world/factions/lotr/dorwinions.cpp.o
+
+.PHONY : game/world/factions/lotr/dorwinions.o
+
+# target to build an object file
+game/world/factions/lotr/dorwinions.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.o
+.PHONY : game/world/factions/lotr/dorwinions.cpp.o
+
+game/world/factions/lotr/dorwinions.i: game/world/factions/lotr/dorwinions.cpp.i
+
+.PHONY : game/world/factions/lotr/dorwinions.i
+
+# target to preprocess a source file
+game/world/factions/lotr/dorwinions.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.i
+.PHONY : game/world/factions/lotr/dorwinions.cpp.i
+
+game/world/factions/lotr/dorwinions.s: game/world/factions/lotr/dorwinions.cpp.s
+
+.PHONY : game/world/factions/lotr/dorwinions.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/dorwinions.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.s
+.PHONY : game/world/factions/lotr/dorwinions.cpp.s
+
+game/world/factions/lotr/dunedain_north.o: game/world/factions/lotr/dunedain_north.cpp.o
+
+.PHONY : game/world/factions/lotr/dunedain_north.o
+
+# target to build an object file
+game/world/factions/lotr/dunedain_north.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.o
+.PHONY : game/world/factions/lotr/dunedain_north.cpp.o
+
+game/world/factions/lotr/dunedain_north.i: game/world/factions/lotr/dunedain_north.cpp.i
+
+.PHONY : game/world/factions/lotr/dunedain_north.i
+
+# target to preprocess a source file
+game/world/factions/lotr/dunedain_north.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.i
+.PHONY : game/world/factions/lotr/dunedain_north.cpp.i
+
+game/world/factions/lotr/dunedain_north.s: game/world/factions/lotr/dunedain_north.cpp.s
+
+.PHONY : game/world/factions/lotr/dunedain_north.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/dunedain_north.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.s
+.PHONY : game/world/factions/lotr/dunedain_north.cpp.s
+
+game/world/factions/lotr/dunlending.o: game/world/factions/lotr/dunlending.cpp.o
+
+.PHONY : game/world/factions/lotr/dunlending.o
+
+# target to build an object file
+game/world/factions/lotr/dunlending.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.o
+.PHONY : game/world/factions/lotr/dunlending.cpp.o
+
+game/world/factions/lotr/dunlending.i: game/world/factions/lotr/dunlending.cpp.i
+
+.PHONY : game/world/factions/lotr/dunlending.i
+
+# target to preprocess a source file
+game/world/factions/lotr/dunlending.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.i
+.PHONY : game/world/factions/lotr/dunlending.cpp.i
+
+game/world/factions/lotr/dunlending.s: game/world/factions/lotr/dunlending.cpp.s
+
+.PHONY : game/world/factions/lotr/dunlending.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/dunlending.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.s
+.PHONY : game/world/factions/lotr/dunlending.cpp.s
+
+game/world/factions/lotr/dwarves.o: game/world/factions/lotr/dwarves.cpp.o
+
+.PHONY : game/world/factions/lotr/dwarves.o
+
+# target to build an object file
+game/world/factions/lotr/dwarves.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.o
+.PHONY : game/world/factions/lotr/dwarves.cpp.o
+
+game/world/factions/lotr/dwarves.i: game/world/factions/lotr/dwarves.cpp.i
+
+.PHONY : game/world/factions/lotr/dwarves.i
+
+# target to preprocess a source file
+game/world/factions/lotr/dwarves.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.i
+.PHONY : game/world/factions/lotr/dwarves.cpp.i
+
+game/world/factions/lotr/dwarves.s: game/world/factions/lotr/dwarves.cpp.s
+
+.PHONY : game/world/factions/lotr/dwarves.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/dwarves.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.s
+.PHONY : game/world/factions/lotr/dwarves.cpp.s
+
+game/world/factions/lotr/easterlings.o: game/world/factions/lotr/easterlings.cpp.o
+
+.PHONY : game/world/factions/lotr/easterlings.o
+
+# target to build an object file
+game/world/factions/lotr/easterlings.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.o
+.PHONY : game/world/factions/lotr/easterlings.cpp.o
+
+game/world/factions/lotr/easterlings.i: game/world/factions/lotr/easterlings.cpp.i
+
+.PHONY : game/world/factions/lotr/easterlings.i
+
+# target to preprocess a source file
+game/world/factions/lotr/easterlings.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.i
+.PHONY : game/world/factions/lotr/easterlings.cpp.i
+
+game/world/factions/lotr/easterlings.s: game/world/factions/lotr/easterlings.cpp.s
+
+.PHONY : game/world/factions/lotr/easterlings.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/easterlings.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.s
+.PHONY : game/world/factions/lotr/easterlings.cpp.s
+
+game/world/factions/lotr/ents.o: game/world/factions/lotr/ents.cpp.o
+
+.PHONY : game/world/factions/lotr/ents.o
+
+# target to build an object file
+game/world/factions/lotr/ents.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.o
+.PHONY : game/world/factions/lotr/ents.cpp.o
+
+game/world/factions/lotr/ents.i: game/world/factions/lotr/ents.cpp.i
+
+.PHONY : game/world/factions/lotr/ents.i
+
+# target to preprocess a source file
+game/world/factions/lotr/ents.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.i
+.PHONY : game/world/factions/lotr/ents.cpp.i
+
+game/world/factions/lotr/ents.s: game/world/factions/lotr/ents.cpp.s
+
+.PHONY : game/world/factions/lotr/ents.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/ents.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.s
+.PHONY : game/world/factions/lotr/ents.cpp.s
+
+game/world/factions/lotr/gondorians.o: game/world/factions/lotr/gondorians.cpp.o
+
+.PHONY : game/world/factions/lotr/gondorians.o
+
+# target to build an object file
+game/world/factions/lotr/gondorians.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.o
+.PHONY : game/world/factions/lotr/gondorians.cpp.o
+
+game/world/factions/lotr/gondorians.i: game/world/factions/lotr/gondorians.cpp.i
+
+.PHONY : game/world/factions/lotr/gondorians.i
+
+# target to preprocess a source file
+game/world/factions/lotr/gondorians.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.i
+.PHONY : game/world/factions/lotr/gondorians.cpp.i
+
+game/world/factions/lotr/gondorians.s: game/world/factions/lotr/gondorians.cpp.s
+
+.PHONY : game/world/factions/lotr/gondorians.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/gondorians.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.s
+.PHONY : game/world/factions/lotr/gondorians.cpp.s
+
+game/world/factions/lotr/gundabad.o: game/world/factions/lotr/gundabad.cpp.o
+
+.PHONY : game/world/factions/lotr/gundabad.o
+
+# target to build an object file
+game/world/factions/lotr/gundabad.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.o
+.PHONY : game/world/factions/lotr/gundabad.cpp.o
+
+game/world/factions/lotr/gundabad.i: game/world/factions/lotr/gundabad.cpp.i
+
+.PHONY : game/world/factions/lotr/gundabad.i
+
+# target to preprocess a source file
+game/world/factions/lotr/gundabad.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.i
+.PHONY : game/world/factions/lotr/gundabad.cpp.i
+
+game/world/factions/lotr/gundabad.s: game/world/factions/lotr/gundabad.cpp.s
+
+.PHONY : game/world/factions/lotr/gundabad.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/gundabad.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.s
+.PHONY : game/world/factions/lotr/gundabad.cpp.s
+
+game/world/factions/lotr/high_elves.o: game/world/factions/lotr/high_elves.cpp.o
+
+.PHONY : game/world/factions/lotr/high_elves.o
+
+# target to build an object file
+game/world/factions/lotr/high_elves.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.o
+.PHONY : game/world/factions/lotr/high_elves.cpp.o
+
+game/world/factions/lotr/high_elves.i: game/world/factions/lotr/high_elves.cpp.i
+
+.PHONY : game/world/factions/lotr/high_elves.i
+
+# target to preprocess a source file
+game/world/factions/lotr/high_elves.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.i
+.PHONY : game/world/factions/lotr/high_elves.cpp.i
+
+game/world/factions/lotr/high_elves.s: game/world/factions/lotr/high_elves.cpp.s
+
+.PHONY : game/world/factions/lotr/high_elves.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/high_elves.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.s
+.PHONY : game/world/factions/lotr/high_elves.cpp.s
+
+game/world/factions/lotr/hobbits.o: game/world/factions/lotr/hobbits.cpp.o
+
+.PHONY : game/world/factions/lotr/hobbits.o
+
+# target to build an object file
+game/world/factions/lotr/hobbits.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.o
+.PHONY : game/world/factions/lotr/hobbits.cpp.o
+
+game/world/factions/lotr/hobbits.i: game/world/factions/lotr/hobbits.cpp.i
+
+.PHONY : game/world/factions/lotr/hobbits.i
+
+# target to preprocess a source file
+game/world/factions/lotr/hobbits.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.i
+.PHONY : game/world/factions/lotr/hobbits.cpp.i
+
+game/world/factions/lotr/hobbits.s: game/world/factions/lotr/hobbits.cpp.s
+
+.PHONY : game/world/factions/lotr/hobbits.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/hobbits.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.s
+.PHONY : game/world/factions/lotr/hobbits.cpp.s
+
+game/world/factions/lotr/huorns.o: game/world/factions/lotr/huorns.cpp.o
+
+.PHONY : game/world/factions/lotr/huorns.o
+
+# target to build an object file
+game/world/factions/lotr/huorns.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.o
+.PHONY : game/world/factions/lotr/huorns.cpp.o
+
+game/world/factions/lotr/huorns.i: game/world/factions/lotr/huorns.cpp.i
+
+.PHONY : game/world/factions/lotr/huorns.i
+
+# target to preprocess a source file
+game/world/factions/lotr/huorns.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.i
+.PHONY : game/world/factions/lotr/huorns.cpp.i
+
+game/world/factions/lotr/huorns.s: game/world/factions/lotr/huorns.cpp.s
+
+.PHONY : game/world/factions/lotr/huorns.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/huorns.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.s
+.PHONY : game/world/factions/lotr/huorns.cpp.s
+
+game/world/factions/lotr/isengard.o: game/world/factions/lotr/isengard.cpp.o
+
+.PHONY : game/world/factions/lotr/isengard.o
+
+# target to build an object file
+game/world/factions/lotr/isengard.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.o
+.PHONY : game/world/factions/lotr/isengard.cpp.o
+
+game/world/factions/lotr/isengard.i: game/world/factions/lotr/isengard.cpp.i
+
+.PHONY : game/world/factions/lotr/isengard.i
+
+# target to preprocess a source file
+game/world/factions/lotr/isengard.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.i
+.PHONY : game/world/factions/lotr/isengard.cpp.i
+
+game/world/factions/lotr/isengard.s: game/world/factions/lotr/isengard.cpp.s
+
+.PHONY : game/world/factions/lotr/isengard.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/isengard.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.s
+.PHONY : game/world/factions/lotr/isengard.cpp.s
+
+game/world/factions/lotr/lossoth.o: game/world/factions/lotr/lossoth.cpp.o
+
+.PHONY : game/world/factions/lotr/lossoth.o
+
+# target to build an object file
+game/world/factions/lotr/lossoth.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.o
+.PHONY : game/world/factions/lotr/lossoth.cpp.o
+
+game/world/factions/lotr/lossoth.i: game/world/factions/lotr/lossoth.cpp.i
+
+.PHONY : game/world/factions/lotr/lossoth.i
+
+# target to preprocess a source file
+game/world/factions/lotr/lossoth.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.i
+.PHONY : game/world/factions/lotr/lossoth.cpp.i
+
+game/world/factions/lotr/lossoth.s: game/world/factions/lotr/lossoth.cpp.s
+
+.PHONY : game/world/factions/lotr/lossoth.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/lossoth.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.s
+.PHONY : game/world/factions/lotr/lossoth.cpp.s
+
+game/world/factions/lotr/mordor.o: game/world/factions/lotr/mordor.cpp.o
+
+.PHONY : game/world/factions/lotr/mordor.o
+
+# target to build an object file
+game/world/factions/lotr/mordor.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.o
+.PHONY : game/world/factions/lotr/mordor.cpp.o
+
+game/world/factions/lotr/mordor.i: game/world/factions/lotr/mordor.cpp.i
+
+.PHONY : game/world/factions/lotr/mordor.i
+
+# target to preprocess a source file
+game/world/factions/lotr/mordor.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.i
+.PHONY : game/world/factions/lotr/mordor.cpp.i
+
+game/world/factions/lotr/mordor.s: game/world/factions/lotr/mordor.cpp.s
+
+.PHONY : game/world/factions/lotr/mordor.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/mordor.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.s
+.PHONY : game/world/factions/lotr/mordor.cpp.s
+
+game/world/factions/lotr/moria_orcs.o: game/world/factions/lotr/moria_orcs.cpp.o
+
+.PHONY : game/world/factions/lotr/moria_orcs.o
+
+# target to build an object file
+game/world/factions/lotr/moria_orcs.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.o
+.PHONY : game/world/factions/lotr/moria_orcs.cpp.o
+
+game/world/factions/lotr/moria_orcs.i: game/world/factions/lotr/moria_orcs.cpp.i
+
+.PHONY : game/world/factions/lotr/moria_orcs.i
+
+# target to preprocess a source file
+game/world/factions/lotr/moria_orcs.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.i
+.PHONY : game/world/factions/lotr/moria_orcs.cpp.i
+
+game/world/factions/lotr/moria_orcs.s: game/world/factions/lotr/moria_orcs.cpp.s
+
+.PHONY : game/world/factions/lotr/moria_orcs.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/moria_orcs.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.s
+.PHONY : game/world/factions/lotr/moria_orcs.cpp.s
+
+game/world/factions/lotr/rohirrim.o: game/world/factions/lotr/rohirrim.cpp.o
+
+.PHONY : game/world/factions/lotr/rohirrim.o
+
+# target to build an object file
+game/world/factions/lotr/rohirrim.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.o
+.PHONY : game/world/factions/lotr/rohirrim.cpp.o
+
+game/world/factions/lotr/rohirrim.i: game/world/factions/lotr/rohirrim.cpp.i
+
+.PHONY : game/world/factions/lotr/rohirrim.i
+
+# target to preprocess a source file
+game/world/factions/lotr/rohirrim.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.i
+.PHONY : game/world/factions/lotr/rohirrim.cpp.i
+
+game/world/factions/lotr/rohirrim.s: game/world/factions/lotr/rohirrim.cpp.s
+
+.PHONY : game/world/factions/lotr/rohirrim.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/rohirrim.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.s
+.PHONY : game/world/factions/lotr/rohirrim.cpp.s
+
+game/world/factions/lotr/southrons.o: game/world/factions/lotr/southrons.cpp.o
+
+.PHONY : game/world/factions/lotr/southrons.o
+
+# target to build an object file
+game/world/factions/lotr/southrons.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.o
+.PHONY : game/world/factions/lotr/southrons.cpp.o
+
+game/world/factions/lotr/southrons.i: game/world/factions/lotr/southrons.cpp.i
+
+.PHONY : game/world/factions/lotr/southrons.i
+
+# target to preprocess a source file
+game/world/factions/lotr/southrons.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.i
+.PHONY : game/world/factions/lotr/southrons.cpp.i
+
+game/world/factions/lotr/southrons.s: game/world/factions/lotr/southrons.cpp.s
+
+.PHONY : game/world/factions/lotr/southrons.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/southrons.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.s
+.PHONY : game/world/factions/lotr/southrons.cpp.s
+
+game/world/factions/lotr/variags.o: game/world/factions/lotr/variags.cpp.o
+
+.PHONY : game/world/factions/lotr/variags.o
+
+# target to build an object file
+game/world/factions/lotr/variags.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.o
+.PHONY : game/world/factions/lotr/variags.cpp.o
+
+game/world/factions/lotr/variags.i: game/world/factions/lotr/variags.cpp.i
+
+.PHONY : game/world/factions/lotr/variags.i
+
+# target to preprocess a source file
+game/world/factions/lotr/variags.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.i
+.PHONY : game/world/factions/lotr/variags.cpp.i
+
+game/world/factions/lotr/variags.s: game/world/factions/lotr/variags.cpp.s
+
+.PHONY : game/world/factions/lotr/variags.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/variags.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.s
+.PHONY : game/world/factions/lotr/variags.cpp.s
+
+game/world/factions/lotr/wood_elves.o: game/world/factions/lotr/wood_elves.cpp.o
+
+.PHONY : game/world/factions/lotr/wood_elves.o
+
+# target to build an object file
+game/world/factions/lotr/wood_elves.cpp.o:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.o
+.PHONY : game/world/factions/lotr/wood_elves.cpp.o
+
+game/world/factions/lotr/wood_elves.i: game/world/factions/lotr/wood_elves.cpp.i
+
+.PHONY : game/world/factions/lotr/wood_elves.i
+
+# target to preprocess a source file
+game/world/factions/lotr/wood_elves.cpp.i:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.i
+.PHONY : game/world/factions/lotr/wood_elves.cpp.i
+
+game/world/factions/lotr/wood_elves.s: game/world/factions/lotr/wood_elves.cpp.s
+
+.PHONY : game/world/factions/lotr/wood_elves.s
+
+# target to generate assembly for a file
+game/world/factions/lotr/wood_elves.cpp.s:
+	$(MAKE) -f CMakeFiles/Barbaria.dir/build.make CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.s
+.PHONY : game/world/factions/lotr/wood_elves.cpp.s
+
 game/world/generation/climate_zones.o: game/world/generation/climate_zones.cpp.o
 
 .PHONY : game/world/generation/climate_zones.o
@@ -750,6 +1371,75 @@ help:
 	@echo "... game/windows/gamewindow.o"
 	@echo "... game/windows/gamewindow.i"
 	@echo "... game/windows/gamewindow.s"
+	@echo "... game/world/factions/faction.o"
+	@echo "... game/world/factions/faction.i"
+	@echo "... game/world/factions/faction.s"
+	@echo "... game/world/factions/lotr/barrow_wights.o"
+	@echo "... game/world/factions/lotr/barrow_wights.i"
+	@echo "... game/world/factions/lotr/barrow_wights.s"
+	@echo "... game/world/factions/lotr/corsairs.o"
+	@echo "... game/world/factions/lotr/corsairs.i"
+	@echo "... game/world/factions/lotr/corsairs.s"
+	@echo "... game/world/factions/lotr/dol_guldur.o"
+	@echo "... game/world/factions/lotr/dol_guldur.i"
+	@echo "... game/world/factions/lotr/dol_guldur.s"
+	@echo "... game/world/factions/lotr/dorwinions.o"
+	@echo "... game/world/factions/lotr/dorwinions.i"
+	@echo "... game/world/factions/lotr/dorwinions.s"
+	@echo "... game/world/factions/lotr/dunedain_north.o"
+	@echo "... game/world/factions/lotr/dunedain_north.i"
+	@echo "... game/world/factions/lotr/dunedain_north.s"
+	@echo "... game/world/factions/lotr/dunlending.o"
+	@echo "... game/world/factions/lotr/dunlending.i"
+	@echo "... game/world/factions/lotr/dunlending.s"
+	@echo "... game/world/factions/lotr/dwarves.o"
+	@echo "... game/world/factions/lotr/dwarves.i"
+	@echo "... game/world/factions/lotr/dwarves.s"
+	@echo "... game/world/factions/lotr/easterlings.o"
+	@echo "... game/world/factions/lotr/easterlings.i"
+	@echo "... game/world/factions/lotr/easterlings.s"
+	@echo "... game/world/factions/lotr/ents.o"
+	@echo "... game/world/factions/lotr/ents.i"
+	@echo "... game/world/factions/lotr/ents.s"
+	@echo "... game/world/factions/lotr/gondorians.o"
+	@echo "... game/world/factions/lotr/gondorians.i"
+	@echo "... game/world/factions/lotr/gondorians.s"
+	@echo "... game/world/factions/lotr/gundabad.o"
+	@echo "... game/world/factions/lotr/gundabad.i"
+	@echo "... game/world/factions/lotr/gundabad.s"
+	@echo "... game/world/factions/lotr/high_elves.o"
+	@echo "... game/world/factions/lotr/high_elves.i"
+	@echo "... game/world/factions/lotr/high_elves.s"
+	@echo "... game/world/factions/lotr/hobbits.o"
+	@echo "... game/world/factions/lotr/hobbits.i"
+	@echo "... game/world/factions/lotr/hobbits.s"
+	@echo "... game/world/factions/lotr/huorns.o"
+	@echo "... game/world/factions/lotr/huorns.i"
+	@echo "... game/world/factions/lotr/huorns.s"
+	@echo "... game/world/factions/lotr/isengard.o"
+	@echo "... game/world/factions/lotr/isengard.i"
+	@echo "... game/world/factions/lotr/isengard.s"
+	@echo "... game/world/factions/lotr/lossoth.o"
+	@echo "... game/world/factions/lotr/lossoth.i"
+	@echo "... game/world/factions/lotr/lossoth.s"
+	@echo "... game/world/factions/lotr/mordor.o"
+	@echo "... game/world/factions/lotr/mordor.i"
+	@echo "... game/world/factions/lotr/mordor.s"
+	@echo "... game/world/factions/lotr/moria_orcs.o"
+	@echo "... game/world/factions/lotr/moria_orcs.i"
+	@echo "... game/world/factions/lotr/moria_orcs.s"
+	@echo "... game/world/factions/lotr/rohirrim.o"
+	@echo "... game/world/factions/lotr/rohirrim.i"
+	@echo "... game/world/factions/lotr/rohirrim.s"
+	@echo "... game/world/factions/lotr/southrons.o"
+	@echo "... game/world/factions/lotr/southrons.i"
+	@echo "... game/world/factions/lotr/southrons.s"
+	@echo "... game/world/factions/lotr/variags.o"
+	@echo "... game/world/factions/lotr/variags.i"
+	@echo "... game/world/factions/lotr/variags.s"
+	@echo "... game/world/factions/lotr/wood_elves.o"
+	@echo "... game/world/factions/lotr/wood_elves.i"
+	@echo "... game/world/factions/lotr/wood_elves.s"
 	@echo "... game/world/generation/climate_zones.o"
 	@echo "... game/world/generation/climate_zones.i"
 	@echo "... game/world/generation/climate_zones.s"

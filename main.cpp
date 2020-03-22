@@ -20,6 +20,7 @@ int main() {
     glewExperimental = GL_TRUE;
     glewInit();
     Loader gameLoader;
+    gameLoader.loadModels();
     Shader gameShader = gameLoader.loadShader();
     gameShader.bind();
     Camera gameCamera(gameShader);

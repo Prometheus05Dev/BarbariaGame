@@ -17,6 +17,24 @@ Shader Loader::loadShader() {
     return Shader(vertexShaderPathCPP.c_str(), fragmentShaderPathCPP.c_str());
 }
 
+void Loader::loadModels() {
+    std::ifstream objectListFile(configDirectory + "/objectList.txt");
+    std::string line;
+    int iterator = 0;
+    while(std::getline(objectListFile, line)){
+        std::cout << line << std::endl;
+        iterator = iterator + 1;
+    }
+}
+
+void Loader::loadObjects() {
+
+}
+
+void Loader::loadTextures() {
+
+}
+
 void Loader::loadBiomes() {
     //Get biomes path
     std::string biomesDirectory = "";

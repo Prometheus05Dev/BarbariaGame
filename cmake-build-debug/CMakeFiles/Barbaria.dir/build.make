@@ -278,6 +278,305 @@ CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/engine/graphics/texture.cpp -o CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.s
 
+CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.o: ../game/world/factions/faction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/faction.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/faction.cpp > CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/faction.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.o: ../game/world/factions/lotr/southrons.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/southrons.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/southrons.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/southrons.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.o: ../game/world/factions/lotr/corsairs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/corsairs.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/corsairs.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/corsairs.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.o: ../game/world/factions/lotr/variags.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/variags.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/variags.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/variags.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.o: ../game/world/factions/lotr/mordor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/mordor.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/mordor.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/mordor.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.o: ../game/world/factions/lotr/gondorians.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gondorians.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gondorians.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gondorians.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.o: ../game/world/factions/lotr/rohirrim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/rohirrim.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/rohirrim.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/rohirrim.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.o: ../game/world/factions/lotr/easterlings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/easterlings.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/easterlings.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/easterlings.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.o: ../game/world/factions/lotr/dorwinions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dorwinions.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dorwinions.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dorwinions.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.o: ../game/world/factions/lotr/dunlending.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunlending.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunlending.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunlending.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.o: ../game/world/factions/lotr/ents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/ents.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/ents.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/ents.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.o: ../game/world/factions/lotr/huorns.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/huorns.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/huorns.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/huorns.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.o: ../game/world/factions/lotr/lossoth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/lossoth.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/lossoth.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/lossoth.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.o: ../game/world/factions/lotr/isengard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/isengard.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/isengard.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/isengard.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.o: ../game/world/factions/lotr/high_elves.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/high_elves.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/high_elves.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/high_elves.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.o: ../game/world/factions/lotr/wood_elves.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/wood_elves.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/wood_elves.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/wood_elves.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.o: ../game/world/factions/lotr/dunedain_north.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunedain_north.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunedain_north.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dunedain_north.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.o: ../game/world/factions/lotr/hobbits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/hobbits.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/hobbits.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/hobbits.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.o: ../game/world/factions/lotr/barrow_wights.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/barrow_wights.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/barrow_wights.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/barrow_wights.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.o: ../game/world/factions/lotr/dwarves.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dwarves.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dwarves.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dwarves.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.o: ../game/world/factions/lotr/gundabad.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gundabad.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gundabad.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/gundabad.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.o: ../game/world/factions/lotr/moria_orcs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/moria_orcs.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/moria_orcs.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/moria_orcs.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.s
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.o: CMakeFiles/Barbaria.dir/flags.make
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.o: ../game/world/factions/lotr/dol_guldur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.o -c /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dol_guldur.cpp
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dol_guldur.cpp > CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.i
+
+CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/janek/CLionProjects/BarbariaGame/game/world/factions/lotr/dol_guldur.cpp -o CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.s
+
 # Object files for target Barbaria
 Barbaria_OBJECTS = \
 "CMakeFiles/Barbaria.dir/main.cpp.o" \
@@ -296,7 +595,30 @@ Barbaria_OBJECTS = \
 "CMakeFiles/Barbaria.dir/game.cpp.o" \
 "CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o" \
 "CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o" \
-"CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.o"
+"CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.o" \
+"CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.o"
 
 # External object files for target Barbaria
 Barbaria_EXTERNAL_OBJECTS =
@@ -318,13 +640,36 @@ Barbaria: CMakeFiles/Barbaria.dir/game.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/engine/utils/time.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/engine/graphics/object.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/engine/graphics/texture.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/faction.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/southrons.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/corsairs.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/variags.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/mordor.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/gondorians.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/rohirrim.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/easterlings.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/dorwinions.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunlending.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/ents.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/huorns.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/lossoth.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/isengard.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/high_elves.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/wood_elves.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/dunedain_north.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/hobbits.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/barrow_wights.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/dwarves.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/gundabad.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/moria_orcs.cpp.o
+Barbaria: CMakeFiles/Barbaria.dir/game/world/factions/lotr/dol_guldur.cpp.o
 Barbaria: CMakeFiles/Barbaria.dir/build.make
 Barbaria: libraries/assimp-5.0.1/code/libassimpd.so.5.0.0
 Barbaria: /usr/local/lib/libz.so
 Barbaria: libraries/assimp-5.0.1/contrib/irrXML/libIrrXMLd.a
 Barbaria: /usr/lib/librt.so
 Barbaria: CMakeFiles/Barbaria.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Barbaria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/janek/CLionProjects/BarbariaGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable Barbaria"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Barbaria.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

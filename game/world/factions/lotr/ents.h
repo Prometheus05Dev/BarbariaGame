@@ -1,0 +1,4 @@
+#ifndef BARBARIA_ENTS_H
+#define BARBARIA_ENTS_H
+
+#endif //BARBARIA_ENTS_H
