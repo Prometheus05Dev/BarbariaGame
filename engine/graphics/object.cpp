@@ -2,18 +2,18 @@
 
 Object::Object(std::string path) {
 
-    modelScene = importer.ReadFile(path, aiProcess_MakeLeftHanded |
-                                         aiProcess_FlipWindingOrder |
-                                         aiProcess_PreTransformVertices |
+    modelScene = importer.ReadFile(path, aiProcess_OptimizeMeshes|
+                                         aiProcess_OptimizeGraph |
+                                         aiProcess_JoinIdenticalVertices |
+                                         aiProcess_Triangulate |
+                                         aiProcess_ImproveCacheLocality |
                                          aiProcess_CalcTangentSpace |
                                          aiProcess_GenSmoothNormals |
-                                         aiProcess_OptimizeMeshes|
+                                         aiProcess_OptimizeMeshes |
                                          aiProcess_OptimizeGraph |
-                                         aiProcess_GenNormals |
-                                         aiProcess_Triangulate |
                                          aiProcess_FixInfacingNormals |
-                                         aiProcess_FindInvalidData |
                                          aiProcess_ValidateDataStructure | 0
+
 
     );
 
